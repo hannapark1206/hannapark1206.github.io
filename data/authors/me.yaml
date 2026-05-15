@@ -1,116 +1,73 @@
-schema: hugoblox/author/v1
-slug: me
-is_owner: true
-name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
 
-affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  \resumeSubheading
+  {SpaceX Engineering Internship}{Summer 2026}
+  {\footnotesize{Falcon Propulsion Engineering Intern}}{\footnotesize{Hawthorne, CA}}
 
-links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+  \vspace{3pt}
+  \resumeSubheading
+  {M4 (Multi-Modal Mobility Morphobot) -- Air--Ground Transforming Robot Deflector Design}
+  {January 2026 -- Present}
+  {\footnotesize{California Institute of Technology}}{\footnotesize{Pasadena, CA}}
+  \resumeItemListStart
+    \resumeItem{Investigating thrust-biasing deflector designs to improve lift distribution and transition performance on M4's air--ground robot platform.}
+    \resumeItem{Designed and fabricated an integrated drone test platform, combining CAD, propulsion, avionics, and structural assembly for air--ground testing.}
+    \resumeItem{Used ANSYS, OpenFOAM CFD, and bench testing to compare deflector geometries by thrust bias, drag penalty, and integration feasibility.}
+  \resumeItemListEnd
 
-interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  \resumeSubheading
+  {Gharib Group -- X2 FALCON UAV Aerodynamic Sensing \& Flight-Control Integration}
+  {October 2024 -- January 2026}
+  {\footnotesize{Center for Autonomous Systems and Technologies -- Graduate Aerospace Laboratories of Caltech (GALCIT)}}{\footnotesize{Pasadena, CA}}
+  \resumeItemListStart
+    \resumeItem{Designed and wind-tunnel calibrated five-hole Pitot probes with custom housings and sensor PCBs to improve local flow-angle and pressure measurement for fixed-wing UAV testing.}
+    \resumeItem{Integrated Cube Orange+, Jetson, Teensy, servos, and NUC ground station through ROS/MAVLink to support onboard data collection, communication, and manual override during free-flight experiments.}
+    \resumeItem{Synchronized OptiTrack motion-capture data on Jetson for real-time aircraft tracking and stability evaluation in turbulent-flow tests.}
+  \resumeItemListEnd
 
-education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  \resumeSubheading
+  {Transmissions Gearbox Design Project}
+  {March 2025 -- June 2025}
+  {\footnotesize{California Institute of Technology}}{\footnotesize{Pasadena, CA}}
+  \resumeItemListStart
+    \resumeItem{Modeled gear-ratio selection and efficiency in MATLAB, then led CAD design and machining of the housing and shafts for a precisely aligned multi-stage transmission.}
+  \resumeItemListEnd
 
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  \resumeSubheading
+  {Gharib Group -- Low-Reynolds-Number Flow Facility}
+  {February 2024 -- June 2024}
+  {\footnotesize{Graduate Aerospace Laboratories of Caltech (GALCIT), California Institute of Technology}}{\footnotesize{Pasadena, CA}}
+  \resumeItemListStart
+    \resumeItem{Designed and built a compact 2$\times$1 m water tunnel for low-Reynolds-number shear-layer and vortex-shedding experiments, reducing facility footprint by 86\%.}
+    \resumeItem{Programmed Arduino control for a 9$\times$9 modular turbine array with synchronized PWM and pattern sequencing to generate repeatable flow conditions.}
+    \resumeItem{Validated facility performance using PIV and dye injection, observing K\'arm\'an vortex streets across Reynolds numbers with $\sim$1--2\% turbulence intensity.}
+  \resumeItemListEnd
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+  \resumeSubheading
+  {Real-Time Vision \& Motion Control System Project}
+  {September 2023 -- December 2023}
+  {\footnotesize{California Institute of Technology}}{\footnotesize{Pasadena, CA}}
+  \resumeItemListStart
+    \resumeItem{Built a Python/OpenCV camera-guided pan--tilt tracking system using thread-safe target streaming and HEBI cubic-spline trajectories.}
+  \resumeItemListEnd
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+  \resumeSubheadingSimple
+  {Wellatex INC. -- Assembly Machine Management and Product Design Lead}{January 2019 -- Present}
+  \resumeItemListStart
+    \resumeItem{Assembled a 4$\times$6 m mattress vacuum packing machine; designed 9 pallet shipping boxes for 50+ product dimensions.}
+  \resumeItemListEnd
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  \resumeSubheading
+  {Golwala Group SURF -- Cryogenic Detector Development}
+  {June 2024 -- September 2024}
+  {\footnotesize{California Institute of Technology}}{\footnotesize{Pasadena, CA}}
+  \resumeItemListStart
+    \resumeItem{Modified kinetic inductance detector geometry and added quasiparticle phonon guides to improve phonon collection, reducing phonon loss by 2--3 orders.}
+    \resumeItem{Developed a Python resonance-fitting pipeline for superconducting resonators, reducing fit time by 80\% while keeping error within 20\%.}
+    \resumeItem{CAD-designed detector mount and wire-bonded resonators to support thermal anchoring and vibration-robust cryogenic operation.}
+  \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
