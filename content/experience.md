@@ -111,7 +111,7 @@ sections:
 
         <style>
         .experience-wrap {
-          width: min(1360px, calc(100vw - 3rem)) !important;
+          width: min(1260px, calc(100vw - 5rem)) !important;
           max-width: none !important;
           margin-left: 50% !important;
           transform: translateX(-50%) !important;
@@ -194,12 +194,20 @@ sections:
         }
 
         @media (max-width: 1100px) {
+          .experience-wrap {
+            width: min(1000px, calc(100vw - 3rem)) !important;
+          }
+
           .experience-grid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
           }
         }
 
         @media (max-width: 700px) {
+          .experience-wrap {
+            width: min(100%, calc(100vw - 2rem)) !important;
+          }
+
           .experience-grid {
             grid-template-columns: 1fr;
           }
