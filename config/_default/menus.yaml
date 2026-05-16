@@ -14,7 +14,3 @@ main:
   - name: Coursework
     url: courses/
     weight: 40
-
-  - name: CV
-    url: uploads/resume.pdf
-    weight: 50
