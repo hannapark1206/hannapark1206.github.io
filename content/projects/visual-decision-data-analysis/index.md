@@ -31,6 +31,6 @@ I analyzed experimental data using Python and regression methods to study how at
 
 Python, Pandas, Matplotlib, regression analysis, data visualization, behavioral data, research presentation.
 
-## Why I Include This
-
-Although this project is not directly robotics-related, it was my first research experience and helped me learn how to use coding as a research tool.
+<div class="button-row">
+  <a class="doc-button" href="Differences_In_Visual_Search_and_Choice_Based_on_Item_Familiarity.pdf">View poster</a>
+</div>
