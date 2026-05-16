@@ -9,8 +9,6 @@ tags:
   - Detector Hardware
 ---
 
-# Cryogenic Detector Instrumentation
-
 ## Overview
 
 This project focused on phonon-mediated kinetic inductance detector hardware for sub-GeV dark matter detection.
