@@ -9,8 +9,6 @@ tags:
   - Motion Control
 ---
 
-# Real-Time Vision and Motion Control
-
 ## Overview
 
 This was a class robotics project focused on real-time camera-guided motion control.
