@@ -9,49 +9,175 @@ sections:
     content:
       username: me
       text: |
-        Mechanical engineer passionate about robotics, with research experience bringing aerial and multi-modal robot platforms to life through flight-control integration, prototyping, and aerodynamic testing ✈️🤖
+        I work on robotic hardware systems, especially aerial and multi-modal platforms, through flight-control integration, mechanical prototyping, sensing, and experimental testing.
       button:
         text: Download CV
         url: uploads/resume.pdf
         icon: hero/arrow-down-tray
     design:
-      css_class:
+      css_class: homepage-hero
 
   - block: markdown
     content:
-      title: Awards
+      title:
       text: |
-        - **Henry Ford II Scholar Award**, Caltech Engineering and Applied Science, 2026  
-          Awarded to engineering students with the strongest academic record at the end of their third year.
+        <div class="home-wrap">
 
-        - **Jack E. Froehlich Memorial Award Nominee**, Caltech, 2026  
-          Nominated from the top 5% GPA group, with selection based on academics and research.
+        ## Awards
 
-        - **NASA BIG Idea Challenge Finalist**, Caltech Air and Outer Space Club, 2024  
-          Contributed to a finalist proposal awarded $150,000 for inflatable lunar landing shield development.
-    design:
-      columns: '1'
+        <div class="home-card-grid">
 
-  - block: markdown
-    content:
-      title: Robotics, Controls, and Aerial Systems
-      text: |
-        I am a mechanical engineering student at Caltech interested in robotics and controls, especially aerial and multi-modal robot platforms.
+          <div class="home-card">
+            <p class="home-kicker">Caltech EAS · 2026</p>
+            <h3>Henry Ford II Scholar Award</h3>
+            <p>Awarded to engineering students with the strongest academic record at the end of their third year.</p>
+          </div>
 
-        My work includes flight-control integration, embedded sensing, robot prototyping, aerodynamic testing, and experimental validation.
-    design:
-      columns: '1'
+          <div class="home-card">
+            <p class="home-kicker">Caltech · 2026</p>
+            <h3>Jack E. Froehlich Memorial Award Nominee</h3>
+            <p>Nominated from the top 5% GPA group, with selection based on academics and research.</p>
+          </div>
 
-  - block: markdown
-    content:
-      title: Featured Projects
-      text: |
-        - **M4 Air-Ground Robot Platform**  
-          Multi-modal robot prototyping, propulsion integration, deflector design, and bench testing.
+          <div class="home-card">
+            <p class="home-kicker">NASA BIG Idea Challenge · 2024</p>
+            <h3>NASA BIG Idea Challenge Finalist</h3>
+            <p>Contributed to a finalist proposal awarded $150,000 for inflatable lunar landing shield development.</p>
+          </div>
 
-        - **Flight-Ready Sensing for Fixed-Wing Aerial Robots**  
-          Five-hole Pitot probe hardware, embedded sensing, ROS/MAVLink workflows, and wind-tunnel calibration.
+        </div>
 
+        ## Research Focus
+
+        <div class="home-card wide">
+          <p>
+            I am a mechanical engineering student at Caltech interested in robotics and controls, especially aerial and multi-modal robot platforms.
+          </p>
+          <p>
+            My work includes flight-control integration, embedded sensing, robot prototyping, aerodynamic testing, and experimental validation.
+          </p>
+        </div>
+
+        ## Featured Projects
+
+        <div class="home-card-grid two">
+
+          <a class="home-card home-link-card" href="/projects/multi-modal-air-robot/">
+            <p class="home-kicker">Senior Thesis · Robotics</p>
+            <h3>Multi-Modal Air–Ground Robot Platform</h3>
+            <p>Multi-modal robot prototyping, propulsion integration, deflector design, and bench testing.</p>
+          </a>
+
+          <a class="home-card home-link-card" href="/projects/fixed-wing-aerial-robot-sensing/">
+            <p class="home-kicker">Aerial Robotics · Sensing</p>
+            <h3>Flight-Ready Sensing for Fixed-Wing Aerial Robots</h3>
+            <p>Five-hole Pitot probe hardware, embedded sensing, ROS/MAVLink workflows, and wind-tunnel calibration.</p>
+          </a>
+
+        </div>
+
+        </div>
+
+        <style>
+        /* reduce huge blank homepage spacing */
+        .home-section,
+        section.home-section,
+        .resume-biography {
+          padding-top: 1rem !important;
+          padding-bottom: 1rem !important;
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+        }
+
+        .hero,
+        .hero-body,
+        section:first-of-type {
+          min-height: auto !important;
+          height: auto !important;
+          padding-top: 1rem !important;
+          padding-bottom: 1rem !important;
+        }
+
+        /* make the biography block wider too */
+        .homepage-hero .container,
+        .resume-biography .container,
+        .resume-biography .row {
+          max-width: 1180px !important;
+        }
+
+        /* make markdown homepage sections wider */
+        .home-wrap {
+          width: min(1180px, calc(100vw - 3rem)) !important;
+          max-width: none !important;
+          margin-left: 50% !important;
+          transform: translateX(-50%) !important;
+        }
+
+        .home-card-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 1.2rem;
+          margin-top: 1.2rem;
+          margin-bottom: 2.6rem;
+        }
+
+        .home-card-grid.two {
+          grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        }
+
+        .home-card {
+          border: 1px solid #e5e7eb;
+          border-radius: 20px;
+          background: #ffffff;
+          box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+          padding: 1.25rem 1.35rem;
+        }
+
+        .home-card.wide {
+          max-width: 900px;
+          margin-top: 1.2rem;
+          margin-bottom: 2.6rem;
+        }
+
+        .home-link-card {
+          display: block;
+          text-decoration: none !important;
+          color: inherit;
+          transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .home-link-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 14px 34px rgba(0,0,0,0.09);
+        }
+
+        .home-kicker {
+          font-size: 0.78rem;
+          font-weight: 700;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          color: #4f46e5;
+          margin-bottom: 0.45rem;
+        }
+
+        .home-card h3 {
+          margin-top: 0;
+          margin-bottom: 0.55rem;
+          line-height: 1.25;
+          font-size: 1.15rem;
+        }
+
+        .home-card p {
+          color: #4b5563;
+          line-height: 1.6;
+          margin-bottom: 0;
+        }
+
+        .home-wrap h2 {
+          margin-top: 1.4rem !important;
+          margin-bottom: 0.8rem !important;
+        }
+        </style>
     design:
       columns: '1'
 ---
