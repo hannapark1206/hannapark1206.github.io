@@ -2,101 +2,202 @@
 title: Experience
 summary: Research, engineering, teaching, and leadership experience.
 date: 2026-05-16
-type: page
+type: landing
+
+sections:
+  - block: markdown
+    content:
+      title:
+      text: |
+        <div class="experience-wrap">
+
+        <div class="experience-hero">
+          <p class="experience-kicker">Background</p>
+          <h1>Experience</h1>
+          <p class="experience-lede">
+            Research, engineering, teaching, and leadership roles focused on robotics, controls, hardware integration, experimental systems, and technical communication.
+          </p>
+        </div>
+
+        ## Research and Engineering
+
+        <div class="experience-grid">
+
+          <div class="experience-card">
+            <p class="experience-kicker">Summer 2026 · Hawthorne, CA</p>
+            <h3>Falcon Propulsion Engineering Intern</h3>
+            <p class="experience-org">SpaceX</p>
+            <p>
+              Incoming engineering intern on the Falcon Propulsion team.
+            </p>
+          </div>
+
+          <div class="experience-card">
+            <p class="experience-kicker">2023–Present · Pasadena, CA</p>
+            <h3>Undergraduate Researcher</h3>
+            <p class="experience-org">Gharib Group / CAST / GALCIT, Caltech</p>
+            <p>
+              Long-term undergraduate researcher across aerial robotics, experimental hardware, sensing, and rapid prototyping projects.
+            </p>
+            <a class="experience-link" href="/projects/">View related projects</a>
+          </div>
+
+          <div class="experience-card">
+            <p class="experience-kicker">June 2024–September 2024 · Pasadena, CA</p>
+            <h3>Summer Undergraduate Research Fellow</h3>
+            <p class="experience-org">Golwala Group, Caltech</p>
+            <p>
+              Worked on cryogenic detector instrumentation, detector hardware, resonator analysis, and experimental hardware preparation.
+            </p>
+            <a class="experience-link" href="/projects/cryogenic-detector-instrumentation/">View project</a>
+          </div>
+
+          <div class="experience-card">
+            <p class="experience-kicker">January 2019–Present</p>
+            <h3>Assembly Machine Management and Product Design Lead</h3>
+            <p class="experience-org">Wellatex Inc.</p>
+            <p>
+              Supported machine assembly, product sizing, packaging design, process improvement, customer-facing documentation, and operations.
+            </p>
+            <a class="experience-link" href="/projects/packing-machine-product-design/">View project</a>
+          </div>
+
+        </div>
+
+        ## Teaching and Leadership
+
+        <div class="experience-grid">
+
+          <div class="experience-card">
+            <p class="experience-kicker">January 2025–March 2025 · Caltech</p>
+            <h3>Teaching Assistant, Biomechanics</h3>
+            <p class="experience-org">Prof. Michael Dickinson</p>
+            <p>
+              Prepared and graded exams, held office hours, and supported student understanding of solid/fluid mechanics and materials.
+            </p>
+          </div>
+
+          <div class="experience-card">
+            <p class="experience-kicker">May 2024–Present · Caltech</p>
+            <h3>Professional Development Lead</h3>
+            <p class="experience-org">Caltech Admissions Ambassador Program</p>
+            <p>
+              Lead campus tours, serve as a student panelist, and answer prospective-student questions about curriculum, research, and student life.
+            </p>
+          </div>
+
+          <div class="experience-card">
+            <p class="experience-kicker">Fall 2023–Winter 2024 · Caltech</p>
+            <h3>NASA BIG Idea Challenge Finalist Team Member</h3>
+            <p class="experience-org">Caltech Air and Outer Space Club</p>
+            <p>
+              Contributed to a finalist aerospace systems proposal through team design, technical writing, and lunar dust-modeling work.
+            </p>
+            <a class="experience-link" href="/projects/lunar-landing-shield/">View project</a>
+          </div>
+
+        </div>
+
+        ## Additional
+
+        <div class="experience-grid">
+
+          <div class="experience-card">
+            <p class="experience-kicker">2011–Present</p>
+            <h3>Cellist</h3>
+            <p class="experience-org">Caltech Orchestra and Chamber Music</p>
+            <p>
+              Play cello in orchestra and chamber music, including piano trio and chamber ensembles.
+            </p>
+          </div>
+
+        </div>
+
+        </div>
+
+        <style>
+        .experience-wrap {
+          width: min(1120px, calc(100vw - 3rem)) !important;
+          max-width: none !important;
+          margin-left: 50% !important;
+          transform: translateX(-50%) !important;
+        }
+
+        .experience-hero {
+          margin-top: -1rem;
+          margin-bottom: 2.5rem;
+          max-width: 850px;
+        }
+
+        .experience-kicker {
+          font-size: 0.82rem;
+          font-weight: 700;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          color: #4f46e5;
+          margin-bottom: 0.45rem;
+        }
+
+        .experience-hero h1 {
+          font-size: clamp(2rem, 4vw, 3.2rem);
+          line-height: 1.1;
+          margin: 0 0 0.8rem 0;
+        }
+
+        .experience-lede {
+          font-size: 1.12rem;
+          line-height: 1.65;
+          color: #4b5563;
+          max-width: 760px;
+        }
+
+        .experience-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+          gap: 1.2rem;
+          margin-top: 1.2rem;
+          margin-bottom: 2.7rem;
+        }
+
+        .experience-card {
+          border: 1px solid #e5e7eb;
+          border-radius: 20px;
+          background: #ffffff;
+          box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+          padding: 1.25rem 1.35rem;
+        }
+
+        .experience-card h3 {
+          margin-top: 0;
+          margin-bottom: 0.35rem;
+          line-height: 1.25;
+          font-size: 1.22rem;
+        }
+
+        .experience-org {
+          color: #4b5563;
+          font-weight: 650;
+          margin-bottom: 0.75rem;
+        }
+
+        .experience-card p {
+          line-height: 1.6;
+        }
+
+        .experience-link {
+          display: inline-flex;
+          align-items: center;
+          border: 1px solid #dbe3ff;
+          background: #f5f7ff;
+          color: #27324a;
+          border-radius: 12px;
+          padding: 0.45rem 0.75rem;
+          font-size: 0.88rem;
+          font-weight: 700;
+          text-decoration: none !important;
+          margin-top: 0.4rem;
+        }
+        </style>
+    design:
+      columns: '1'
 ---
-
-# Experience
-
-## Research and Engineering
-
-### SpaceX — Falcon Propulsion Engineering Intern  
-**Summer 2026 · Hawthorne, CA**
-
-Incoming engineering intern on the Falcon Propulsion team.
-
----
-
-### California Institute of Technology — M4 Air–Ground Robot Platform  
-**January 2026 – Present · Pasadena, CA**
-
-Working on aerial and multi-modal robot hardware for the M4 platform, with a focus on drone-platform integration, thrust-biasing deflector design, and air–ground testing.
-
-**Areas:** CAD, fabrication, propulsion integration, avionics integration, deflector design, CFD, bench testing.
-
----
-
-### Gharib Group / CAST / GALCIT — Undergraduate Researcher  
-**2023 – Present · Pasadena, CA**
-
-Long-term undergraduate researcher across multiple autonomous systems and experimental fluids projects, including vision-based motion control, compact flow-facility hardware, fixed-wing UAV sensing, and current senior-thesis work.
-
-**Projects within the group:**
-
-- **Real-Time Vision and Motion Control**  
-  Built a camera-guided tracking system using Python/OpenCV target detection and HEBI actuator control.
-
-- **Low-Reynolds-Number Flow Facility**  
-  Worked on water-tunnel hardware, modular turbine-array fixtures, electronics, power configuration, Arduino/PWM control, and PIV/dye-flow validation.
-
-- **X2 FALCON / Flight-Ready UAV Sensing**  
-  Integrated embedded sensing, flight-control, actuator, and ground-station systems for fixed-wing aerial robot testing. Built ROS/MAVLink workflows and designed five-hole Pitot probe hardware for aerodynamic flow measurement.
-
-- **Senior Thesis**  
-  Current work in progress.
-
----
-
-### Golwala Group — Summer Undergraduate Research Fellow  
-**June 2024 – September 2024 · Pasadena, CA**
-
-Worked on cryogenic detector hardware and superconducting resonator analysis for phonon-mediated kinetic inductance detectors.
-
-**Areas:** KID detector modifications, quasiparticle phonon guides, CAD mounting, wire-bonded assembly, Python resonance fitting, detector simulation and analysis.
-
----
-
-### Wellatex Inc. — Assembly Machine Management and Product Design Lead  
-**January 2019 – Present**
-
-Worked on industrial packing machinery, product packaging, and operations support.
-
-**Areas:** machine assembly, product sizing, palletized shipping-box design, pressure/sealing settings, product workflow improvement.
-
----
-
-## Teaching and Leadership
-
-### Teaching Assistant, Biomechanics — Prof. Michael Dickinson  
-**January 2025 – March 2025 · Caltech**
-
-Prepared and graded exams, held office hours, and supported student understanding of solid/fluid mechanics and materials.
-
----
-
-### Caltech Admissions Ambassador — Professional Development Lead  
-**May 2024 – Present · Caltech**
-
-Conduct campus tours, serve as a student panelist, and answer prospective-student questions about curriculum, research, and student life.
-
----
-
-### Caltech Air and Outer Space Club — NASA BIG Idea Challenge Finalist  
-**Fall 2023 – Winter 2024 · Caltech**
-
-Contributed to a finalist proposal for PILLARS, a plume-deployed inflatable landing shield concept for lunar regolith protection.
-
----
-
-## Earlier / Additional Experience
-
-### Rangel Neuroeconomics Laboratory — FSRI Research Project  
-**Summer 2023 · Caltech**
-
-Analyzed behavioral data using Python, Pandas, and Matplotlib for a visual search and choice project.
-
----
-
-### Caltech Orchestra and Chamber Music — Cello  
-**2011 – Present**
-
-Cellist in orchestra and chamber music, including piano trio and chamber ensembles.
