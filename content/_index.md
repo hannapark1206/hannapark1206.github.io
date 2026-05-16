@@ -79,19 +79,11 @@ sections:
         </div>
 
         <style>
-        /* homepage hero spacing */
+        /* overall homepage hero spacing */
         .resume-biography,
         .homepage-hero {
-          padding-top: 1.25rem !important;
-          padding-bottom: 2rem !important;
-          margin-top: 0 !important;
-          margin-bottom: 0 !important;
-        }
-
-        .home-section,
-        section.home-section {
-          padding-top: 1.25rem !important;
-          padding-bottom: 1.25rem !important;
+          padding-top: 2rem !important;
+          padding-bottom: 2.5rem !important;
           margin-top: 0 !important;
           margin-bottom: 0 !important;
         }
@@ -101,28 +93,62 @@ sections:
         section:first-of-type {
           min-height: auto !important;
           height: auto !important;
-          padding-top: 1.25rem !important;
-          padding-bottom: 1.25rem !important;
+          padding-top: 1.5rem !important;
+          padding-bottom: 1.5rem !important;
         }
 
-        /* make the top profile section less skewed */
+        /* main profile section width */
         .resume-biography .container,
         .homepage-hero .container {
-          max-width: 1120px !important;
+          max-width: 1160px !important;
           margin-left: auto !important;
           margin-right: auto !important;
         }
 
+        /* center the two columns vertically */
         .resume-biography .row,
         .homepage-hero .row {
           display: flex !important;
           align-items: center !important;
           justify-content: center !important;
-          gap: 2.5rem !important;
+          gap: 3rem !important;
           padding-top: 0 !important;
           padding-bottom: 0 !important;
         }
 
+        /* move the photo/profile side slightly down */
+        .resume-biography .col-lg-4,
+        .homepage-hero .col-lg-4 {
+          transform: translateY(1.4rem) !important;
+        }
+
+        /* keep right summary vertically centered */
+        .resume-biography .col-lg-8,
+        .homepage-hero .col-lg-8 {
+          display: flex !important;
+          flex-direction: column !important;
+          justify-content: center !important;
+          align-items: flex-start !important;
+          min-height: 430px !important;
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+        }
+
+        /* center summary text block within right side */
+        .resume-biography .biography,
+        .resume-biography .bio-text,
+        .resume-biography .section-subheading,
+        .resume-biography .article-style,
+        .homepage-hero .biography,
+        .homepage-hero .bio-text,
+        .homepage-hero .section-subheading,
+        .homepage-hero .article-style {
+          max-width: 640px !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+
+        /* reduce weird side padding */
         .resume-biography .col-12,
         .resume-biography .col-lg-4,
         .resume-biography .col-lg-8,
@@ -133,40 +159,15 @@ sections:
           padding-right: 1.25rem !important;
         }
 
-        /* center the summary/right side */
-        .resume-biography .col-lg-8,
-        .homepage-hero .col-lg-8 {
-          display: flex !important;
-          flex-direction: column !important;
-          justify-content: center !important;
-          align-items: flex-start !important;
+        /* homepage sections below hero */
+        .home-section,
+        section.home-section {
+          padding-top: 1.25rem !important;
+          padding-bottom: 1.25rem !important;
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
         }
 
-        .resume-biography .biography,
-        .resume-biography .bio-text,
-        .resume-biography .section-subheading,
-        .resume-biography .article-style,
-        .homepage-hero .biography,
-        .homepage-hero .bio-text,
-        .homepage-hero .section-subheading,
-        .homepage-hero .article-style {
-          max-width: 620px !important;
-          margin-left: auto !important;
-          margin-right: auto !important;
-        }
-
-        /* photo/profile side */
-        .resume-biography .avatar-wrapper,
-        .resume-biography .profile,
-        .resume-biography .portrait,
-        .homepage-hero .avatar-wrapper,
-        .homepage-hero .profile,
-        .homepage-hero .portrait {
-          margin-left: auto !important;
-          margin-right: auto !important;
-        }
-
-        /* wider homepage content below hero */
         .home-wrap {
           width: min(1120px, calc(100vw - 4rem)) !important;
           max-width: none !important;
@@ -246,8 +247,14 @@ sections:
             gap: 1.5rem !important;
           }
 
+          .resume-biography .col-lg-4,
+          .homepage-hero .col-lg-4 {
+            transform: none !important;
+          }
+
           .resume-biography .col-lg-8,
           .homepage-hero .col-lg-8 {
+            min-height: auto !important;
             align-items: center !important;
             text-align: center !important;
           }
