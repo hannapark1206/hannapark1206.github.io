@@ -19,17 +19,12 @@ The concept focused on a plume-deployed inflatable shield for reducing abrasive 
 
 I contributed to the proposal and dust modeling side of the project.
 
-## What I Worked On
-
-- Supported proposal development
-- Worked on lunar regolith disturbance concepts
-- Helped think through dust behavior during deployment and landing
-- Contributed to a finalist team proposal
-
 ## Technical Areas
 
 Lunar systems, regolith mitigation, aerospace concept design, team proposal development, dust modeling.
 
 ## Media
 
-Proposal figures, concept sketches, and team materials will be added here.
+<div class="button-row">
+  <a class="doc-button" href="PILLARS_Final_Paper.pdf">View PILLARS final paper</a>
+</div>
