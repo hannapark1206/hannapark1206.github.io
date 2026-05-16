@@ -33,4 +33,6 @@ Python, OpenCV, HEBI actuators, robotics, target tracking, spline-based motion, 
 
 ## Media
 
-Photos, videos, code screenshots, and tracking demos will be added here.
+<div class="media-grid">
+  <img src="17.png" alt="Gaze geometry diagram for visual decision analysis">
+</div>
