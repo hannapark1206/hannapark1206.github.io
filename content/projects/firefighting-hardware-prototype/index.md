@@ -9,7 +9,6 @@ tags:
   - Field Systems
 ---
 
-# Firefighting Hardware Prototype
 
 ## Overview
 
