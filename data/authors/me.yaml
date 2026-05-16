@@ -40,31 +40,6 @@ links:
     url: uploads/resume.pdf
     label: CV
 
-interests:
-  - Robotics and Controls
-  - Aerial and Multi-Modal Robot Platforms
-  - Flight-Control Integration
-  - Hardware Prototyping and System Testing
-  - Experimental Aerodynamics and Sensing
-
-education:
-  - degree: B.S. Mechanical Engineering
-    institution: California Institute of Technology
-    start: 2023-09-01
-    end: 2027-06-30
-    summary: |
-      GPA: 4.3/4.0. Relevant coursework includes robotics, dynamics and control,
-      mechanical prototyping, design and fabrication, CFD, differential equations,
-      and transform methods.
-
-  - degree: Engineering, Cambridge Scholars Program
-    institution: University of Cambridge, St John's College
-    start: 2025-09-01
-    end: 2025-12-31
-    summary: |
-      Completed graduate-level coursework in aircraft aerodynamics and design,
-      aircraft stability and control, nuclear reactor engineering, and technology management.
-
 experience:
   - role: Falcon Propulsion Engineering Intern
     org: SpaceX
