@@ -30,13 +30,15 @@ affiliations:
 links:
   - icon: at-symbol
     url: mailto:hpark4@caltech.edu
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/hannapark1206
-    label: GitHub
+    label: E-mail
+
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/park-hanna/
     label: LinkedIn
+
+  - icon: academicons/cv
+    url: uploads/resume.pdf
+    label: CV
 
 interests:
   - Robotics and Controls
