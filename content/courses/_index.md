@@ -34,13 +34,13 @@ sections:
           </div>
 
           <div class="edu-card">
-            <p class="course-kicker">University of Cambridge · St John's College</p>
-            <h2>Engineering, Cambridge Scholars Program</h2>
-            <p class="edu-subtitle">Sept–Dec 2025</p>
-            <p>
-              Completed advanced engineering coursework in aircraft aerodynamics, aircraft stability and control, nuclear reactor engineering, and technology management.
-            </p>
-          </div>
+  <p class="course-kicker">University of Cambridge · St John's College</p>
+  <h2>Engineering Study Abroad</h2>
+  <p class="edu-subtitle">Michaelmas Term · Sept–Dec 2025</p>
+  <p>
+    Study abroad term in Engineering, with graduate coursework in aircraft aerodynamics and design, aircraft stability and control, nuclear reactor engineering, and management of technology.
+  </p>
+</div>
 
         </div>
 
