@@ -18,7 +18,7 @@ sections:
           </p>
 
           <div class="button-row">
-            <a class="doc-button" href="/uploads/transcript.pdf">Download unofficial transcript</a>
+            <a class="doc-button" href="/uploads/transcript.pdf">Download transcript</a>
           </div>
         </div>
 
