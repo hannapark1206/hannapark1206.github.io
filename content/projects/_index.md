@@ -6,77 +6,51 @@ type: page
 ---
 
 <p class="projects-intro">
-Selected research, class, and hardware projects in robotics, controls, aerial systems, experimental fluids, rapid prototyping, and instrumentation.
+Selected research, class, and hardware projects in aerial robotics, controls, experimental systems, rapid prototyping, and instrumentation.
 </p>
 
-## Gharib Group Projects
+## Lab and Field Robotic Systems
 
 <div class="project-grid">
 
-<a class="project-card" href="/projects/x2-uav/">
+<a class="project-card" href="/projects/multi-modal-air-ground-robot/">
   <div class="project-image">
-    <img src="/projects/x2-uav/featured.jpg" alt="X2 UAV project image">
-  </div>
-  <div class="project-body">
-    <div class="project-tag">Aerial Robotics · Controls · Sensing</div>
-    <h3>X2 UAV Sensing and Flight-Control Integration</h3>
-    <p>Five-hole Pitot probe hardware, ROS/MAVLink workflows, flight-control integration, and wind-tunnel calibration.</p>
-  </div>
-</a>
-
-<a class="project-card" href="/projects/water-tunnel/">
-  <div class="project-image">
-    <img src="/projects/water-tunnel/featured.jpg" alt="Water tunnel project image">
-  </div>
-  <div class="project-body">
-    <div class="project-tag">Experimental Fluids · Hardware</div>
-    <h3>Low-Reynolds-Number Water Tunnel</h3>
-    <p>Water-tunnel hardware, turbine-array fixtures, electronics, power configuration, Arduino/PWM control, and PIV/dye validation.</p>
-  </div>
-</a>
-
-<a class="project-card" href="/projects/hebi-vision/">
-  <div class="project-image">
-    <img src="/projects/hebi-vision/featured.jpg" alt="HEBI vision tracking project image">
-  </div>
-  <div class="project-body">
-    <div class="project-tag">Vision · Motion Control</div>
-    <h3>Real-Time Vision and HEBI Motion Control</h3>
-    <p>Python/OpenCV target detection and HEBI actuator control for real-time pan–tilt tracking.</p>
-  </div>
-</a>
-
-<a class="project-card" href="/projects/senior-thesis/">
-  <div class="project-image placeholder"></div>
-  <div class="project-body">
-    <div class="project-tag">Research · Work in Progress</div>
-    <h3>Senior Thesis</h3>
-    <p>Independent research project in progress. This page will be updated as the thesis direction develops.</p>
-  </div>
-</a>
-
-</div>
-
-## Robotics and Field Systems
-
-<div class="project-grid">
-
-<a class="project-card" href="/projects/m4/">
-  <div class="project-image">
-    <img src="/projects/m4/featured.jpg" alt="M4 project image">
+    <img src="/projects/multi-modal-air-ground-robot/featured.jpg" alt="Multi-modal air-ground robot project image">
   </div>
   <div class="project-body">
     <div class="project-tag">Robotics · Hardware · CFD</div>
-    <h3>M4 Air–Ground Robot Platform</h3>
-    <p>Air–ground robot hardware, propulsion/avionics integration, thrust-biasing deflector design, CFD checks, and bench testing.</p>
+    <h3>Multi-Modal Air–Ground Robot Platform</h3>
+    <p>Aerial hardware integration, propulsion/avionics integration, thrust-biasing deflector design, CFD checks, and bench testing.</p>
   </div>
 </a>
 
-<a class="project-card" href="/projects/firefighting/">
+<a class="project-card" href="/projects/fixed-wing-aerial-robot-sensing/">
+  <div class="project-image">
+    <img src="/projects/fixed-wing-aerial-robot-sensing/featured.jpg" alt="Fixed-wing aerial robot sensing project image">
+  </div>
+  <div class="project-body">
+    <div class="project-tag">Aerial Robotics · Controls · Sensing</div>
+    <h3>Fixed-Wing Aerial Robot Sensing and Flight-Control Integration</h3>
+    <p>Flight-control integration, ROS/MAVLink data workflows, five-hole Pitot probe hardware, and wind-tunnel calibration.</p>
+  </div>
+</a>
+
+<a class="project-card" href="/projects/compact-water-tunnel-flow-facility/">
+  <div class="project-image">
+    <img src="/projects/compact-water-tunnel-flow-facility/featured.jpg" alt="Compact water tunnel flow facility project image">
+  </div>
+  <div class="project-body">
+    <div class="project-tag">Experimental Fluids · Hardware · Control</div>
+    <h3>Compact Water-Tunnel Flow Facility</h3>
+    <p>Water-tunnel hardware, turbine-array fixtures, electronics, power configuration, Arduino/PWM control, and PIV/dye-flow validation.</p>
+  </div>
+</a>
+
+<a class="project-card" href="/projects/firefighting-hardware-prototype/">
   <div class="project-image placeholder"></div>
   <div class="project-body">
-    <div class="project-tag">Rapid Prototyping · Assembly</div>
-    <h3>Firefighting Prototype Project</h3>
+    <div class="project-tag">Rapid Prototyping · Assembly · Field Systems</div>
+    <h3>Firefighting Hardware Prototype</h3>
     <p>Rapid prototyping, mechanical assembly, hardware modification, and test-preparation support for a firefighting-related system.</p>
   </div>
 </a>
@@ -87,13 +61,13 @@ Selected research, class, and hardware projects in robotics, controls, aerial sy
 
 <div class="project-grid">
 
-<a class="project-card" href="/projects/golwala-kids/">
+<a class="project-card" href="/projects/cryogenic-detector-instrumentation/">
   <div class="project-image">
-    <img src="/projects/golwala-kids/featured.jpg" alt="Golwala KID detector project image">
+    <img src="/projects/cryogenic-detector-instrumentation/featured.jpg" alt="Cryogenic detector instrumentation project image">
   </div>
   <div class="project-body">
     <div class="project-tag">Cryogenics · Instrumentation · Python</div>
-    <h3>Cryogenic Detector Hardware</h3>
+    <h3>Cryogenic Detector Instrumentation</h3>
     <p>KID detector modifications, phonon guides, CAD mounting, wire-bonded assembly, and Python resonance fitting.</p>
   </div>
 </a>
@@ -104,9 +78,9 @@ Selected research, class, and hardware projects in robotics, controls, aerial sy
 
 <div class="project-grid">
 
-<a class="project-card" href="/projects/gearbox/">
+<a class="project-card" href="/projects/transmission-gearbox/">
   <div class="project-image">
-    <img src="/projects/gearbox/featured.jpg" alt="Gearbox project image">
+    <img src="/projects/transmission-gearbox/featured.jpg" alt="Transmission gearbox project image">
   </div>
   <div class="project-body">
     <div class="project-tag">Class Project · Mechanical Design</div>
@@ -115,12 +89,47 @@ Selected research, class, and hardware projects in robotics, controls, aerial sy
   </div>
 </a>
 
-<a class="project-card" href="/projects/pillars/">
+<a class="project-card" href="/projects/vision-motion-control/">
+  <div class="project-image">
+    <img src="/projects/vision-motion-control/featured.jpg" alt="Vision and motion control project image">
+  </div>
+  <div class="project-body">
+    <div class="project-tag">Class Project · Vision · Controls</div>
+    <h3>Real-Time Vision and Motion Control</h3>
+    <p>Python/OpenCV target detection and HEBI actuator control for real-time pan–tilt tracking.</p>
+  </div>
+</a>
+
+<a class="project-card" href="/projects/lunar-landing-shield/">
   <div class="project-image placeholder"></div>
   <div class="project-body">
     <div class="project-tag">Team Project · Aerospace Concept</div>
-    <h3>NASA BIG Idea / PILLARS</h3>
-    <p>Finalist proposal for a plume-deployed inflatable landing shield concept to reduce lunar regolith disturbance during landing.</p>
+    <h3>PILLARS Lunar Landing Shield</h3>
+    <p>NASA BIG Idea finalist concept for a plume-deployed inflatable landing shield to reduce lunar regolith disturbance during landing.</p>
+  </div>
+</a>
+
+</div>
+
+## Earlier Research and Applied Systems
+
+<div class="project-grid">
+
+<a class="project-card" href="/projects/visual-decision-data-analysis/">
+  <div class="project-image placeholder"></div>
+  <div class="project-body">
+    <div class="project-tag">Early Research · Data Analysis</div>
+    <h3>Visual Decision Data Analysis</h3>
+    <p>Python and regression analysis for a visual search and choice project in the Rangel Neuroeconomics Lab.</p>
+  </div>
+</a>
+
+<a class="project-card" href="/projects/packing-machine-product-design/">
+  <div class="project-image placeholder"></div>
+  <div class="project-body">
+    <div class="project-tag">Industry · Hardware · Operations</div>
+    <h3>Packing Machine and Product Design</h3>
+    <p>Industrial packing machinery assembly, product sizing, packaging design, machine settings, and operations support.</p>
   </div>
 </a>
 
