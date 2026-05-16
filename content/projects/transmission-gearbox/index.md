@@ -34,4 +34,7 @@ MATLAB, SolidWorks, mechanical design, gear trains, bearings, keyed shafts, mach
 
 ## Media
 
-CAD screenshots, design review slides, gearbox drawings, and final assembly photos will be added here.
+<div class="media-grid">
+  <img src="10.png" alt="Physical gearbox test setup">
+  <img src="9.png" alt="Transmission gearbox CAD model">
+</div>
