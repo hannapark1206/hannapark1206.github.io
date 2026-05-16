@@ -16,12 +16,12 @@ I worked on cryogenic detector instrumentation for phonon-mediated kinetic induc
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip">❄️ Cryogenic detectors</span>
-  <span class="skill-chip">📡 KIDs</span>
-  <span class="skill-chip">🔬 Phonon collection</span>
-  <span class="skill-chip">🧰 CAD mount design</span>
-  <span class="skill-chip">🔗 Wire bonding</span>
-  <span class="skill-chip">🐍 Python fitting</span>
+  <span class="skill-chip"> Cryogenic detectors</span>
+  <span class="skill-chip"> Kinetic Inductance Detectors</span>
+  <span class="skill-chip"> Phonon collection</span>
+  <span class="skill-chip"> CAD mount design</span>
+  <span class="skill-chip"> Wire bonding</span>
+  <span class="skill-chip"> Python fitting</span>
 </div>
 
 </div>
