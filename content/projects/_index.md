@@ -64,15 +64,15 @@ sections:
         <div class="project-grid">
 
         <a class="project-card" href="/projects/vision-motion-control/">
-  <div class="project-image">
-    <img src="/projects/vision-motion-control/18.png" alt="Vision and motion control project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
-  </div>
-  <div class="project-body">
-    <div class="project-tag">Robotics · Vision · Motion Control</div>
-    <h3>Real-Time Vision and Motion Control</h3>
-    <p>Python/OpenCV target detection and HEBI pan–tilt actuation with smooth spline-based motion commands.</p>
-  </div>
-</a>
+          <div class="project-image">
+            <img src="/projects/vision-motion-control/18.png" alt="Vision and motion control project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+          </div>
+          <div class="project-body">
+            <div class="project-tag">Robotics · Vision · Motion Control</div>
+            <h3>Real-Time Vision and Motion Control</h3>
+            <p>Python/OpenCV target detection and HEBI pan–tilt actuation with smooth spline-based motion commands.</p>
+          </div>
+        </a>
 
         <a class="project-card" href="/projects/transmission-gearbox/">
           <div class="project-image">
@@ -86,15 +86,15 @@ sections:
         </a>
 
         <a class="project-card" href="/projects/lunar-landing-shield/">
-  <div class="project-image">
-    <img src="/projects/lunar-landing-shield/19.png" alt="PILLARS lunar landing shield project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
-  </div>
-  <div class="project-body">
-    <div class="project-tag">Team Project · Aerospace Concept</div>
-    <h3>PILLARS Lunar Landing Shield</h3>
-    <p>NASA BIG Idea finalist concept for a plume-deployed inflatable landing shield to reduce lunar regolith disturbance during landing.</p>
-  </div>
-</a>
+          <div class="project-image">
+            <img src="/projects/lunar-landing-shield/19.png" alt="PILLARS lunar landing shield project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+          </div>
+          <div class="project-body">
+            <div class="project-tag">Team Project · Aerospace Concept</div>
+            <h3>PILLARS Lunar Landing Shield</h3>
+            <p>NASA BIG Idea finalist concept for a plume-deployed inflatable landing shield to reduce lunar regolith disturbance during landing.</p>
+          </div>
+        </a>
 
         </div>
 
@@ -114,15 +114,15 @@ sections:
         </a>
 
         <a class="project-card" href="/projects/visual-decision-data-analysis/">
-  <div class="project-image">
-    <img src="/projects/visual-decision-data-analysis/17.png" alt="Visual search and decision data analysis project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
-  </div>
-  <div class="project-body">
-    <div class="project-tag">Early Research · Data Analysis</div>
-    <h3>Visual Search and Decision Data Analysis</h3>
-    <p>Python and regression analysis for a visual search and choice project in the Rangel Neuroeconomics Lab.</p>
-  </div>
-</a>
+          <div class="project-image">
+            <img src="/projects/visual-decision-data-analysis/17.png" alt="Visual search and decision data analysis project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+          </div>
+          <div class="project-body">
+            <div class="project-tag">Early Research · Data Analysis</div>
+            <h3>Visual Search and Decision Data Analysis</h3>
+            <p>Python and regression analysis for a visual search and choice project in the Rangel Neuroeconomics Lab.</p>
+          </div>
+        </a>
 
         <a class="project-card" href="/projects/packing-machine-product-design/">
           <div class="project-image">
