@@ -64,7 +64,7 @@ sections:
 
         </div>
 
-        ## Teaching and Leadership
+        ## Teaching, Leadership, and Interests
 
         <div class="experience-grid leadership-grid">
 
