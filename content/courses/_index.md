@@ -1,28 +1,35 @@
 ---
-title: Courses
-summary: My courses
+title: Coursework
+summary: Coursework, academic background, and transcript
 type: landing
 
-cascade:
-  - target:
-      path: '{/courses/*/**}'
-    type: docs
-    params:
-      show_breadcrumb: true
-
 sections:
-  - block: collection
-    id: courses
+  - block: markdown
     content:
-      title: Courses
-      filters:
-        tag: Course
-        kinds:
-          - section
+      title: Coursework
+      text: |
+        ## California Institute of Technology
+
+        **B.S. Mechanical Engineering, Aerospace Minor**  
+        Expected 2027 · GPA: 4.3/4.0
+
+        **Relevant Coursework**  
+        Robotics, Dynamics & Control, Mechanical Prototyping, Design & Fabrication, CFD, Differential Equations & Transform Methods
+
+        **In Progress / Planned**  
+        Machine Learning, Linear Systems & Control, Advanced Fluid Mechanics, Data-Driven Modeling & Dimensional Analysis
+
+        ## University of Cambridge, St John's College
+
+        **Engineering, Cambridge Scholars Program**  
+        Sept–Dec 2025
+
+        **Completed Graduate-Level Courses**  
+        Aircraft Aerodynamics & Design; Aircraft Stability & Control; Nuclear Reactor Engineering; Technology Management
+
+        ## Transcript
+
+        [Download unofficial transcript](/uploads/transcript.pdf)
     design:
-      view: article-grid
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
+      columns: '1'
 ---
