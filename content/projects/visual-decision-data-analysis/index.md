@@ -31,6 +31,9 @@ Python, Pandas, Matplotlib, regression analysis, data visualization, behavioral 
 <div class="media-grid">
   <img src="17.png" alt=".">
 </div>
+<div class="media-grid">
+  <img src="21.png" alt=".">
+</div>
 <div class="button-row">
   <a class="doc-button" href="Differences_In_Visual_Search_and_Choice_Based_on_Item_Familiarity.pdf">View poster</a>
 </div>
