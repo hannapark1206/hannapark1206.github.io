@@ -16,11 +16,9 @@ I support rapid prototyping and assembly work for a firefighting-related hardwar
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip">🛠️ Rapid prototyping</span>
-  <span class="skill-chip">⚙️ Mechanical assembly</span>
-  <span class="skill-chip">🧩 Fit checks</span>
-  <span class="skill-chip">🧪 Test prep</span>
-  <span class="skill-chip">🔩 Hardware modification</span>
+  <span class="skill-chip"> Rapid prototyping</span>
+  <span class="skill-chip"> Mechanical assembly</span>
+  <span class="skill-chip"> Hardware modification</span>
 </div>
 
 </div>
