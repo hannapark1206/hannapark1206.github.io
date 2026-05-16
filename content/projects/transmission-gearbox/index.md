@@ -9,8 +9,6 @@ tags:
   - Machining
 ---
 
-# ME14 Transmission Gearbox
-
 ## Overview
 
 This was a mechanical design class project focused on designing and analyzing a multi-stage gearbox.
