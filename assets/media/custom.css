@@ -1,16 +1,26 @@
+/* reduce giant blank space above intro */
+.home-section,
+section.home-section,
 .resume-biography {
-  padding-top: 1rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
   margin-top: 0 !important;
 }
 
+/* stop the homepage hero from taking the whole screen height */
+.hero,
+.hero-body,
 section:first-of-type {
-  padding-top: 1rem !important;
+  min-height: auto !important;
+  height: auto !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
 }
 
-main {
-  padding-top: 0 !important;
-}
-
-.hero {
-  padding-top: 1rem !important;
+/* if the profile widget is being vertically centered */
+.resume-biography .container,
+.resume-biography .row,
+.home-section .container,
+.home-section .row {
+  align-items: flex-start !important;
 }
