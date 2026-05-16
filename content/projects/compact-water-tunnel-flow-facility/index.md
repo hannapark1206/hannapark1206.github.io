@@ -16,12 +16,12 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip">🌊 Water tunnel</span>
-  <span class="skill-chip">🌀 Low-Re flow</span>
-  <span class="skill-chip">⚙️ Turbine arrays</span>
-  <span class="skill-chip">🔌 Electronics</span>
-  <span class="skill-chip">🧪 PIV</span>
-  <span class="skill-chip">🎨 Dye visualization</span>
+  <span class="skill-chip"> Water tunnel</span>
+  <span class="skill-chip"> Low-Reynolds Number flow</span>
+  <span class="skill-chip"> Turbine arrays</span>
+  <span class="skill-chip"> Electronics</span>
+  <span class="skill-chip"> Particle Image Velocimetry</span>
+  <span class="skill-chip"> Dye visualization</span>
 </div>
 
 </div>
