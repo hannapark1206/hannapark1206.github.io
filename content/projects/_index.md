@@ -126,7 +126,7 @@ sections:
 
         <a class="project-card" href="/projects/packing-machine-product-design/">
           <div class="project-image">
-            <img src="/projects/packing-machine-product-design/featured.jpg" alt="Packing machine and product design image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/packing-machine-product-design/61bs59DBcVL.jpg" alt="Packing machine and product design image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Industry · Hardware · Operations</div>
