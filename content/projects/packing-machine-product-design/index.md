@@ -9,8 +9,6 @@ tags:
   - Product Design
 ---
 
-# Packing Machine and Product Design
-
 ## Overview
 
 This work involved hands-on support for industrial packing machinery, product packaging, and operations.
