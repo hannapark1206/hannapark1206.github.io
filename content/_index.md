@@ -9,7 +9,7 @@ sections:
     content:
       username: me
       text: |
-        I build and test physical robotic systems where hardware, controls, sensing, and aerodynamics meet.
+        Mechanical engineer passionate about robotics, with research experience bringing aerial and multi-modal robot platforms to life through flight-control integration, prototyping, and aerodynamic testing ✈️🤖
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -52,14 +52,6 @@ sections:
         - **Flight-Ready Sensing for Fixed-Wing Aerial Robots**  
           Five-hole Pitot probe hardware, embedded sensing, ROS/MAVLink workflows, and wind-tunnel calibration.
 
-        - **Low-Reynolds-Number Flow Facility**  
-          Water-tunnel hardware, turbine-array control, electronics, power configuration, and PIV/dye-flow validation.
-
-        - **Cryogenic Detector Hardware**  
-          KID detector modifications, CAD mounting, wire-bonded assembly, and Python resonance fitting.
-
-        - **Real-Time Vision and Motion Control**  
-          Python/OpenCV target detection and HEBI actuator control for real-time camera-guided tracking.
     design:
       columns: '1'
 ---
