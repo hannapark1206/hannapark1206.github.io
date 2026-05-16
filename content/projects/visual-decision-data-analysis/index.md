@@ -26,9 +26,13 @@ The project studied visual search and choice behavior using behavioral and eye-t
 ## Technical Areas
 
 Python, Pandas, Matplotlib, regression analysis, data visualization, behavioral data, research presentation.
+
+## Media
 <div class="media-grid">
   <img src="17.png" alt=".">
 </div>
 <div class="button-row">
   <a class="doc-button" href="Differences_In_Visual_Search_and_Choice_Based_on_Item_Familiarity.pdf">View poster</a>
 </div>
+
+
