@@ -34,13 +34,13 @@ sections:
           </div>
 
           <div class="edu-card">
-  <p class="course-kicker">University of Cambridge · St John's College</p>
-  <h2>Engineering Study Abroad</h2>
-  <p class="edu-subtitle">Michaelmas Term · Sept–Dec 2025</p>
-  <p>
-    Study abroad term in Engineering, with graduate coursework in aircraft aerodynamics and design, aircraft stability and control, nuclear reactor engineering, and management of technology.
-  </p>
-</div>
+            <p class="course-kicker">University of Cambridge · St John's College</p>
+            <h2>Engineering Study Abroad</h2>
+            <p class="edu-subtitle">Michaelmas Term · Sept–Dec 2025</p>
+            <p>
+              Study abroad term in Engineering, with advanced coursework in aircraft aerodynamics and design, aircraft stability and control, nuclear reactor engineering, and management of technology.
+            </p>
+          </div>
 
         </div>
 
@@ -95,7 +95,7 @@ sections:
           </div>
 
           <div class="course-card">
-            <h3>Cambridge Coursework</h3>
+            <h3>Cambridge Study Abroad Coursework</h3>
             <div class="chip-row">
               <span class="course-chip">Aircraft Aerodynamics & Design</span>
               <span class="course-chip">Aircraft Stability & Control</span>
