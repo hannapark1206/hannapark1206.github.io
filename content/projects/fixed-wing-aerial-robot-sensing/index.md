@@ -16,12 +16,12 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip">✈️ Fixed-wing UAV</span>
-  <span class="skill-chip">⚙️ Cube Orange+</span>
-  <span class="skill-chip">🤖 Jetson</span>
-  <span class="skill-chip">🔗 ROS/MAVLink</span>
-  <span class="skill-chip">📡 OptiTrack</span>
-  <span class="skill-chip">🌬️ Wind-tunnel calibration</span>
+  <span class="skill-chip"> Fixed-wing UAV</span>
+  <span class="skill-chip"> Cube Orange+</span>
+  <span class="skill-chip"> Jetson</span>
+  <span class="skill-chip"> ROS/MAVLink</span>
+  <span class="skill-chip"> OptiTrack</span>
+  <span class="skill-chip"> Wind-tunnel calibration</span>
 </div>
 
 </div>
