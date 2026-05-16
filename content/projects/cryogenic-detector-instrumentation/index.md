@@ -34,4 +34,13 @@ KIDs, cryogenic detector hardware, CAD, wire bonding, Python, regression, least-
 
 ## Media
 
-Detector layouts, CAD screenshots, resonance plots, and presentation figures will be added here.
+<div class="button-row">
+  <a class="doc-button" href="Fermilab%20Presentation%20Final%20Copy%20c%20c.pdf">View Fermilab presentation</a>
+  <a class="doc-button" href="Hanna_Park_SURF_Final_Report%20%281%29.pdf">View SURF report</a>
+</div>
+
+<div class="media-grid">
+  <img src="14.png" alt="Detector mount CAD and physical mount">
+  <img src="11.png" alt="KID detector simulation and mount redesign">
+  <img src="13.png" alt="KID layout images">
+</div>
