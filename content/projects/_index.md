@@ -9,24 +9,24 @@ type: page
 Selected research, class, and hardware projects in aerial robotics, controls, experimental systems, rapid prototyping, and instrumentation.
 </p>
 
-## Lab and Field Robotic Systems
+## Gharib Group Projects
 
 <div class="project-grid">
 
 <a class="project-card" href="/projects/multi-modal-air-ground-robot/">
   <div class="project-image">
-    <img src="/projects/multi-modal-air-ground-robot/featured.jpg" alt="Multi-modal air-ground robot project image">
+    <img src="/projects/multi-modal-air-ground-robot/featured.jpg" alt="Multi-modal air-ground robot project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
   </div>
   <div class="project-body">
-    <div class="project-tag">Robotics · Hardware · CFD</div>
+    <div class="project-tag">Senior Thesis · Robotics · Hardware</div>
     <h3>Multi-Modal Air–Ground Robot Platform</h3>
-    <p>Aerial hardware integration, propulsion/avionics integration, thrust-biasing deflector design, CFD checks, and bench testing.</p>
+    <p>Senior thesis work on aerial hardware integration, propulsion/avionics integration, thrust-biasing deflector design, CFD checks, and bench testing.</p>
   </div>
 </a>
 
 <a class="project-card" href="/projects/fixed-wing-aerial-robot-sensing/">
   <div class="project-image">
-    <img src="/projects/fixed-wing-aerial-robot-sensing/featured.jpg" alt="Fixed-wing aerial robot sensing project image">
+    <img src="/projects/fixed-wing-aerial-robot-sensing/featured.jpg" alt="Fixed-wing aerial robot sensing project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
   </div>
   <div class="project-body">
     <div class="project-tag">Aerial Robotics · Controls · Sensing</div>
@@ -37,7 +37,7 @@ Selected research, class, and hardware projects in aerial robotics, controls, ex
 
 <a class="project-card" href="/projects/compact-water-tunnel-flow-facility/">
   <div class="project-image">
-    <img src="/projects/compact-water-tunnel-flow-facility/featured.jpg" alt="Compact water tunnel flow facility project image">
+    <img src="/projects/compact-water-tunnel-flow-facility/featured.jpg" alt="Compact water tunnel flow facility project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
   </div>
   <div class="project-body">
     <div class="project-tag">Experimental Fluids · Hardware · Control</div>
@@ -47,7 +47,9 @@ Selected research, class, and hardware projects in aerial robotics, controls, ex
 </a>
 
 <a class="project-card" href="/projects/firefighting-hardware-prototype/">
-  <div class="project-image placeholder"></div>
+  <div class="project-image">
+    <img src="/projects/firefighting-hardware-prototype/featured.jpg" alt="Firefighting prototype project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+  </div>
   <div class="project-body">
     <div class="project-tag">Rapid Prototyping · Assembly · Field Systems</div>
     <h3>Firefighting Hardware Prototype</h3>
@@ -57,51 +59,36 @@ Selected research, class, and hardware projects in aerial robotics, controls, ex
 
 </div>
 
-## Instrumentation and Detector Systems
+## Class and Team Design Projects
 
 <div class="project-grid">
 
-<a class="project-card" href="/projects/cryogenic-detector-instrumentation/">
+<a class="project-card" href="/projects/hebi-vision-motion-control/">
   <div class="project-image">
-    <img src="/projects/cryogenic-detector-instrumentation/featured.jpg" alt="Cryogenic detector instrumentation project image">
+    <img src="/projects/hebi-vision-motion-control/featured.jpg" alt="HEBI vision and motion control project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
   </div>
   <div class="project-body">
-    <div class="project-tag">Cryogenics · Instrumentation · Python</div>
-    <h3>Cryogenic Detector Instrumentation</h3>
-    <p>KID detector modifications, phonon guides, CAD mounting, wire-bonded assembly, and Python resonance fitting.</p>
+    <div class="project-tag">Class Project · Vision · Spline Motion</div>
+    <h3>HEBI Vision and Spline Motion Control</h3>
+    <p>Robotics class project using Python/OpenCV target detection and HEBI pan–tilt actuation with smooth spline-based motion commands.</p>
   </div>
 </a>
 
-</div>
-
-## Class and Design Projects
-
-<div class="project-grid">
-
 <a class="project-card" href="/projects/transmission-gearbox/">
   <div class="project-image">
-    <img src="/projects/transmission-gearbox/featured.jpg" alt="Transmission gearbox project image">
+    <img src="/projects/transmission-gearbox/featured.jpg" alt="Transmission gearbox project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
   </div>
   <div class="project-body">
     <div class="project-tag">Class Project · Mechanical Design</div>
     <h3>ME14 Transmission Gearbox</h3>
-    <p>Multi-stage gearbox design with MATLAB performance modeling, SolidWorks CAD, keyed shafts, bearings, machining, and design reviews.</p>
-  </div>
-</a>
-
-<a class="project-card" href="/projects/vision-motion-control/">
-  <div class="project-image">
-    <img src="/projects/vision-motion-control/featured.jpg" alt="Vision and motion control project image">
-  </div>
-  <div class="project-body">
-    <div class="project-tag">Class Project · Vision · Controls</div>
-    <h3>Real-Time Vision and Motion Control</h3>
-    <p>Python/OpenCV target detection and HEBI actuator control for real-time pan–tilt tracking.</p>
+    <p>PDR/CDR mechanical design project with MATLAB performance modeling, SolidWorks CAD, keyed shafts, bearings, machining, and design reviews.</p>
   </div>
 </a>
 
 <a class="project-card" href="/projects/lunar-landing-shield/">
-  <div class="project-image placeholder"></div>
+  <div class="project-image">
+    <img src="/projects/lunar-landing-shield/featured.jpg" alt="PILLARS lunar landing shield project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+  </div>
   <div class="project-body">
     <div class="project-tag">Team Project · Aerospace Concept</div>
     <h3>PILLARS Lunar Landing Shield</h3>
@@ -111,12 +98,25 @@ Selected research, class, and hardware projects in aerial robotics, controls, ex
 
 </div>
 
-## Earlier Research and Applied Systems
+## Instrumentation, Data, and Applied Systems
 
 <div class="project-grid">
 
+<a class="project-card" href="/projects/cryogenic-detector-instrumentation/">
+  <div class="project-image">
+    <img src="/projects/cryogenic-detector-instrumentation/featured.jpg" alt="Cryogenic detector instrumentation project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+  </div>
+  <div class="project-body">
+    <div class="project-tag">Cryogenics · Instrumentation · Python</div>
+    <h3>Cryogenic Detector Instrumentation</h3>
+    <p>KID detector modifications, phonon guides, CAD mounting, wire-bonded assembly, and Python resonance fitting.</p>
+  </div>
+</a>
+
 <a class="project-card" href="/projects/visual-decision-data-analysis/">
-  <div class="project-image placeholder"></div>
+  <div class="project-image">
+    <img src="/projects/visual-decision-data-analysis/featured.jpg" alt="Visual decision data analysis project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+  </div>
   <div class="project-body">
     <div class="project-tag">Early Research · Data Analysis</div>
     <h3>Visual Decision Data Analysis</h3>
@@ -125,7 +125,9 @@ Selected research, class, and hardware projects in aerial robotics, controls, ex
 </a>
 
 <a class="project-card" href="/projects/packing-machine-product-design/">
-  <div class="project-image placeholder"></div>
+  <div class="project-image">
+    <img src="/projects/packing-machine-product-design/featured.jpg" alt="Packing machine and product design project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+  </div>
   <div class="project-body">
     <div class="project-tag">Industry · Hardware · Operations</div>
     <h3>Packing Machine and Product Design</h3>
