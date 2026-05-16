@@ -9,8 +9,6 @@ tags:
   - CFD
 ---
 
-# Multi-Modal Air-Ground Robot Platform
-
 ## Overview
 
 This project focuses on building and testing hardware for a multi-modal air-ground robot platform. My work is centered on the aerial platform, including drone hardware integration and thrust-biasing deflector design.
