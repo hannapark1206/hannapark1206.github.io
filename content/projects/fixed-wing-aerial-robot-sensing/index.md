@@ -81,7 +81,17 @@ My contributions included hardware integration, communication setup, data retrie
 
 ## Media
 
-Photos, CAD screenshots, calibration plots, and test videos will be added here.
+<div class="button-row">
+  <a class="doc-button" href="Hanna_Park_X2%20Report.pdf">View X2 report</a>
+</div>
+
+<div class="media-grid">
+  <img src="16.png" alt="Fixed-wing aerial robot test platform">
+  <img src="1.png" alt="Five-hole Pitot probe and pressure-sensor electronics">
+  <img src="2.png" alt="Five-hole Pitot probe CAD">
+  <img src="3.jpeg" alt="PlotJuggler pressure data">
+  <img src="4.jpeg" alt="ROS and MAVLink telemetry visualization">
+</div>
 
 <style>
 .article-metadata,
