@@ -1,26 +1,24 @@
-/* reduce giant blank space above intro */
-.home-section,
-section.home-section,
-.resume-biography {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
-  margin-top: 0 !important;
+/* make pages wider */
+.container,
+.max-w-prose,
+.prose,
+.page-body,
+.article-container {
+  max-width: 1150px !important;
 }
 
-/* stop the homepage hero from taking the whole screen height */
-.hero,
-.hero-body,
-section:first-of-type {
-  min-height: auto !important;
-  height: auto !important;
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+/* make project card grids use the full wider page */
+.project-grid {
+  max-width: 1150px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-/* if the profile widget is being vertically centered */
-.resume-biography .container,
-.resume-biography .row,
-.home-section .container,
-.home-section .row {
-  align-items: flex-start !important;
+/* reduce horizontal padding on medium/large screens */
+@media (min-width: 768px) {
+  .container,
+  .mx-auto {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
 }
