@@ -9,8 +9,6 @@ tags:
   - Flow Visualization
 ---
 
-# Compact Water-Tunnel Flow Facility
-
 ## Overview
 
 This project involved work on a compact low-Reynolds-number water-tunnel facility designed for repeatable shear-layer and vortex-shedding experiments.
