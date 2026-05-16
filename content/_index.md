@@ -28,6 +28,21 @@ sections:
     design:
       columns: '1'
 
+      - block: markdown
+    content:
+      title: Selected Honors
+      text: |
+        - **Henry Ford II Scholar Award**, Caltech Engineering and Applied Science, 2026  
+          Awarded to engineering students with the strongest academic record at the end of their third year.
+
+        - **Jack E. Froehlich Memorial Award Nominee**, Caltech, 2026  
+          Nominated from the top 5% GPA group, with selection based on academics and research.
+
+        - **NASA BIG Idea Challenge Finalist**, Caltech Air and Outer Space Club, 2024  
+          Contributed to a finalist proposal awarded $150,000 for inflatable lunar landing shield development.
+    design:
+      columns: '1'
+
   - block: collection
     id: projects
     content:
