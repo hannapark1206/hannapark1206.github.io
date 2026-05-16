@@ -1,1 +1,16 @@
+.resume-biography {
+  padding-top: 1rem !important;
+  margin-top: 0 !important;
+}
 
+section:first-of-type {
+  padding-top: 1rem !important;
+}
+
+main {
+  padding-top: 0 !important;
+}
+
+.hero {
+  padding-top: 1rem !important;
+}
