@@ -13,9 +13,9 @@ sections:
 
         <div class="project-grid">
 
-        <a class="project-card" href="/projects/multi-modal-air-ground-robot/">
+        <a class="project-card" href="/projects/multi-modal-air-robot/">
           <div class="project-image">
-            <img src="/projects/multi-modal-air-ground-robot/featured.jpg" alt="Multi-modal air-ground robot project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/multi-modal-air-robot/featured.jpg" alt="Multi-modal air-ground robot project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Senior Thesis · Robotics · Hardware</div>
@@ -26,7 +26,7 @@ sections:
 
         <a class="project-card" href="/projects/fixed-wing-aerial-robot-sensing/">
           <div class="project-image">
-            <img src="/projects/fixed-wing-aerial-robot-sensing/featured.jpg" alt="Fixed-wing aerial robot sensing project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/fixed-wing-aerial-robot-sensing/16.png" alt="Fixed-wing aerial robot sensing project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Aerial Robotics · Controls · Sensing</div>
@@ -37,7 +37,7 @@ sections:
 
         <a class="project-card" href="/projects/compact-water-tunnel-flow-facility/">
           <div class="project-image">
-            <img src="/projects/compact-water-tunnel-flow-facility/featured.jpg" alt="Compact water tunnel flow facility project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/compact-water-tunnel-flow-facility/6.png" alt="Compact water tunnel flow facility image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Experimental Fluids · Hardware · Control</div>
@@ -48,7 +48,7 @@ sections:
 
         <a class="project-card" href="/projects/firefighting-hardware-prototype/">
           <div class="project-image">
-            <img src="/projects/firefighting-hardware-prototype/featured.jpg" alt="Firefighting prototype project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/firefighting-hardware-prototype/featured.jpg" alt="Firefighting hardware prototype image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Rapid Prototyping · Assembly · Field Systems</div>
@@ -63,23 +63,23 @@ sections:
 
         <div class="project-grid">
 
-        <a class="project-card" href="/projects/hebi-vision-motion-control/">
+        <a class="project-card" href="/projects/vision-motion-control/">
           <div class="project-image">
-            <img src="/projects/hebi-vision-motion-control/featured.jpg" alt="HEBI vision and motion control project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/vision-motion-control/featured.jpg" alt="Vision and motion control project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
-            <div class="project-tag">Class Project · Vision · Spline Motion</div>
-            <h3>HEBI Vision and Spline Motion Control</h3>
-            <p>Robotics class project using Python/OpenCV target detection and HEBI pan–tilt actuation with smooth spline-based motion commands.</p>
+            <div class="project-tag">Robotics · Vision · Motion Control</div>
+            <h3>Real-Time Vision and Motion Control</h3>
+            <p>Python/OpenCV target detection and HEBI pan–tilt actuation with smooth spline-based motion commands.</p>
           </div>
         </a>
 
         <a class="project-card" href="/projects/transmission-gearbox/">
           <div class="project-image">
-            <img src="/projects/transmission-gearbox/featured.jpg" alt="Transmission gearbox project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/transmission-gearbox/10.png" alt="Transmission gearbox project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
-            <div class="project-tag">Class Project · Mechanical Design</div>
+            <div class="project-tag">Mechanical Design · CAD · Machining</div>
             <h3>ME14 Transmission Gearbox</h3>
             <p>PDR/CDR mechanical design project with MATLAB performance modeling, SolidWorks CAD, keyed shafts, bearings, machining, and design reviews.</p>
           </div>
@@ -104,7 +104,7 @@ sections:
 
         <a class="project-card" href="/projects/cryogenic-detector-instrumentation/">
           <div class="project-image">
-            <img src="/projects/cryogenic-detector-instrumentation/featured.jpg" alt="Cryogenic detector instrumentation project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/cryogenic-detector-instrumentation/14.png" alt="Cryogenic detector instrumentation image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Cryogenics · Instrumentation · Python</div>
@@ -126,7 +126,7 @@ sections:
 
         <a class="project-card" href="/projects/packing-machine-product-design/">
           <div class="project-image">
-            <img src="/projects/packing-machine-product-design/featured.jpg" alt="Packing machine and product design project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/packing-machine-product-design/featured.jpg" alt="Packing machine and product design image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Industry · Hardware · Operations</div>
@@ -138,23 +138,11 @@ sections:
         </div>
 
         <style>
-        .projects-intro,
         .project-grid {
           width: min(1180px, calc(100vw - 3rem)) !important;
           max-width: none !important;
           margin-left: 50% !important;
           transform: translateX(-50%) !important;
-        }
-
-        .projects-intro {
-          font-size: 1.05rem;
-          line-height: 1.65;
-          margin-top: -1.5rem;
-          margin-bottom: 2.5rem;
-          color: #4b5563;
-        }
-
-        .project-grid {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
           gap: 1.4rem;
@@ -210,7 +198,7 @@ sections:
           font-weight: 600;
           color: #4f46e5;
           background: #eef2ff;
-          border-radius: 999px;
+          border-radius: 12px;
           padding: 0.25rem 0.62rem;
           margin-bottom: 0.55rem;
         }
