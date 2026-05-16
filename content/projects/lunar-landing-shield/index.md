@@ -28,3 +28,9 @@ Lunar systems, regolith mitigation, aerospace concept design, team proposal deve
 <div class="button-row">
   <a class="doc-button" href="PILLARS_Final_Paper.pdf">View PILLARS final paper</a>
 </div>
+<div class="media-grid">
+  <img src="19.png" alt="-">
+</div>
+<div class="media-grid">
+  <img src="20.png" alt="-">
+</div>
