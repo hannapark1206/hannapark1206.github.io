@@ -9,8 +9,6 @@ tags:
   - Concept Design
 ---
 
-# PILLARS Lunar Landing Shield
-
 ## Overview
 
 This project was part of the NASA BIG Idea Challenge through Caltech Air and Outer Space Club.
