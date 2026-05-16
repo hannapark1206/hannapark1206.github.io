@@ -9,8 +9,6 @@ tags:
   - Neuroscience
 ---
 
-# Visual Decision Data Analysis
-
 ## Overview
 
 This was my first research experience at Caltech through FSRI in the Rangel Neuroeconomics Laboratory.
