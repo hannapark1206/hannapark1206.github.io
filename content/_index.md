@@ -19,7 +19,7 @@ sections:
 
   - block: markdown
     content:
-      title: Selected Honors
+      title: Awards
       text: |
         - **Henry Ford II Scholar Award**, Caltech Engineering and Applied Science, 2026  
           Awarded to engineering students with the strongest academic record at the end of their third year.
