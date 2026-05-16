@@ -32,7 +32,6 @@ I worked on the hardware and software integration, including target detection, m
 Python, OpenCV, HEBI actuators, robotics, target tracking, spline-based motion, motion control, mechanical prototyping.
 
 ## Media
-
 <div class="media-grid">
-  <img src="17.png" alt="Gaze geometry diagram for visual decision analysis">
+  <img src="18.png" alt=".">
 </div>
