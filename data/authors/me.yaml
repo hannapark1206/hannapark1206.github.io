@@ -1,73 +1,196 @@
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
 
-  \resumeSubheading
-  {SpaceX Engineering Internship}{Summer 2026}
-  {\footnotesize{Falcon Propulsion Engineering Intern}}{\footnotesize{Hawthorne, CA}}
+name:
+  display: Hanna Park
+  given: Hanna
+  family: Park
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
 
-  \vspace{3pt}
-  \resumeSubheading
-  {M4 (Multi-Modal Mobility Morphobot) -- Air--Ground Transforming Robot Deflector Design}
-  {January 2026 -- Present}
-  {\footnotesize{California Institute of Technology}}{\footnotesize{Pasadena, CA}}
-  \resumeItemListStart
-    \resumeItem{Investigating thrust-biasing deflector designs to improve lift distribution and transition performance on M4's air--ground robot platform.}
-    \resumeItem{Designed and fabricated an integrated drone test platform, combining CAD, propulsion, avionics, and structural assembly for air--ground testing.}
-    \resumeItem{Used ANSYS, OpenFOAM CFD, and bench testing to compare deflector geometries by thrust bias, drag penalty, and integration feasibility.}
-  \resumeItemListEnd
+postnominals: []
 
-  \resumeSubheading
-  {Gharib Group -- X2 FALCON UAV Aerodynamic Sensing \& Flight-Control Integration}
-  {October 2024 -- January 2026}
-  {\footnotesize{Center for Autonomous Systems and Technologies -- Graduate Aerospace Laboratories of Caltech (GALCIT)}}{\footnotesize{Pasadena, CA}}
-  \resumeItemListStart
-    \resumeItem{Designed and wind-tunnel calibrated five-hole Pitot probes with custom housings and sensor PCBs to improve local flow-angle and pressure measurement for fixed-wing UAV testing.}
-    \resumeItem{Integrated Cube Orange+, Jetson, Teensy, servos, and NUC ground station through ROS/MAVLink to support onboard data collection, communication, and manual override during free-flight experiments.}
-    \resumeItem{Synchronized OptiTrack motion-capture data on Jetson for real-time aircraft tracking and stability evaluation in turbulent-flow tests.}
-  \resumeItemListEnd
+status:
+  icon: "🤖"
 
-  \resumeSubheading
-  {Transmissions Gearbox Design Project}
-  {March 2025 -- June 2025}
-  {\footnotesize{California Institute of Technology}}{\footnotesize{Pasadena, CA}}
-  \resumeItemListStart
-    \resumeItem{Modeled gear-ratio selection and efficiency in MATLAB, then led CAD design and machining of the housing and shafts for a precisely aligned multi-stage transmission.}
-  \resumeItemListEnd
+role: Mechanical Engineering Student
 
-  \resumeSubheading
-  {Gharib Group -- Low-Reynolds-Number Flow Facility}
-  {February 2024 -- June 2024}
-  {\footnotesize{Graduate Aerospace Laboratories of Caltech (GALCIT), California Institute of Technology}}{\footnotesize{Pasadena, CA}}
-  \resumeItemListStart
-    \resumeItem{Designed and built a compact 2$\times$1 m water tunnel for low-Reynolds-number shear-layer and vortex-shedding experiments, reducing facility footprint by 86\%.}
-    \resumeItem{Programmed Arduino control for a 9$\times$9 modular turbine array with synchronized PWM and pattern sequencing to generate repeatable flow conditions.}
-    \resumeItem{Validated facility performance using PIV and dye injection, observing K\'arm\'an vortex streets across Reynolds numbers with $\sim$1--2\% turbulence intensity.}
-  \resumeItemListEnd
+bio: |
+  I am a mechanical engineering student at Caltech interested in robotics, controls,
+  aerial systems, and multi-modal robot platforms. My work focuses on building and
+  testing physical robotic systems through flight-control integration, prototyping,
+  aerodynamic testing, sensing, and experimental validation.
 
-  \resumeSubheading
-  {Real-Time Vision \& Motion Control System Project}
-  {September 2023 -- December 2023}
-  {\footnotesize{California Institute of Technology}}{\footnotesize{Pasadena, CA}}
-  \resumeItemListStart
-    \resumeItem{Built a Python/OpenCV camera-guided pan--tilt tracking system using thread-safe target streaming and HEBI cubic-spline trajectories.}
-  \resumeItemListEnd
+affiliations:
+  - name: California Institute of Technology
+    url: https://www.caltech.edu/
 
-  \resumeSubheadingSimple
-  {Wellatex INC. -- Assembly Machine Management and Product Design Lead}{January 2019 -- Present}
-  \resumeItemListStart
-    \resumeItem{Assembled a 4$\times$6 m mattress vacuum packing machine; designed 9 pallet shipping boxes for 50+ product dimensions.}
-  \resumeItemListEnd
+links:
+  - icon: at-symbol
+    url: mailto:hpark4@caltech.edu
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/hannapark1206
+    label: GitHub
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/park-hanna/
+    label: LinkedIn
 
-  \resumeSubheading
-  {Golwala Group SURF -- Cryogenic Detector Development}
-  {June 2024 -- September 2024}
-  {\footnotesize{California Institute of Technology}}{\footnotesize{Pasadena, CA}}
-  \resumeItemListStart
-    \resumeItem{Modified kinetic inductance detector geometry and added quasiparticle phonon guides to improve phonon collection, reducing phonon loss by 2--3 orders.}
-    \resumeItem{Developed a Python resonance-fitting pipeline for superconducting resonators, reducing fit time by 80\% while keeping error within 20\%.}
-    \resumeItem{CAD-designed detector mount and wire-bonded resonators to support thermal anchoring and vibration-robust cryogenic operation.}
-  \resumeItemListEnd
+interests:
+  - Robotics and Controls
+  - Aerial and Multi-Modal Robot Platforms
+  - Flight-Control Integration
+  - Hardware Prototyping and System Testing
+  - Experimental Aerodynamics and Sensing
 
-  \resumeSubHeadingListEnd
-\vspace{-15pt}
+education:
+  - degree: B.S. Mechanical Engineering
+    institution: California Institute of Technology
+    start: 2023-09-01
+    end: 2027-06-30
+    summary: |
+      GPA: 4.3/4.0. Relevant coursework includes robotics, dynamics and control,
+      mechanical prototyping, design and fabrication, CFD, differential equations,
+      and transform methods.
+
+  - degree: Engineering, Cambridge Scholars Program
+    institution: University of Cambridge, St John's College
+    start: 2025-09-01
+    end: 2025-12-31
+    summary: |
+      Completed graduate-level coursework in aircraft aerodynamics and design,
+      aircraft stability and control, nuclear reactor engineering, and technology management.
+
+experience:
+  - role: Falcon Propulsion Engineering Intern
+    org: SpaceX
+    start: 2026-06-01
+    end: 2026-09-01
+    summary: |
+      Incoming engineering intern on the Falcon Propulsion team.
+
+  - role: Undergraduate Researcher, M4 Air-Ground Robot
+    org: California Institute of Technology
+    start: 2026-01-01
+    summary: |
+      Building and testing aerial and multi-modal robot hardware through CAD,
+      fabrication, propulsion and avionics integration, deflector design, CFD,
+      and bench testing.
+
+  - role: Undergraduate Researcher, Flight-Ready Sensing and Control Integration
+    org: Gharib Group, CAST/GALCIT
+    start: 2024-10-01
+    end: 2026-01-31
+    summary: |
+      Integrated embedded sensing, flight-control, actuator, and ground-station
+      systems for fixed-wing aerial robot testing. Built ROS/MAVLink workflows
+      and designed five-hole Pitot probe hardware for aerodynamic flow measurement.
+
+  - role: Undergraduate Research Assistant, Low-Reynolds-Number Flow Facility
+    org: Gharib Group, GALCIT
+    start: 2024-02-01
+    end: 2024-06-30
+    summary: |
+      Collaborated on water-tunnel hardware, turbine-array fixtures, electronics,
+      and power configuration. Implemented Arduino/PWM turbine-array control and
+      supported PIV/dye-flow validation.
+
+  - role: Summer Undergraduate Research Fellow, Cryogenic Detector Hardware
+    org: Golwala Group, California Institute of Technology
+    start: 2024-06-01
+    end: 2024-09-30
+    summary: |
+      Worked on cryogenic detector hardware and superconducting resonator analysis
+      through CAD design, KID detector modifications, wire-bonded assembly, and
+      Python resonance fitting.
+
+  - role: Real-Time Vision and Motion Control Project
+    org: California Institute of Technology
+    start: 2023-09-01
+    end: 2023-12-31
+    summary: |
+      Built a real-time camera-guided tracking system using Python/OpenCV target
+      detection and HEBI actuator control.
+
+skills:
+  - name: Robotics & Control
+    items:
+      - label: Flight-control integration
+        level: 4
+      - label: Actuator control
+        level: 4
+      - label: ROS Noetic
+        level: 4
+      - label: MAVLink/MAVROS
+        level: 4
+      - label: ArduPilot/PX4
+        level: 3
+
+  - name: UAS Tools & Testing
+    items:
+      - label: QGroundControl
+        level: 4
+      - label: Mission Planner
+        level: 3
+      - label: OptiTrack
+        level: 3
+      - label: Wind-tunnel testing
+        level: 4
+      - label: PIV/dye visualization
+        level: 3
+
+  - name: Mechanical Design
+    items:
+      - label: SolidWorks
+        level: 4
+      - label: Engineering drawings
+        level: 4
+      - label: Machining
+        level: 3
+      - label: 3D printing
+        level: 4
+      - label: Soldering and wiring
+        level: 4
+
+  - name: Simulation & Programming
+    items:
+      - label: OpenFOAM
+        level: 3
+      - label: ANSYS Mechanical
+        level: 3
+      - label: Simulink
+        level: 3
+      - label: Python
+        level: 4
+      - label: MATLAB
+        level: 4
+      - label: C/C++
+        level: 3
+      - label: Linux/Git
+        level: 3
+
+languages:
+  - name: Korean
+    level: 5
+    label: Native
+  - name: Japanese
+    level: 4
+    label: Proficient
+  - name: Spanish
+    level: 3
+    label: Conversational
+
+awards:
+  - title: Henry Ford II Scholar Award
+    awarder: Caltech Engineering and Applied Science
+    date: "2026-06-01"
+    summary: Awarded to engineering students with the strongest academic record at the end of their third year.
+    icon: hero/trophy
+
+  - title: Jack E. Froehlich Memorial Award Nominee
+    awarder: California Institute of Technology
+    date: "2026-05-01"
+    summary: Nominated from the top 5% GPA group, with selection based on academics and research.
+    icon: hero/trophy
