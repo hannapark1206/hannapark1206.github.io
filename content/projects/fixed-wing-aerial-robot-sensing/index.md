@@ -2,86 +2,152 @@
 title: "Fixed-Wing Aerial Robot Sensing and Flight-Control Integration"
 summary: "Flight-control integration, ROS/MAVLink data workflows, five-hole Pitot probe hardware, and wind-tunnel calibration for fixed-wing aerial robot testing."
 date: 2024-10-01
-tags:
-  - Aerial Robotics
-  - Flight Control
-  - Aerodynamic Sensing
-  - ROS/MAVLink
-  - Wind-Tunnel Testing
+toc: false
+share: false
+commentable: false
 ---
 
-## Overview
+<div class="portfolio-hero">
 
-This project focuses on preparing a fixed-wing aerial robot for controlled flight experiments by integrating flight-control hardware, onboard computation, actuator control, aerodynamic sensing, and ground-station communication.
+<p class="project-kicker">Gharib Group · Aerial Robotics · 2024–2026</p>
 
-The system combines a fixed-wing aircraft, custom five-hole Pitot probe hardware, pressure sensing, motion capture, and ROS/MAVLink data workflows to support flight testing and aerodynamic measurement.
+<p class="project-lede">
+I worked on a fixed-wing aerial robot test platform by integrating flight-control hardware, onboard computation, actuator systems, aerodynamic sensing, and ground-station communication.
+</p>
+
+<div class="skill-row">
+  <span class="skill-chip">✈️ Fixed-wing UAV</span>
+  <span class="skill-chip">⚙️ Cube Orange+</span>
+  <span class="skill-chip">🤖 Jetson</span>
+  <span class="skill-chip">🔗 ROS/MAVLink</span>
+  <span class="skill-chip">📡 OptiTrack</span>
+  <span class="skill-chip">🌬️ Wind-tunnel calibration</span>
+</div>
+
+</div>
+
+## Project Snapshot
+
+This system combined a fixed-wing aircraft, custom five-hole Pitot probe hardware, pressure sensing, motion capture, and ROS/MAVLink data workflows to support flight testing and aerodynamic measurement.
 
 ## My Role
 
 I worked on the sensing, flight-control integration, and experimental setup side of the system.
 
-My contributions included integrating hardware across the aircraft and ground-station system, setting up communication and data workflows, supporting manual override for testing, synchronizing motion-capture data, and designing five-hole Pitot probe hardware for flow measurement.
+My contributions included hardware integration, communication setup, data retrieval workflows, manual override support, motion-capture synchronization, and five-hole Pitot probe design for flow measurement.
 
-## System Integration
+## What I Built and Integrated
 
-The flight-test system brought together multiple hardware and software components:
+<div class="two-col">
 
-- Cube Orange+ flight controller
-- Jetson onboard computer
-- Teensy microcontroller
-- Servo actuator control
-- NUC ground station
-- QGroundControl / Mission Planner
-- MAVLink / MAVROS communication
-- ROS-based data collection
-- OptiTrack motion capture
+<div>
 
-The goal was to make the aircraft test-ready while keeping the system reliable enough for manual override, debugging, and experimental data collection.
+### Flight-control and data system
 
-## Five-Hole Pitot Probe Design
+- Integrated Cube Orange+ flight controller with onboard compute and actuator hardware
+- Set up communication between aircraft hardware and ground station
+- Worked with QGroundControl / Mission Planner, MAVLink, and ROS-based workflows
+- Supported manual override and free-flight testing readiness
 
-The aerodynamic sensing subsystem used custom five-hole Pitot probe hardware to measure local pressure and flow-angle information.
+</div>
 
-I worked on probe geometry, housing design, sensor integration, and calibration planning. The design process included:
+<div>
 
-- Studying modified ellipsoidal Pitot probe geometry
-- Using a 4:1 ellipsoidal nose profile
-- Choosing a flat-tip geometry to reduce suction peak effects
-- Considering hole sizing, burrs, and fabrication limits
-- Evaluating tubing bends and pressure-loss effects
-- Designing probe housings and sensor layouts
-- Preparing for wind-tunnel calibration
+### Aerodynamic sensing system
 
-## Data and Testing Workflow
+- Designed five-hole Pitot probe hardware for local pressure and flow-angle measurement
+- Worked on probe geometry, housing design, and sensor integration
+- Considered tubing layout and pressure-loss effects
+- Prepared hardware for wind-tunnel calibration
 
-The system was designed to collect synchronized data from multiple sources, including pressure sensors, flight-controller telemetry, IMU data, actuator commands, and motion-capture tracking.
+</div>
 
-Important testing goals included:
+</div>
 
-- Reliable telemetry and command links
-- ROS/MAVLink data retrieval
-- Manual override during free-flight testing
-- Wind-tunnel calibration of the sensing hardware
-- Real-time aircraft tracking using OptiTrack
-- Post-test analysis of pressure, motion, and flight-control data
+## Technical Stack
 
-## Skills Used
-
-- Aerial robotics
-- Flight-control integration
-- Aerodynamic sensing
-- Five-hole Pitot probe design
-- ROS Noetic
-- MAVLink / MAVROS
-- QGroundControl / Mission Planner
-- Cube Orange+
-- Jetson
-- Teensy
-- OptiTrack
-- Wind-tunnel testing
-- Sensor integration
-- Hardware debugging
+<div class="skill-row">
+  <span class="skill-chip">ROS Noetic</span>
+  <span class="skill-chip">MAVLink/MAVROS</span>
+  <span class="skill-chip">QGroundControl</span>
+  <span class="skill-chip">Mission Planner</span>
+  <span class="skill-chip">Cube Orange+</span>
+  <span class="skill-chip">Jetson</span>
+  <span class="skill-chip">Teensy</span>
+  <span class="skill-chip">OptiTrack</span>
+  <span class="skill-chip">Pressure sensing</span>
+  <span class="skill-chip">Wind-tunnel testing</span>
+</div>
 
 ## Media
 
 Photos, CAD screenshots, calibration plots, and test videos will be added here.
+
+<style>
+.article-metadata,
+.toc-sidebar,
+.page-toc,
+.docs-toc,
+#TableOfContents {
+  display: none !important;
+}
+
+.portfolio-hero {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  max-width: 980px;
+}
+
+.project-kicker {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4f46e5;
+  margin-bottom: 0.8rem;
+}
+
+.project-lede {
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #374151;
+  max-width: 850px;
+}
+
+.skill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #dbe3ff;
+  background: #f5f7ff;
+  color: #27324a;
+  border-radius: 12px;
+  padding: 0.42rem 0.75rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.two-col > div {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 1.2rem 1.3rem;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+</style>
