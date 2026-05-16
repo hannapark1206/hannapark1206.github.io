@@ -1,40 +1,37 @@
 ---
-title: M4 Air-Ground Robot Platform
-summary: Air-ground robot hardware, thrust-vectoring, and flight testing.
-date: 2026-05-16
-image:
-  filename: featured.jpg
+title: "Multi-Modal Air-Ground Robot Platform"
+summary: "Aerial hardware integration, thrust-biasing deflector design, CFD checks, and bench testing for a multi-modal air-ground robot platform."
+date: 2026-01-01
+tags:
+  - Robotics
+  - Aerial Systems
+  - Hardware
+  - CFD
 ---
 
-# M4 Air-Ground Robot Platform
+# Multi-Modal Air-Ground Robot Platform
 
 ## Overview
 
-The M4 platform is a multi-modal aerial and ground robotic system currently under development at Caltech.
+This project focuses on building and testing hardware for a multi-modal air-ground robot platform. My work is centered on the aerial platform, including drone hardware integration and thrust-biasing deflector design.
 
-My work focuses on:
+## My Role
 
-- airframe design
-- propulsion integration
-- avionics integration
-- thrust-biasing deflector design
-- CFD validation
-- bench testing
+I am working on mechanical prototyping, propulsion and avionics integration, CFD-informed design checks, and bench testing.
 
-## My Contributions
+## What I Worked On
 
-### Hardware Integration
+- Built and integrated drone-platform hardware for air-ground testing
+- Designed and fabricated structural components
+- Integrated propulsion and avionics hardware
+- Designed thrust-biasing deflector concepts
+- Used CFD and bench testing to compare thrust and drag tradeoffs
+- Iterated hardware based on fit, packaging, and test behavior
 
-Integrated motors, ESCs, avionics, and flight hardware.
+## Technical Areas
 
-### Aerodynamic Testing
-
-Designed and tested thrust-vectoring deflectors.
-
-### Simulation
-
-Used OpenFOAM and ANSYS to study thrust, drag, and wake behavior.
+SolidWorks, fabrication, 3D printing, propulsion integration, avionics integration, ANSYS, OpenFOAM, bench testing, air-ground robotics.
 
 ## Media
 
-More photos, CAD screenshots, and videos will be added here.
+Photos, CAD screenshots, CFD results, and test videos will be added here.
