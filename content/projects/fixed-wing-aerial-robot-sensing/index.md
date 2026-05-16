@@ -9,7 +9,7 @@ commentable: false
 
 <div class="portfolio-hero">
 
-<p class="project-kicker">Gharib Group · Aerial Robotics · 2024–2026</p>
+<p class="project-kicker">Gharib Group · Aerial Robotics · 2024–2025</p>
 
 <p class="project-lede">
 I worked on a fixed-wing aerial robot test platform by integrating flight-control hardware, onboard computation, actuator systems, aerodynamic sensing, and ground-station communication.
