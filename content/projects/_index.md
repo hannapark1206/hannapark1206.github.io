@@ -140,13 +140,22 @@ sections:
         </a>
 
         </div>
-            <style>
+
+        <style>
         .projects-intro,
         .project-grid {
           width: min(1180px, calc(100vw - 3rem)) !important;
           max-width: none !important;
           margin-left: 50% !important;
           transform: translateX(-50%) !important;
+        }
+
+        .projects-intro {
+          font-size: 1.05rem;
+          line-height: 1.65;
+          margin-top: -1.5rem;
+          margin-bottom: 2.5rem;
+          color: #4b5563;
         }
 
         .project-grid {
@@ -223,7 +232,6 @@ sections:
           margin: 0;
         }
         </style>
-    
     design:
       columns: '1'
 ---
