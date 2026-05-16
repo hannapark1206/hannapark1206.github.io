@@ -9,10 +9,6 @@ sections:
     content:
       title:
       text: |
-        <p class="projects-intro">
-        Selected research, class, and hardware projects in aerial robotics, controls, experimental systems, rapid prototyping, and instrumentation.
-        </p>
-
         ## Gharib Group Projects
 
         <div class="project-grid">
