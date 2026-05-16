@@ -13,11 +13,7 @@ tags:
 
 This was my first research experience at Caltech through FSRI in the Rangel Neuroeconomics Laboratory.
 
-The project studied visual search and choice behavior using behavioral and eye-tracking data.
-
-## My Role
-
-I analyzed experimental data using Python and regression methods to study how attention and item familiarity affected choice behavior.
+The project studied visual search and choice behavior using behavioral and eye-tracking data. 
 
 ## What I Worked On
 
