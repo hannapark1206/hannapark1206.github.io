@@ -10,8 +10,6 @@ tags:
   - Wind-Tunnel Testing
 ---
 
-# Fixed-Wing Aerial Robot Sensing and Flight-Control Integration
-
 ## Overview
 
 This project focuses on preparing a fixed-wing aerial robot for controlled flight experiments by integrating flight-control hardware, onboard computation, actuator control, aerodynamic sensing, and ground-station communication.
