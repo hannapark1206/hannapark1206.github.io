@@ -33,4 +33,13 @@ Experimental fluids, Arduino/PWM control, turbine arrays, wiring, power configur
 
 ## Media
 
-Water-tunnel photos, turbine-array photos, wiring images, flow visualization, and validation results will be added here.
+<div class="button-row">
+  <a class="doc-button" href="Water%20Tunnel%20in%20a%20Box%20-%20Improvements%20to%20a%20compact%20flow%20facility.pdf">View water tunnel presentation</a>
+</div>
+
+<div class="media-grid">
+  <img src="6.png" alt="Compact water tunnel facility">
+  <img src="5.png" alt="Water tunnel CAD model">
+  <img src="7.png" alt="PIV setup diagram">
+  <img src="8.png" alt="Dye visualization of vortex shedding">
+</div>
