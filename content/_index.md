@@ -31,12 +31,23 @@ sections:
 
           <a class="home-project-card" href="/projects/multi-modal-air-robot/">
             <div class="home-project-image">
-              <img src="/projects/multi-modal-air-robot/featured.jpg" alt="Multi-modal air-ground robot project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+              <img src="/projects/multi-modal-air-robot/m4.png" alt="Multi-modal air-ground robot project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
             </div>
             <div class="home-project-body">
               <p class="home-kicker">Senior Thesis · Robotics</p>
               <h3>Multi-Modal Air–Ground Robot Platform</h3>
               <p>Aerial hardware integration, ESC/motor setup, deflector design, CFD checks, and bench testing.</p>
+            </div>
+          </a>
+
+          <a class="home-project-card" href="/projects/firefighting-hardware-prototype/">
+            <div class="home-project-image">
+              <img src="/projects/firefighting-hardware-prototype/firefighting.png" alt="Firefighting hardware prototype project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            </div>
+            <div class="home-project-body">
+              <p class="home-kicker">Rapid Prototyping · Hardware</p>
+              <h3>Firefighting Hardware Prototype</h3>
+              <p>Rapid prototyping, mechanical assembly, hardware modification, and project support.</p>
             </div>
           </a>
 
