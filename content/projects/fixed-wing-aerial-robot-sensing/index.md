@@ -7,7 +7,7 @@ share: false
 commentable: false
 ---
 
-<div class="media-grid top-media">
+<div class="top-stack">
   <img src="1.png" alt="Five-hole Pitot probe and pressure-sensor electronics">
   <img src="2.png" alt="Five-hole Pitot probe CAD">
 </div>
@@ -31,6 +31,8 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
 
 </div>
 
+## Project Report
+
 <div class="report-box">
   <div>
     <p class="report-label">Project report</p>
@@ -38,12 +40,33 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
   </div>
   <a class="report-button" href="Hanna_Park_X2%20Report.pdf">Open report</a>
 </div>
+
+## Technical Stack
+
+<div class="skill-row">
+  <span class="skill-chip">ROS Noetic</span>
+  <span class="skill-chip">MAVLink/MAVROS</span>
+  <span class="skill-chip">QGroundControl</span>
+  <span class="skill-chip">Mission Planner</span>
+  <span class="skill-chip">Cube Orange+</span>
+  <span class="skill-chip">Jetson</span>
+  <span class="skill-chip">Teensy</span>
+  <span class="skill-chip">OptiTrack</span>
+  <span class="skill-chip">Pressure sensing</span>
+  <span class="skill-chip">Wind-tunnel testing</span>
+</div>
+
 ## Additional Media
 
-<div class="media-grid bottom-media">
-  <img src="16.png" alt="Fixed-wing aerial robot test platform">
-  <img src="3.jpeg" alt="PlotJuggler pressure data">
-  <img src="4.jpeg" alt="ROS and MAVLink telemetry visualization">
+<div class="bottom-stack">
+  <div class="bottom-top">
+    <img src="16.png" alt="Fixed-wing aerial robot test platform">
+  </div>
+
+  <div class="bottom-two">
+    <img src="3.jpeg" alt="PlotJuggler pressure data">
+    <img src="4.jpeg" alt="ROS and MAVLink telemetry visualization">
+  </div>
 </div>
 
 <style>
@@ -140,51 +163,63 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
   white-space: nowrap;
 }
 
-.media-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+/* top images stacked */
+.top-stack {
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 2.2rem;
 }
 
-.media-grid img {
+.top-stack img {
   width: 100%;
   height: auto;
-  object-fit: contain;
+  display: block;
   border-radius: 18px;
   border: 1px solid #e5e7eb;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
 
-.top-media {
+/* bottom layout */
+.bottom-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-top: 1rem;
-}
-.bottom-media {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  align-items: start;
   margin-bottom: 2.5rem;
 }
 
-.bottom-media img {
+.bottom-top img {
   width: 100%;
-  height: 260px;
-  object-fit: contain;
-  object-position: center;
+  height: auto;
+  display: block;
   border-radius: 18px;
   border: 1px solid #e5e7eb;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
-  @media (max-width: 850px) {
-  .media-grid,
-  .bottom-media {
-    grid-template-columns: 1fr;
-  }
 
-  .bottom-media img {
-    height: auto;
+.bottom-two {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.bottom-two img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 850px) {
+  .bottom-two {
+    grid-template-columns: 1fr;
   }
 
   .report-box {
