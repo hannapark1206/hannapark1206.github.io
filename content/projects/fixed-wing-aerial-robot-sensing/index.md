@@ -31,8 +31,6 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
 
 </div>
 
-## Project Report
-
 <div class="report-box">
   <div>
     <p class="report-label">Project report</p>
@@ -40,22 +38,6 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
   </div>
   <a class="report-button" href="Hanna_Park_X2%20Report.pdf">Open report</a>
 </div>
-
-## Technical Stack
-
-<div class="skill-row">
-  <span class="skill-chip">ROS Noetic</span>
-  <span class="skill-chip">MAVLink/MAVROS</span>
-  <span class="skill-chip">QGroundControl</span>
-  <span class="skill-chip">Mission Planner</span>
-  <span class="skill-chip">Cube Orange+</span>
-  <span class="skill-chip">Jetson</span>
-  <span class="skill-chip">Teensy</span>
-  <span class="skill-chip">OptiTrack</span>
-  <span class="skill-chip">Pressure sensing</span>
-  <span class="skill-chip">Wind-tunnel testing</span>
-</div>
-
 ## Additional Media
 
 <div class="media-grid bottom-media">
@@ -179,14 +161,30 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
 .top-media {
   margin-top: 1rem;
 }
-
 .bottom-media {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
   margin-bottom: 2.5rem;
 }
 
-@media (max-width: 850px) {
-  .media-grid {
+.bottom-media img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+  @media (max-width: 850px) {
+  .media-grid,
+  .bottom-media {
     grid-template-columns: 1fr;
+  }
+
+  .bottom-media img {
+    height: auto;
   }
 
   .report-box {
