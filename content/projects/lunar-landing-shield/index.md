@@ -15,16 +15,9 @@ tags:
   <img src="20.png" alt="PILLARS project figure">
 </div>
 
-<div class="paper-highlight">
-  <div>
-    <p class="paper-title">PILLARS Final Paper</p>
-    <p class="paper-text">
-      Full proposal with the concept, system design, and dust-mitigation approach.
-    </p>
-  </div>
-
-  <a class="paper-button" href="PILLARS_Final_Paper.pdf">
-    View PDF
+<div class="button-row">
+  <a class="doc-button" href="PILLARS_Final_Paper.pdf">
+    View PILLARS final paper
   </a>
 </div>
 
