@@ -12,7 +12,8 @@ commentable: false
 <p class="project-kicker">Gharib Group · Rapid Prototyping · 2026</p>
 
 <p class="project-lede">
-I support rapid prototyping and assembly work for a firefighting-related hardware system, with a focus on mechanical fit, packaging, fabrication, and test preparation.
+I support rapid prototyping and assembly work for a firefighting project. 
+  
 </p>
 
 <div class="skill-row">
