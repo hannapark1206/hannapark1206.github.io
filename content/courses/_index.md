@@ -34,9 +34,9 @@ sections:
             <h2>Engineering Study Abroad</h2>
             <p class="edu-subtitle">Michaelmas Term · Sept–Dec 2025</p>
             <p>
-              Study abroad term in Engineering, completed through master’s-level coursework in aircraft aerodynamics and design, aircraft stability and control, nuclear reactor engineering, and management of technology.
+              Study abroad term in Engineering, with coursework in aircraft aerodynamics and design, aircraft stability and control, nuclear reactor engineering, and management of technology.
             </p>
-            <div class="highlight-chip">Master’s-level engineering courses</div>
+            <div class="highlight-chip">Cambridge engineering courses</div>
           </div>
 
         </div>
@@ -92,9 +92,9 @@ sections:
           </div>
 
           <div class="course-card cambridge-course-card">
-            <h3>Cambridge Master’s-Level Coursework</h3>
+            <h3>Cambridge Graduate Coursework</h3>
             <p class="course-note">
-              Engineering study abroad coursework taken at the master’s level during Michaelmas Term.
+              Engineering study abroad coursework completed during Michaelmas Term.
             </p>
             <div class="chip-row">
               <span class="course-chip">Aircraft Aerodynamics & Design</span>
