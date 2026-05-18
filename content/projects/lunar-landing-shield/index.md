@@ -9,28 +9,25 @@ tags:
   - Concept Design
 ---
 
-## Overview
+<div class="portfolio-page-wrap">
 
-This project was part of the NASA BIG Idea Challenge through Caltech Air and Outer Space Club.
-
-The concept focused on a plume-deployed inflatable shield for reducing abrasive lunar regolith disturbance during landing.
-
-## My Role
-
-I contributed to the proposal and dust modeling side of the project.
-
-## Technical Areas
-
-Lunar systems, regolith mitigation, aerospace concept design, team proposal development, dust modeling.
-
-## Media
-
-<div class="button-row">
-  <a class="doc-button" href="PILLARS_Final_Paper.pdf">View PILLARS final paper</a>
-</div>
 <div class="media-grid">
-  <img src="19.png" alt="-">
+  <img src="19.png" alt="PILLARS lunar landing shield concept">
+  <img src="20.png" alt="PILLARS project figure">
 </div>
-<div class="media-grid">
-  <img src="20.png" alt="-">
+
+<div class="paper-highlight">
+  <p class="paper-title">NASA BIG Idea Challenge Finalist Paper</p>
+  <p class="paper-text">
+    Read the full PILLARS proposal for more details on the concept, system design, and dust-mitigation approach.
+  </p>
+  <div class="button-row">
+    <a class="doc-button" href="PILLARS_Final_Paper.pdf">View PILLARS final paper</a>
+  </div>
+</div>
+
+<p class="project-lede">
+PILLARS was a NASA BIG Idea Challenge finalist concept developed through Caltech Air and Outer Space Club. The project focused on a <strong>plume-deployed inflatable landing shield</strong> designed to reduce abrasive lunar regolith disturbance during landing. I contributed to the <strong>proposal writing and dust modeling</strong> side of the project, working across lunar systems, regolith mitigation, aerospace concept design, and team proposal development.
+</p>
+
 </div>
