@@ -1,5 +1,5 @@
 ---
-title: "ME14 Transmission Gearbox"
+title: "Two-Stage Transmission Gearbox"
 summary: "PDR/CDR mechanical design project with MATLAB performance modeling, SolidWorks CAD, keyed shafts, bearings, machining, and design reviews."
 date: 2025-03-01
 toc: false
@@ -7,7 +7,7 @@ share: false
 commentable: false
 ---
 
-<div class="top-stack">
+<div class="top-media">
   <img src="10.png" alt="Physical gearbox test setup">
   <img src="9.png" alt="Transmission gearbox CAD model">
 </div>
@@ -100,21 +100,29 @@ This project focused on designing and reviewing a compact two-stage transmission
   line-height: 1.2;
 }
 
-.top-stack {
-  display: flex;
-  flex-direction: column;
+.top-media {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 2.2rem;
 }
 
-.top-stack img {
+.top-media img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  max-height: 430px;
+  object-fit: contain;
   display: block;
   border-radius: 18px;
   border: 1px solid #e5e7eb;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 850px) {
+  .top-media {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
