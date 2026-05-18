@@ -9,7 +9,7 @@ sections:
     content:
       username: me
       text: |
-        I work on robotic hardware systems, especially aerial and multi-modal platforms, through flight-control integration, mechanical prototyping, sensing, and experimental testing.
+        Excited about robotic hardware systems, especially aerial and multi-modal platforms, through flight-control integration, mechanical prototyping, sensing, and experimental testing.
       button:
         text: Download CV
         url: uploads/resume.pdf
