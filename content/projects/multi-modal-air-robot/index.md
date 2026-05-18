@@ -12,28 +12,37 @@ tags:
   - CFD
 ---
 
+<div class="portfolio-page-wrap">
+
 <div class="portfolio-hero">
+
+<div class="project-video-wrap">
+  <video class="project-video" controls muted playsinline preload="metadata">
+    <source src="m4-demo.mp4" type="video/mp4">
+  </video>
+</div>
 
 <p class="project-kicker">Senior Thesis · Aerial Robotics · 2026–Present</p>
 
 <p class="project-lede">
-I am working on hardware development for a multi-modal air–ground robot platform, focusing on the aerial system, flight-control hardware, ESC/motor integration, thrust-biasing deflector design, CFD-informed checks, and bench testing.
+I am working on hardware development for a multi-modal air–ground robot platform, focusing on the aerial system, flight-control hardware, ESC/motor integration, two-servo deflector actuation, thrust-biasing deflector design, CFD-informed checks, and bench testing.
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip">🤖 Multi-modal robotics</span>
-  <span class="skill-chip">✈️ Aerial hardware</span>
-  <span class="skill-chip">⚙️ ESC/motor integration</span>
-  <span class="skill-chip">🎛️ Flight-control hardware</span>
-  <span class="skill-chip">🌬️ CFD checks</span>
-  <span class="skill-chip">🧪 Bench testing</span>
+  <span class="skill-chip">Multi-modal robotics</span>
+  <span class="skill-chip">Aerial hardware</span>
+  <span class="skill-chip">ESC/motor integration</span>
+  <span class="skill-chip">Flight-control hardware</span>
+  <span class="skill-chip">Servo actuation</span>
+  <span class="skill-chip">CFD checks</span>
+  <span class="skill-chip">Bench testing</span>
 </div>
 
 </div>
 
 ## Project Snapshot
 
-This project focuses on building and testing hardware for a multi-modal air–ground robot platform. My work is centered on the aerial platform, including drone hardware integration, propulsion setup, flight-control hardware, and thrust-biasing deflector design.
+This project focuses on building and testing hardware for a multi-modal air–ground robot platform. My work is centered on the aerial platform, including custom quadrotor hardware integration, propulsion setup, flight-control hardware, two-servo deflector actuation, and thrust-biasing deflector design.
 
 ## My Role
 
@@ -49,7 +58,7 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
 
 - Built and integrated drone-platform hardware for air–ground testing
 - Designed and fabricated structural components
-- Worked through packaging, fit, and assembly constraints
+- Worked through packaging, fit, wiring, and assembly constraints
 - Iterated hardware based on test behavior and integration issues
 
 </div>
@@ -60,6 +69,7 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
 
 - Integrated ESCs, motors, and propulsion hardware
 - Worked with flight-control hardware and wiring layout
+- Integrated two-servo deflector actuation
 - Designed thrust-biasing deflector concepts
 - Used CFD and bench testing to compare thrust and drag tradeoffs
 
@@ -75,6 +85,7 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
   <span class="skill-chip">Fabrication</span>
   <span class="skill-chip">ESCs</span>
   <span class="skill-chip">Motors</span>
+  <span class="skill-chip">Servos</span>
   <span class="skill-chip">Flight-control hardware</span>
   <span class="skill-chip">ANSYS</span>
   <span class="skill-chip">OpenFOAM</span>
@@ -82,6 +93,8 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
 </div>
 
 ## Media
+
+</div>
 
 <style>
 .article-metadata,
@@ -92,19 +105,43 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
   display: none !important;
 }
 
-/* make this project page wider, so margins are smaller */
+/* make the actual article/content area wider */
 .article-container,
 .docs-article-container,
 .page-body,
 .prose,
-.max-w-prose {
-  max-width: 1080px !important;
+.max-w-prose,
+.universal-wrapper {
+  max-width: 1280px !important;
+}
+
+/* make the project content use more page width */
+.portfolio-page-wrap {
+  width: min(1280px, calc(100vw - 3rem)) !important;
+  max-width: none !important;
+  margin-left: 50% !important;
+  transform: translateX(-50%) !important;
 }
 
 .portfolio-hero {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   margin-bottom: 2.3rem;
-  max-width: 980px;
+  max-width: 1120px;
+}
+
+.project-video-wrap {
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.project-video {
+  width: 100%;
+  max-height: 560px;
+  object-fit: cover;
+  border-radius: 22px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+  background: #000;
 }
 
 .project-kicker {
@@ -120,7 +157,7 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
   font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: 900px;
+  max-width: 980px;
 }
 
 .skill-row {
@@ -146,7 +183,7 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
 
 .two-col {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -158,5 +195,15 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
   padding: 1.2rem 1.3rem;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+@media (max-width: 850px) {
+  .portfolio-page-wrap {
+    width: min(100%, calc(100vw - 2rem)) !important;
+  }
+
+  .two-col {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
