@@ -8,7 +8,7 @@ commentable: false
 ---
 
 <div class="project-cover-wrap">
-  <img class="project-cover" src="featured.jpg" alt="Firefighting hardware prototype">
+  <img class="project-cover" src="firefighting.png" alt="Firefighting hardware prototype">
 </div>
 
 <div class="portfolio-hero">
