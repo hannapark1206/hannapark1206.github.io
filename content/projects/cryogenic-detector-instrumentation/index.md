@@ -17,7 +17,7 @@ commentable: false
 <p class="project-kicker">Golwala Group · Cryogenic Detectors · Summer 2024</p>
 
 <p class="project-lede">
-I worked on cryogenic detector instrumentation for phonon-mediated kinetic inductance detectors, combining detector geometry changes, phonon collection concepts, CAD mounting, wire-bonded assembly, simulation, and Python resonator analysis.
+I worked on cryogenic detector instrumentation for phonon-mediated kinetic inductance detectors, connecting detector geometry, phonon collection, CAD mounting, wire-bonded assembly, simulation, and Python-based resonator analysis.
 </p>
 
 <div class="skill-row">
@@ -34,9 +34,11 @@ I worked on cryogenic detector instrumentation for phonon-mediated kinetic induc
 
 </div>
 
-## Project Work
-
-This project focused on detector hardware and resonator analysis for phonon-mediated kinetic inductance detectors. I worked on kinetic inductance detector geometry changes, quasiparticle phonon-guide concepts, CAD mount redesign, wire-bonded assembly preparation, and Python-based resonance fitting. The work connected device geometry, phonon-loss reduction, mechanical mounting, simulation, and resonator analysis.
+<div class="project-note">
+  <p>
+    My work included kinetic inductance detector geometry changes, quasiparticle phonon-guide concepts, CAD mount redesign, wire-bonded assembly preparation, and Python resonance fitting. The project combined hands-on detector hardware with simulation and analysis to support improved phonon collection and resonator characterization.
+  </p>
+</div>
 
 ## Report and Presentation
 
@@ -72,7 +74,7 @@ This project focused on detector hardware and resonator analysis for phonon-medi
 
 .portfolio-hero {
   margin-top: 2rem;
-  margin-bottom: 2.3rem;
+  margin-bottom: 1.6rem;
 }
 
 .project-kicker {
@@ -85,7 +87,25 @@ This project focused on detector hardware and resonator analysis for phonon-medi
 }
 
 .project-lede {
-  font-size: 1.18rem;
+  font-size: 1.08rem;
+  line-height: 1.6;
+  color: #374151;
+  max-width: 880px;
+}
+
+.project-note {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+  padding: 1.1rem 1.25rem;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.project-note p {
+  margin: 0;
+  font-size: 1rem;
   line-height: 1.65;
   color: #374151;
 }
