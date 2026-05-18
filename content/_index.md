@@ -90,7 +90,7 @@ sections:
             </div>
             <div class="home-project-body">
               <p class="home-kicker">Mechanical Design · CAD</p>
-              <h3>ME14 Transmission Gearbox</h3>
+              <h3>Transmission Gearbox</h3>
               <p>Transmission design with MATLAB modeling, SolidWorks CAD, keyed shafts, bearings, and PDR/CDR reviews.</p>
             </div>
           </a>
