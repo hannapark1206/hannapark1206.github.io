@@ -7,7 +7,10 @@ share: false
 commentable: false
 ---
 
-<div class="portfolio-page-wrap">
+<div class="media-grid top-media">
+  <img src="1.png" alt="Five-hole Pitot probe and pressure-sensor electronics">
+  <img src="2.png" alt="Five-hole Pitot probe CAD">
+</div>
 
 <div class="portfolio-hero">
 
@@ -28,7 +31,7 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
 
 </div>
 
-## Media
+## Project Report
 
 <div class="report-box">
   <div>
@@ -36,52 +39,6 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
     <p class="report-title">X2 Fixed-Wing Aerial Robot Report</p>
   </div>
   <a class="report-button" href="Hanna_Park_X2%20Report.pdf">Open report</a>
-</div>
-
-<div class="media-grid">
-  <img src="16.png" alt="Fixed-wing aerial robot test platform">
-  <img src="1.png" alt="Five-hole Pitot probe and pressure-sensor electronics">
-  <img src="2.png" alt="Five-hole Pitot probe CAD">
-  <img src="3.jpeg" alt="PlotJuggler pressure data">
-  <img src="4.jpeg" alt="ROS and MAVLink telemetry visualization">
-</div>
-
-## Project Snapshot
-
-This system combined a fixed-wing aircraft, custom five-hole Pitot probe hardware, pressure sensing, motion capture, and ROS/MAVLink data workflows to support flight testing and aerodynamic measurement.
-
-## My Role
-
-I worked on the sensing, flight-control integration, and experimental setup side of the system.
-
-My contributions included hardware integration, communication setup, data retrieval workflows, manual override support, motion-capture synchronization, and five-hole Pitot probe design for flow measurement.
-
-## What I Built and Integrated
-
-<div class="two-col">
-
-<div>
-
-### Flight-control and data system
-
-- Integrated Cube Orange+ flight controller with onboard compute and actuator hardware
-- Set up communication between aircraft hardware and ground station
-- Worked with QGroundControl / Mission Planner, MAVLink, and ROS-based workflows
-- Supported manual override and free-flight testing readiness
-
-</div>
-
-<div>
-
-### Aerodynamic sensing system
-
-- Designed five-hole Pitot probe hardware for local pressure and flow-angle measurement
-- Worked on probe geometry, housing design, and sensor integration
-- Considered tubing layout and pressure-loss effects
-- Prepared hardware for wind-tunnel calibration
-
-</div>
-
 </div>
 
 ## Technical Stack
@@ -99,6 +56,12 @@ My contributions included hardware integration, communication setup, data retrie
   <span class="skill-chip">Wind-tunnel testing</span>
 </div>
 
+## Additional Media
+
+<div class="media-grid bottom-media">
+  <img src="16.png" alt="Fixed-wing aerial robot test platform">
+  <img src="3.jpeg" alt="PlotJuggler pressure data">
+  <img src="4.jpeg" alt="ROS and MAVLink telemetry visualization">
 </div>
 
 <style>
@@ -110,27 +73,9 @@ My contributions included hardware integration, communication setup, data retrie
   display: none !important;
 }
 
-.article-container,
-.docs-article-container,
-.page-body,
-.prose,
-.max-w-prose,
-.universal-wrapper {
-  max-width: none !important;
-}
-
-.portfolio-page-wrap {
-  width: calc(100vw - 2in) !important;
-  max-width: none !important;
-  margin-left: 50% !important;
-  transform: translateX(-50%) !important;
-}
-
 .portfolio-hero {
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2.3rem;
-  max-width: none !important;
-  width: 100% !important;
 }
 
 .project-kicker {
@@ -146,8 +91,6 @@ My contributions included hardware integration, communication setup, data retrie
   font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: none !important;
-  width: 100% !important;
 }
 
 .skill-row {
@@ -226,7 +169,6 @@ My contributions included hardware integration, communication setup, data retrie
 .media-grid img {
   width: 100%;
   height: auto;
-  max-height: 520px;
   object-fit: contain;
   border-radius: 18px;
   border: 1px solid #e5e7eb;
@@ -234,28 +176,15 @@ My contributions included hardware integration, communication setup, data retrie
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
 
-.two-col {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.4rem;
+.top-media {
   margin-top: 1rem;
-  margin-bottom: 2rem;
 }
 
-.two-col > div {
-  border: 1px solid #e5e7eb;
-  border-radius: 18px;
-  padding: 1.2rem 1.3rem;
-  background: #ffffff;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+.bottom-media {
+  margin-bottom: 2.5rem;
 }
 
 @media (max-width: 850px) {
-  .portfolio-page-wrap {
-    width: calc(100vw - 2rem) !important;
-  }
-
-  .two-col,
   .media-grid {
     grid-template-columns: 1fr;
   }
@@ -263,10 +192,6 @@ My contributions included hardware integration, communication setup, data retrie
   .report-box {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .media-grid img {
-    max-height: none;
   }
 }
 </style>
