@@ -10,6 +10,8 @@ sections:
       username: me
       text: |
         Excited about robotic hardware systems, especially aerial and multi-modal platforms, through flight-control integration, mechanical prototyping, sensing, and experimental testing.
+
+        My work includes flight-control integration, embedded sensing, robot prototyping, aerodynamic testing, and experimental validation.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -46,18 +48,7 @@ sections:
           </div>
 
         </div>
-
-        ## Research Focus
-
-        <div class="home-card wide">
-          <p>
-            I am a mechanical engineering student at Caltech interested in robotics and controls, especially aerial and multi-modal robot platforms.
-          </p>
-          <p>
-            My work includes flight-control integration, embedded sensing, robot prototyping, aerodynamic testing, and experimental validation.
-          </p>
-        </div>
-
+    
         ## Featured Projects
 
         <div class="home-card-grid two">
