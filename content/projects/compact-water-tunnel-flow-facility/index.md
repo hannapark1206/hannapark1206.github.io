@@ -7,6 +7,11 @@ share: false
 commentable: false
 ---
 
+<div class="top-stack">
+  <img src="6.png" alt="Compact water tunnel facility">
+  <img src="5.png" alt="Water tunnel CAD model">
+</div>
+
 <div class="portfolio-hero">
 
 <p class="project-kicker">Gharib Group · Experimental Fluids · 2024</p>
@@ -16,50 +21,24 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip"> Water tunnel</span>
-  <span class="skill-chip"> Low-Reynolds Number flow</span>
-  <span class="skill-chip"> Turbine arrays</span>
-  <span class="skill-chip"> Electronics</span>
-  <span class="skill-chip"> Particle Image Velocimetry</span>
-  <span class="skill-chip"> Dye visualization</span>
+  <span class="skill-chip">Water tunnel</span>
+  <span class="skill-chip">Low-Reynolds-number flow</span>
+  <span class="skill-chip">Turbine arrays</span>
+  <span class="skill-chip">Electronics</span>
+  <span class="skill-chip">PIV</span>
+  <span class="skill-chip">Dye visualization</span>
 </div>
 
 </div>
 
-## Project Snapshot
+## Project Presentation
 
-This project involved work on a compact flow facility designed for repeatable low-Reynolds-number flow experiments. The system used thruster/turbine arrays and modular flow-conditioning elements to generate controlled flow conditions in a compact test section.
-
-## My Role
-
-I contributed to hardware setup, electronics, power configuration, turbine-array control, and experimental validation.
-
-## What I Built and Integrated
-
-<div class="two-col">
-
-<div>
-
-### Facility hardware and control
-
-- Worked on water-tunnel hardware and turbine-array fixtures
-- Supported electronics and power configuration
-- Implemented Arduino/PWM turbine-array control
-- Helped prepare the facility for repeatable experimental runs
-
-</div>
-
-<div>
-
-### Flow validation
-
-- Supported PIV setup and dye-flow visualization
-- Helped validate flow behavior and vortex-shedding behavior
-- Worked with test-section layouts and visualization setup
-- Connected hardware changes to flow-performance checks
-
-</div>
-
+<div class="report-box">
+  <div>
+    <p class="report-label">Project presentation</p>
+    <p class="report-title">Water Tunnel in a Box</p>
+  </div>
+  <a class="report-button" href="Water%20Tunnel%20in%20a%20Box%20-%20Improvements%20to%20a%20compact%20flow%20facility.pdf">Open presentation</a>
 </div>
 
 ## Technical Stack
@@ -75,17 +54,13 @@ I contributed to hardware setup, electronics, power configuration, turbine-array
   <span class="skill-chip">Dye visualization</span>
 </div>
 
-## Media
+## Additional Media
 
-<div class="button-row">
-  <a class="doc-button" href="Water%20Tunnel%20in%20a%20Box%20-%20Improvements%20to%20a%20compact%20flow%20facility.pdf">View water tunnel presentation</a>
-</div>
-
-<div class="media-grid">
-  <img src="6.png" alt="Compact water tunnel facility">
-  <img src="5.png" alt="Water tunnel CAD model">
-  <img src="7.png" alt="PIV setup diagram">
-  <img src="8.png" alt="Dye visualization of vortex shedding">
+<div class="bottom-stack">
+  <div class="bottom-two">
+    <img src="7.png" alt="PIV setup diagram">
+    <img src="8.png" alt="Dye visualization of vortex shedding">
+  </div>
 </div>
 
 <style>
@@ -98,9 +73,8 @@ I contributed to hardware setup, electronics, power configuration, turbine-array
 }
 
 .portfolio-hero {
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
-  max-width: 980px;
+  margin-top: 2rem;
+  margin-bottom: 2.3rem;
 }
 
 .project-kicker {
@@ -113,10 +87,9 @@ I contributed to hardware setup, electronics, power configuration, turbine-array
 }
 
 .project-lede {
-  font-size: 1.2rem;
+  font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: 850px;
 }
 
 .skill-row {
@@ -140,53 +113,102 @@ I contributed to hardware setup, electronics, power configuration, turbine-array
   line-height: 1.2;
 }
 
-.two-col {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.4rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-.two-col > div {
+.report-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   border: 1px solid #e5e7eb;
-  border-radius: 18px;
-  padding: 1.2rem 1.3rem;
   background: #ffffff;
+  border-radius: 18px;
+  padding: 1rem 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
 
-.button-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  margin: 1rem 0 1.5rem;
+.report-label {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #4f46e5;
 }
 
-.doc-button {
+.report-title {
+  margin: 0.2rem 0 0 0;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #111827;
+}
+
+.report-button {
   display: inline-flex;
   align-items: center;
-  border: 1px solid #dbe3ff;
-  background: #f5f7ff;
-  color: #27324a;
-  border-radius: 12px;
-  padding: 0.5rem 0.85rem;
-  font-size: 0.9rem;
-  font-weight: 700;
+  justify-content: center;
   text-decoration: none !important;
+  border-radius: 999px;
+  background: #4f46e5;
+  color: white !important;
+  padding: 0.62rem 1rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
-.media-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+/* top images stacked */
+.top-stack {
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
   margin-top: 1rem;
+  margin-bottom: 2.2rem;
 }
 
-.media-grid img {
+.top-stack img {
   width: 100%;
-  border-radius: 16px;
+  height: auto;
+  display: block;
+  border-radius: 18px;
   border: 1px solid #e5e7eb;
+  background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+/* bottom layout */
+.bottom-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.bottom-two {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.bottom-two img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 850px) {
+  .bottom-two {
+    grid-template-columns: 1fr;
+  }
+
+  .report-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 </style>
