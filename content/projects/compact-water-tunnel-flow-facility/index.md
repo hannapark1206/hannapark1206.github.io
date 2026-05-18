@@ -8,8 +8,8 @@ commentable: false
 ---
 
 <div class="top-stack">
-  <img src="6.png" alt="Compact water tunnel facility">
   <img src="5.png" alt="Water tunnel CAD model">
+  <img src="7.png" alt="PIV setup diagram">
 </div>
 
 <div class="portfolio-hero">
@@ -27,39 +27,28 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
   <span class="skill-chip">Electronics</span>
   <span class="skill-chip">PIV</span>
   <span class="skill-chip">Dye visualization</span>
-</div>
-
-</div>
-
-## Project Presentation
-
-<div class="report-box">
-  <div>
-    <p class="report-label">Project presentation</p>
-    <p class="report-title">Water Tunnel in a Box</p>
-  </div>
-  <a class="report-button" href="Water%20Tunnel%20in%20a%20Box%20-%20Improvements%20to%20a%20compact%20flow%20facility.pdf">Open presentation</a>
-</div>
-
-## Technical Stack
-
-<div class="skill-row">
   <span class="skill-chip">Experimental fluids</span>
   <span class="skill-chip">Arduino</span>
   <span class="skill-chip">PWM control</span>
-  <span class="skill-chip">Turbine arrays</span>
   <span class="skill-chip">Wiring</span>
   <span class="skill-chip">Power configuration</span>
-  <span class="skill-chip">PIV</span>
-  <span class="skill-chip">Dye visualization</span>
+</div>
+
+</div>
+
+<div class="report-box">
+  <div>
+    <p class="report-title">Water Tunnel in a Box</p>
+  </div>
+  <a class="report-button" href="Water%20Tunnel%20in%20a%20Box%20-%20Improvements%20to%20a%20compact%20flow%20facility.pdf">Open presentation</a>
 </div>
 
 ## Additional Media
 
 <div class="bottom-stack">
   <div class="bottom-two">
-    <img src="7.png" alt="PIV setup diagram">
     <img src="8.png" alt="Dye visualization of vortex shedding">
+    <img src="6.png" alt="Compact water tunnel facility">
   </div>
 </div>
 
@@ -74,7 +63,7 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
 
 .portfolio-hero {
   margin-top: 2rem;
-  margin-bottom: 2.3rem;
+  margin-bottom: 2rem;
 }
 
 .project-kicker {
@@ -97,7 +86,7 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
   flex-wrap: wrap;
   gap: 0.55rem;
   margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .skill-chip {
@@ -122,22 +111,13 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
   background: #ffffff;
   border-radius: 18px;
   padding: 1rem 1.2rem;
-  margin-top: 1rem;
-  margin-bottom: 1.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
 
-.report-label {
-  margin: 0;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #4f46e5;
-}
-
 .report-title {
-  margin: 0.2rem 0 0 0;
+  margin: 0;
   font-size: 1rem;
   font-weight: 650;
   color: #111827;
@@ -157,7 +137,6 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
   white-space: nowrap;
 }
 
-/* top images stacked */
 .top-stack {
   display: flex;
   flex-direction: column;
@@ -176,7 +155,6 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
 
-/* bottom layout */
 .bottom-stack {
   display: flex;
   flex-direction: column;
