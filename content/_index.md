@@ -140,7 +140,7 @@ sections:
         <div class="home-card-grid three">
 
           <div class="home-card">
-            <p class="home-kicker">Caltech EAS · 2026</p>
+            <p class="home-kicker">Caltech · 2026</p>
             <h3>Henry Ford II Scholar Award</h3>
             <p>Awarded to engineering students with the strongest academic record at the end of their third year.</p>
           </div>
