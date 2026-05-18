@@ -25,7 +25,7 @@ tags:
 <p class="project-kicker">Senior Thesis · Aerial Robotics · 2026–Present</p>
 
 <p class="project-lede">
-I am working on hardware development for a multi-modal air–ground robot platform, focusing on the aerial system, flight-control hardware, ESC/motor integration, two-servo deflector actuation, thrust-biasing deflector design, CFD-informed checks, and bench testing.
+I am developing hardware for a multi-modal air–ground robot platform, focusing on the aerial system, flight-control hardware, ESC/motor integration, two-servo deflector actuation, thrust-biasing deflector design, CFD-informed checks, and bench testing.
 </p>
 
 <div class="skill-row">
@@ -42,13 +42,13 @@ I am working on hardware development for a multi-modal air–ground robot platfo
 
 ## Project Snapshot
 
-This project focuses on building and testing hardware for a multi-modal air–ground robot platform. My work is centered on the aerial platform, including custom quadrotor hardware integration, propulsion setup, flight-control hardware, two-servo deflector actuation, and thrust-biasing deflector design.
+This project focuses on building and testing hardware for a multi-modal air–ground robot platform. My work centers on the aerial platform, including custom quadrotor hardware integration, propulsion setup, flight-control hardware, two-servo deflector actuation, and thrust-biasing deflector design.
 
 ## My Role
 
-I am working on mechanical prototyping, propulsion hardware integration, ESC/motor setup, flight-control hardware integration, CFD-informed design checks, and bench testing.
+I work on mechanical prototyping, propulsion hardware integration, ESC/motor setup, flight-control hardware integration, CFD-informed design checks, and bench testing.
 
-## What I Built and Integrated
+## What I Am Building and Integrating
 
 <div class="two-col">
 
@@ -56,10 +56,10 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
 
 ### Aerial hardware platform
 
-- Built and integrated drone-platform hardware for air–ground testing
-- Designed and fabricated structural components
-- Worked through packaging, fit, wiring, and assembly constraints
-- Iterated hardware based on test behavior and integration issues
+- Building and integrating drone-platform hardware for air–ground testing
+- Designing and fabricating structural components
+- Working through packaging, fit, wiring, and assembly constraints
+- Iterating hardware based on test behavior and integration issues
 
 </div>
 
@@ -67,11 +67,11 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
 
 ### Propulsion and deflector testing
 
-- Integrated ESCs, motors, and propulsion hardware
-- Worked with flight-control hardware and wiring layout
-- Integrated two-servo deflector actuation
-- Designed thrust-biasing deflector concepts
-- Used CFD and bench testing to compare thrust and drag tradeoffs
+- Integrating ESCs, motors, and propulsion hardware
+- Working with flight-control hardware and wiring layout
+- Integrating two-servo deflector actuation
+- Designing thrust-biasing deflector concepts
+- Using CFD and bench testing to compare thrust and drag tradeoffs
 
 </div>
 
@@ -105,7 +105,6 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
   display: none !important;
 }
 
-/* remove default article width limits */
 .article-container,
 .docs-article-container,
 .page-body,
@@ -116,7 +115,6 @@ I am working on mechanical prototyping, propulsion hardware integration, ESC/mot
   max-width: none !important;
 }
 
-/* about 1 inch margin on each side */
 .portfolio-page-wrap {
   width: calc(100vw - 2in) !important;
   max-width: none !important;
