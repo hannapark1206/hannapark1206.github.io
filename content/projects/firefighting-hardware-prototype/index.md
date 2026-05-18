@@ -13,62 +13,39 @@ commentable: false
 
 <div class="portfolio-hero">
 
-<p class="project-kicker">Gharib Group · Project Support · Rapid Prototyping · 2026</p>
+<p class="project-kicker">Gharib Group · Rapid Prototyping · Hardware Support · 2026</p>
 
 <p class="project-lede">
-I support rapid prototyping, mechanical assembly, and hardware modification for a firefighting-related project.
+I support hardware development for a firefighting-related prototype through mechanical assembly, part modification, fit checks, and quick prototype iteration.
 </p>
 
 <div class="skill-row">
   <span class="skill-chip">Rapid prototyping</span>
   <span class="skill-chip">Mechanical assembly</span>
   <span class="skill-chip">Hardware modification</span>
-  <span class="skill-chip">Project support</span>
+  <span class="skill-chip">Fit checks</span>
+  <span class="skill-chip">Fabrication</span>
+  <span class="skill-chip">Hardware integration</span>
 </div>
 
 </div>
 
 ## Project Work
 
-This project involves hands-on hardware support for a firefighting-related prototype. I support the mechanical side of the project through rapid prototyping, assembly, hardware modification, fit checks, and project-level hardware updates as the system develops.
+<div class="project-info-card">
 
-My work is focused on building and adapting prototype components quickly, checking mechanical fit, modifying parts around packaging constraints, and supporting fast hardware iteration cycles.
+<p>
+This project focuses on fast hardware iteration for a firefighting-related system. My role is mostly hands-on mechanical support: helping build, modify, and update prototype components as the system develops.
+</p>
 
-<div class="two-col">
+<ul>
+  <li>Assembled and modified prototype hardware for testing and demonstrations.</li>
+  <li>Performed fit checks and adjusted parts around packaging constraints.</li>
+  <li>Supported rapid hardware changes as design needs shifted.</li>
+  <li>Helped prepare mechanical components for project-level testing.</li>
+  <li>Worked through practical assembly issues during prototype development.</li>
+</ul>
 
-<div>
-
-### Prototyping and assembly
-
-- Rapid prototyping hardware components
-- Performing mechanical assembly and fit checks
-- Modifying hardware based on packaging and functionality
-- Iterating parts based on practical assembly constraints
-
-</div>
-
-<div>
-
-### Hardware support
-
-- Supporting project-level hardware needs
-- Adapting prototype parts based on packaging constraints
-- Working through fast hardware iteration cycles
-- Supporting mechanical fit and assembly updates
-
-</div>
-
-</div>
-
-## Technical Stack
-
-<div class="skill-row">
-  <span class="skill-chip">Mechanical prototyping</span>
-  <span class="skill-chip">Fabrication</span>
-  <span class="skill-chip">Assembly</span>
-  <span class="skill-chip">Hardware integration</span>
-  <span class="skill-chip">Field systems</span>
-  <span class="skill-chip">Project support</span>
 </div>
 
 <style>
@@ -87,8 +64,9 @@ My work is focused on building and adapting prototype components quickly, checki
 
 .project-cover {
   width: 100%;
-  max-height: 520px;
-  object-fit: cover;
+  height: auto;
+  display: block;
+  object-fit: contain;
   border-radius: 20px;
   border: 1px solid #e5e7eb;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
@@ -97,7 +75,7 @@ My work is focused on building and adapting prototype components quickly, checki
 
 .portfolio-hero {
   margin-top: 1rem;
-  margin-bottom: 2.3rem;
+  margin-bottom: 2.2rem;
 }
 
 .project-kicker {
@@ -113,6 +91,7 @@ My work is focused on building and adapting prototype components quickly, checki
   font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
+  margin-bottom: 1rem;
 }
 
 .skill-row {
@@ -120,7 +99,7 @@ My work is focused on building and adapting prototype components quickly, checki
   flex-wrap: wrap;
   gap: 0.55rem;
   margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .skill-chip {
@@ -136,19 +115,36 @@ My work is focused on building and adapting prototype components quickly, checki
   line-height: 1.2;
 }
 
-.two-col {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.4rem;
+.project-info-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 1.25rem 1.35rem;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
-.two-col > div {
-  border: 1px solid #e5e7eb;
-  border-radius: 18px;
-  padding: 1.2rem 1.3rem;
-  background: #ffffff;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+.project-info-card p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  line-height: 1.65;
+  color: #374151;
+}
+
+.project-info-card ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.project-info-card li {
+  margin-bottom: 0.45rem;
+  line-height: 1.55;
+  color: #374151;
+}
+
+.project-info-card li:last-child {
+  margin-bottom: 0;
 }
 </style>
