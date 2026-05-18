@@ -28,15 +28,11 @@ I support rapid prototyping, mechanical assembly, and hardware modification for 
 
 </div>
 
-## Project Snapshot
+## Project Work
 
-This project involves hands-on hardware support for a firefighting-related prototype. The work is centered on building, modifying, and supporting prototype hardware as the project develops.
+This project involves hands-on hardware support for a firefighting-related prototype. I support the mechanical side of the project through rapid prototyping, assembly, hardware modification, fit checks, and project-level hardware updates as the system develops.
 
-## My Role
-
-I support the mechanical side of the project, including rapid prototyping, assembly, hardware modification, fit checks, and general project support.
-
-## What I Am Building and Supporting
+My work is focused on building and adapting prototype components quickly, checking mechanical fit, modifying parts around packaging constraints, and supporting fast hardware iteration cycles.
 
 <div class="two-col">
 
@@ -53,7 +49,7 @@ I support the mechanical side of the project, including rapid prototyping, assem
 
 <div>
 
-### Project support
+### Hardware support
 
 - Supporting project-level hardware needs
 - Adapting prototype parts based on packaging constraints
