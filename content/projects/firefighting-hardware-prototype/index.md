@@ -7,7 +7,9 @@ share: false
 commentable: false
 ---
 
-<div class="portfolio-page-wrap">
+<div class="project-cover-wrap">
+  <img class="project-cover" src="featured.jpg" alt="Firefighting hardware prototype">
+</div>
 
 <div class="portfolio-hero">
 
@@ -73,10 +75,6 @@ I support the mechanical side of the project, including rapid prototyping, assem
   <span class="skill-chip">Project support</span>
 </div>
 
-## Media
-
-</div>
-
 <style>
 .article-metadata,
 .toc-sidebar,
@@ -86,27 +84,24 @@ I support the mechanical side of the project, including rapid prototyping, assem
   display: none !important;
 }
 
-.article-container,
-.docs-article-container,
-.page-body,
-.prose,
-.max-w-prose,
-.universal-wrapper {
-  max-width: none !important;
+.project-cover-wrap {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
-.portfolio-page-wrap {
-  width: calc(100vw - 2in) !important;
-  max-width: none !important;
-  margin-left: 50% !important;
-  transform: translateX(-50%) !important;
+.project-cover {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  background: #ffffff;
 }
 
 .portfolio-hero {
   margin-top: 1rem;
   margin-bottom: 2.3rem;
-  max-width: none !important;
-  width: 100% !important;
 }
 
 .project-kicker {
@@ -122,8 +117,6 @@ I support the mechanical side of the project, including rapid prototyping, assem
   font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: none !important;
-  width: 100% !important;
 }
 
 .skill-row {
@@ -149,7 +142,7 @@ I support the mechanical side of the project, including rapid prototyping, assem
 
 .two-col {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -161,15 +154,5 @@ I support the mechanical side of the project, including rapid prototyping, assem
   padding: 1.2rem 1.3rem;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-}
-
-@media (max-width: 850px) {
-  .portfolio-page-wrap {
-    width: calc(100vw - 2rem) !important;
-  }
-
-  .two-col {
-    grid-template-columns: 1fr;
-  }
 }
 </style>
