@@ -5,11 +5,6 @@ date: 2026-01-01
 toc: false
 share: false
 commentable: false
-tags:
-  - Robotics
-  - Aerial Systems
-  - Hardware
-  - CFD
 ---
 
 <div class="project-video-wrap">
@@ -88,6 +83,10 @@ My current work connects CAD, fabrication, wiring, assembly, CFD-informed design
 
 <style>
 .article-metadata,
+.article-tags,
+.page-tags,
+.tags,
+.taxonomy-terms,
 .toc-sidebar,
 .page-toc,
 .docs-toc,
