@@ -12,15 +12,14 @@ tags:
   - CFD
 ---
 
-<div class="portfolio-page-wrap">
-
-<div class="portfolio-hero">
-
 <div class="project-video-wrap">
   <video class="project-video" controls muted playsinline preload="metadata">
     <source src="m4-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 </div>
+
+<div class="portfolio-hero">
 
 <p class="project-kicker">Senior Thesis · Aerial Robotics · 2026–Present</p>
 
@@ -40,38 +39,33 @@ I am developing hardware for a multi-modal air–ground robot platform, focusing
 
 </div>
 
-## Project Snapshot
+## Project Work
 
-This project focuses on building and testing hardware for a multi-modal air–ground robot platform. My work centers on the aerial platform, including custom quadrotor hardware integration, propulsion setup, flight-control hardware, two-servo deflector actuation, and thrust-biasing deflector design.
+This senior thesis project focuses on building and testing the aerial hardware for a multi-modal air–ground robot platform. I work on the mechanical prototyping and system integration side, including custom quadrotor hardware, propulsion setup, ESC/motor integration, flight-control hardware, two-servo deflector actuation, and thrust-biasing deflector design.
 
-## My Role
-
-I work on mechanical prototyping, propulsion hardware integration, ESC/motor setup, flight-control hardware integration, CFD-informed design checks, and bench testing.
-
-## What I Am Building and Integrating
+My current work connects CAD, fabrication, wiring, assembly, CFD-informed design checks, and bench testing. I am iterating the platform based on packaging, fit, test behavior, and hardware integration constraints.
 
 <div class="two-col">
 
 <div>
 
-### Aerial hardware platform
+### Hardware integration
 
 - Building and integrating drone-platform hardware for air–ground testing
 - Designing and fabricating structural components
 - Working through packaging, fit, wiring, and assembly constraints
-- Iterating hardware based on test behavior and integration issues
+- Integrating ESCs, motors, servos, and flight-control hardware
 
 </div>
 
 <div>
 
-### Propulsion and deflector testing
+### Deflector and testing work
 
-- Integrating ESCs, motors, and propulsion hardware
-- Working with flight-control hardware and wiring layout
-- Integrating two-servo deflector actuation
 - Designing thrust-biasing deflector concepts
-- Using CFD and bench testing to compare thrust and drag tradeoffs
+- Integrating two-servo deflector actuation
+- Using CFD-informed checks to compare design behavior
+- Running bench tests to evaluate thrust and drag tradeoffs
 
 </div>
 
@@ -92,10 +86,6 @@ I work on mechanical prototyping, propulsion hardware integration, ESC/motor set
   <span class="skill-chip">Bench testing</span>
 </div>
 
-## Media
-
-</div>
-
 <style>
 .article-metadata,
 .toc-sidebar,
@@ -105,43 +95,25 @@ I work on mechanical prototyping, propulsion hardware integration, ESC/motor set
   display: none !important;
 }
 
-.article-container,
-.docs-article-container,
-.page-body,
-.prose,
-.max-w-prose,
-.universal-wrapper,
-.container {
-  max-width: none !important;
+.project-video-wrap {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1.8rem;
 }
 
-.portfolio-page-wrap {
-  width: calc(100vw - 2in) !important;
-  max-width: none !important;
-  margin-left: 50% !important;
-  transform: translateX(-50%) !important;
+.project-video {
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  background: #000;
 }
 
 .portfolio-hero {
   margin-top: 1rem;
   margin-bottom: 2.3rem;
-  max-width: none !important;
-  width: 100% !important;
-}
-
-.project-video-wrap {
-  width: 100%;
-  margin-bottom: 1.6rem;
-}
-
-.project-video {
-  width: 100%;
-  max-height: 560px;
-  object-fit: cover;
-  border-radius: 22px;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
-  background: #000;
 }
 
 .project-kicker {
@@ -157,8 +129,6 @@ I work on mechanical prototyping, propulsion hardware integration, ESC/motor set
   font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: none !important;
-  width: 100% !important;
 }
 
 .skill-row {
@@ -184,7 +154,7 @@ I work on mechanical prototyping, propulsion hardware integration, ESC/motor set
 
 .two-col {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -196,15 +166,5 @@ I work on mechanical prototyping, propulsion hardware integration, ESC/motor set
   padding: 1.2rem 1.3rem;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-}
-
-@media (max-width: 850px) {
-  .portfolio-page-wrap {
-    width: calc(100vw - 2rem) !important;
-  }
-
-  .two-col {
-    grid-template-columns: 1fr;
-  }
 }
 </style>
