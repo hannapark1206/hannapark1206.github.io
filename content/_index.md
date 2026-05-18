@@ -36,7 +36,7 @@ sections:
             <div class="home-project-body">
               <p class="home-kicker">Senior Thesis · Robotics</p>
               <h3>Multi-Modal Air–Ground Robot Platform</h3>
-              <p>Aerial hardware integration, ESC/motor setup, thrust-biasing deflector design, CFD checks, and bench testing.</p>
+              <p>Aerial hardware integration, ESC/motor setup, deflector design, CFD checks, and bench testing.</p>
             </div>
           </a>
 
@@ -47,7 +47,7 @@ sections:
             <div class="home-project-body">
               <p class="home-kicker">Aerial Robotics · Sensing</p>
               <h3>Fixed-Wing Aerial Robot Sensing</h3>
-              <p>Flight-control integration, ROS/MAVLink workflows, five-hole Pitot probe hardware, and wind-tunnel calibration.</p>
+              <p>Flight-control integration, ROS/MAVLink workflows, five-hole Pitot probe hardware, and calibration.</p>
             </div>
           </a>
 
@@ -58,7 +58,7 @@ sections:
             <div class="home-project-body">
               <p class="home-kicker">Experimental Fluids · Hardware</p>
               <h3>Compact Water-Tunnel Flow Facility</h3>
-              <p>Water-tunnel hardware, turbine-array control, electronics, Arduino/PWM control, and PIV/dye-flow validation.</p>
+              <p>Water-tunnel hardware, turbine-array control, Arduino/PWM control, and PIV/dye-flow validation.</p>
             </div>
           </a>
 
@@ -69,7 +69,7 @@ sections:
             <div class="home-project-body">
               <p class="home-kicker">Instrumentation · Python</p>
               <h3>Cryogenic Detector Instrumentation</h3>
-              <p>KID detector modifications, phonon guides, CAD mounting, wire-bonded assembly, and Python resonance fitting.</p>
+              <p>KID detector modifications, phonon guides, CAD mounting, wire-bonded assembly, and resonance fitting.</p>
             </div>
           </a>
 
@@ -80,7 +80,7 @@ sections:
             <div class="home-project-body">
               <p class="home-kicker">Mechanical Design · CAD</p>
               <h3>ME14 Transmission Gearbox</h3>
-              <p>Transmission design with MATLAB modeling, SolidWorks CAD, keyed shafts, bearings, machining, and PDR/CDR reviews.</p>
+              <p>Transmission design with MATLAB modeling, SolidWorks CAD, keyed shafts, bearings, and PDR/CDR reviews.</p>
             </div>
           </a>
 
@@ -114,7 +114,7 @@ sections:
           <a class="home-card home-link-card" href="/projects/">
             <p class="home-kicker">2023–Present</p>
             <h3>Undergraduate Researcher</h3>
-            <p>Long-term research work across aerial robotics, experimental hardware, sensing, and rapid prototyping at Caltech.</p>
+            <p>Research work across aerial robotics, experimental hardware, sensing, and rapid prototyping at Caltech.</p>
           </a>
 
           <a class="home-card home-link-card" href="/projects/cryogenic-detector-instrumentation/">
@@ -244,7 +244,7 @@ sections:
         }
 
         .home-wrap {
-          width: min(1220px, calc(100vw - 4rem)) !important;
+          width: min(1320px, calc(100vw - 3.5rem)) !important;
           max-width: none !important;
           margin-left: 50% !important;
           transform: translateX(-50%) !important;
@@ -252,19 +252,19 @@ sections:
 
         .home-project-grid {
           display: grid;
-          grid-template-columns: repeat(3, minmax(0, 1fr));
-          gap: 1.25rem;
-          margin-top: 1.2rem;
-          margin-bottom: 1.2rem;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 0.9rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
         }
 
         .home-project-card {
           display: block;
           overflow: hidden;
           border: 1px solid #e5e7eb;
-          border-radius: 20px;
+          border-radius: 16px;
           background: #ffffff;
-          box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+          box-shadow: 0 6px 18px rgba(0,0,0,0.045);
           text-decoration: none !important;
           color: inherit;
           transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -272,13 +272,13 @@ sections:
 
         .home-project-card:hover,
         .home-link-card:hover {
-          transform: translateY(-3px);
-          box-shadow: 0 14px 34px rgba(0,0,0,0.09);
+          transform: translateY(-2px);
+          box-shadow: 0 10px 26px rgba(0,0,0,0.08);
         }
 
         .home-project-image {
           width: 100%;
-          aspect-ratio: 16 / 9;
+          aspect-ratio: 16 / 8.5;
           background: linear-gradient(135deg, #ede9fe, #fbcfe8);
           display: flex;
           align-items: center;
@@ -296,14 +296,14 @@ sections:
         }
 
         .home-project-body {
-          padding: 1.15rem 1.25rem 1.3rem;
+          padding: 0.85rem 0.95rem 1rem;
         }
 
         .home-card-grid {
           display: grid;
-          gap: 1.2rem;
-          margin-top: 1.2rem;
-          margin-bottom: 1.2rem;
+          gap: 1rem;
+          margin-top: 1.1rem;
+          margin-bottom: 1.1rem;
         }
 
         .home-card-grid.four {
@@ -316,10 +316,10 @@ sections:
 
         .home-card {
           border: 1px solid #e5e7eb;
-          border-radius: 20px;
+          border-radius: 18px;
           background: #ffffff;
-          box-shadow: 0 8px 24px rgba(0,0,0,0.05);
-          padding: 1.25rem 1.35rem;
+          box-shadow: 0 6px 18px rgba(0,0,0,0.045);
+          padding: 1rem 1.1rem;
         }
 
         .home-link-card {
@@ -330,35 +330,41 @@ sections:
         }
 
         .home-kicker {
-          font-size: 0.78rem;
+          font-size: 0.68rem;
           font-weight: 700;
           letter-spacing: 0.05em;
           text-transform: uppercase;
           color: #4f46e5;
-          margin-bottom: 0.45rem;
+          margin-bottom: 0.35rem;
         }
 
-        .home-card h3,
+        .home-card h3 {
+          margin-top: 0;
+          margin-bottom: 0.45rem;
+          line-height: 1.22;
+          font-size: 1rem;
+        }
+
         .home-project-card h3 {
           margin-top: 0;
-          margin-bottom: 0.55rem;
-          line-height: 1.25;
-          font-size: 1.15rem;
+          margin-bottom: 0.4rem;
+          line-height: 1.22;
+          font-size: 1rem;
         }
 
         .home-card p,
         .home-project-card p {
           color: #4b5563;
-          line-height: 1.55;
+          line-height: 1.45;
           margin-bottom: 0;
-          font-size: 0.94rem;
+          font-size: 0.84rem;
         }
 
         .home-button-row {
           display: flex;
           justify-content: flex-start;
-          margin-top: 0.8rem;
-          margin-bottom: 2.5rem;
+          margin-top: 0.7rem;
+          margin-bottom: 2.3rem;
         }
 
         .home-button {
@@ -368,18 +374,29 @@ sections:
           background: #f5f7ff;
           color: #27324a;
           border-radius: 12px;
-          padding: 0.55rem 0.9rem;
-          font-size: 0.9rem;
+          padding: 0.5rem 0.85rem;
+          font-size: 0.86rem;
           font-weight: 700;
           text-decoration: none !important;
         }
 
         .home-wrap h2 {
-          margin-top: 1.6rem !important;
-          margin-bottom: 0.8rem !important;
+          margin-top: 1.45rem !important;
+          margin-bottom: 0.75rem !important;
         }
 
-        @media (max-width: 1100px) {
+        @media (max-width: 1200px) {
+          .home-project-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+
+          .home-card-grid.four,
+          .home-card-grid.three {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        }
+
+        @media (max-width: 800px) {
           .home-project-grid,
           .home-card-grid.four,
           .home-card-grid.three {
@@ -387,11 +404,7 @@ sections:
           }
         }
 
-        @media (max-width: 700px) {
-          .home-wrap {
-            width: min(100%, calc(100vw - 2rem)) !important;
-          }
-
+        @media (max-width: 550px) {
           .home-project-grid,
           .home-card-grid.four,
           .home-card-grid.three {
