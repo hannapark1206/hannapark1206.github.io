@@ -23,7 +23,6 @@ I support hardware development for a firefighting-related prototype through mech
   <span class="skill-chip">Rapid prototyping</span>
   <span class="skill-chip">Mechanical assembly</span>
   <span class="skill-chip">Hardware modification</span>
-  <span class="skill-chip">Fit checks</span>
   <span class="skill-chip">Fabrication</span>
   <span class="skill-chip">Hardware integration</span>
 </div>
@@ -40,7 +39,6 @@ This project focuses on fast hardware iteration for a firefighting-related syste
 
 <ul>
   <li>Assembled and modified prototype hardware for testing and demonstrations.</li>
-  <li>Performed fit checks and adjusted parts around packaging constraints.</li>
   <li>Supported rapid hardware changes as design needs shifted.</li>
   <li>Helped prepare mechanical components for project-level testing.</li>
   <li>Worked through practical assembly issues during prototype development.</li>
