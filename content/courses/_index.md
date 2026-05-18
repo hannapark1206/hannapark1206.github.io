@@ -1,6 +1,6 @@
 ---
 title: Coursework
-summary: Academic background, selected coursework, and transcript.
+summary: Academic background and selected coursework.
 type: landing
 
 sections:
@@ -16,10 +16,6 @@ sections:
           <p class="course-lede">
             Selected coursework supporting my interests in robotics, controls, aerial systems, experimental hardware, and engineering analysis.
           </p>
-
-          <div class="button-row">
-            <a class="doc-button" href="/uploads/transcript.pdf">Download transcript</a>
-          </div>
         </div>
 
         <div class="edu-grid">
@@ -29,17 +25,18 @@ sections:
             <h2>B.S. Mechanical Engineering</h2>
             <p class="edu-subtitle">Expected 2027 · GPA 4.3/4.0</p>
             <p>
-              Focused on robotics, controls, mechanical design, experimental systems, and engineering analysis.
+              Coursework focused on robotics, controls, mechanical design, experimental systems, and engineering analysis.
             </p>
           </div>
 
-          <div class="edu-card">
+          <div class="edu-card cambridge-card">
             <p class="course-kicker">University of Cambridge · St John's College</p>
             <h2>Engineering Study Abroad</h2>
             <p class="edu-subtitle">Michaelmas Term · Sept–Dec 2025</p>
             <p>
-              Study abroad term in Engineering, with advanced coursework in aircraft aerodynamics and design, aircraft stability and control, nuclear reactor engineering, and management of technology.
+              Study abroad term in Engineering, completed through master’s-level coursework in aircraft aerodynamics and design, aircraft stability and control, nuclear reactor engineering, and management of technology.
             </p>
+            <div class="highlight-chip">Master’s-level engineering courses</div>
           </div>
 
         </div>
@@ -94,8 +91,11 @@ sections:
             </div>
           </div>
 
-          <div class="course-card">
-            <h3>Cambridge Study Abroad Coursework</h3>
+          <div class="course-card cambridge-course-card">
+            <h3>Cambridge Master’s-Level Coursework</h3>
+            <p class="course-note">
+              Engineering study abroad coursework taken at the master’s level during Michaelmas Term.
+            </p>
             <div class="chip-row">
               <span class="course-chip">Aircraft Aerodynamics & Design</span>
               <span class="course-chip">Aircraft Stability & Control</span>
@@ -144,26 +144,6 @@ sections:
           max-width: 760px;
         }
 
-        .button-row {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 0.7rem;
-          margin: 1.1rem 0 0;
-        }
-
-        .doc-button {
-          display: inline-flex;
-          align-items: center;
-          border: 1px solid #dbe3ff;
-          background: #f5f7ff;
-          color: #27324a;
-          border-radius: 12px;
-          padding: 0.55rem 0.9rem;
-          font-size: 0.92rem;
-          font-weight: 700;
-          text-decoration: none !important;
-        }
-
         .edu-grid {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
@@ -180,6 +160,12 @@ sections:
           padding: 1.25rem 1.35rem;
         }
 
+        .cambridge-card,
+        .cambridge-course-card {
+          border-color: #c7d2fe;
+          background: linear-gradient(180deg, #ffffff 0%, #f8f9ff 100%);
+        }
+
         .edu-card h2,
         .course-card h3 {
           margin-top: 0;
@@ -193,12 +179,31 @@ sections:
           margin-bottom: 0.8rem;
         }
 
+        .highlight-chip {
+          display: inline-flex;
+          align-items: center;
+          border: 1px solid #c7d2fe;
+          background: #eef2ff;
+          color: #3730a3;
+          border-radius: 12px;
+          padding: 0.42rem 0.72rem;
+          font-size: 0.86rem;
+          font-weight: 700;
+          margin-top: 0.6rem;
+        }
+
         .course-grid {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
           gap: 1.2rem;
           margin-top: 1.2rem;
           margin-bottom: 2.5rem;
+        }
+
+        .course-note {
+          color: #4b5563;
+          line-height: 1.55;
+          margin-bottom: 0.9rem;
         }
 
         .chip-row {
