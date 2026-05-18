@@ -7,6 +7,8 @@ share: false
 commentable: false
 ---
 
+<div class="portfolio-page-wrap">
+
 <div class="portfolio-hero">
 
 <p class="project-kicker">Gharib Group · Project Support · Rapid Prototyping · 2026</p>
@@ -32,7 +34,7 @@ This project involves hands-on hardware support for a firefighting-related proto
 
 I support the mechanical side of the project, including rapid prototyping, assembly, hardware modification, fit checks, and general project support.
 
-## What I Built and Integrated
+## What I Am Building and Supporting
 
 <div class="two-col">
 
@@ -40,10 +42,10 @@ I support the mechanical side of the project, including rapid prototyping, assem
 
 ### Prototyping and assembly
 
-- Rapid prototyping of hardware components
-- Mechanical assembly and fit checks
-- Hardware modification based on packaging and functionality
-- Iteration based on practical assembly constraints
+- Rapid prototyping hardware components
+- Performing mechanical assembly and fit checks
+- Modifying hardware based on packaging and functionality
+- Iterating parts based on practical assembly constraints
 
 </div>
 
@@ -51,10 +53,10 @@ I support the mechanical side of the project, including rapid prototyping, assem
 
 ### Project support
 
-- Supported project-level hardware needs
-- Helped adapt prototype parts based on packaging constraints
-- Worked through fast hardware iteration cycles
-- Supported mechanical fit and assembly updates
+- Supporting project-level hardware needs
+- Adapting prototype parts based on packaging constraints
+- Working through fast hardware iteration cycles
+- Supporting mechanical fit and assembly updates
 
 </div>
 
@@ -73,6 +75,8 @@ I support the mechanical side of the project, including rapid prototyping, assem
 
 ## Media
 
+</div>
+
 <style>
 .article-metadata,
 .toc-sidebar,
@@ -82,22 +86,30 @@ I support the mechanical side of the project, including rapid prototyping, assem
   display: none !important;
 }
 
+/* remove default narrow article limits */
 .article-container,
-.universal-wrapper,
+.docs-article-container,
 .page-body,
-main {
+.prose,
+.max-w-prose,
+.universal-wrapper,
+.container {
   max-width: none !important;
-  width: auto !important;
-  margin-left: 1in !important;
-  margin-right: 1in !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+}
+
+/* about 1 inch margin on each side */
+.portfolio-page-wrap {
+  width: calc(100vw - 2in) !important;
+  max-width: none !important;
+  margin-left: 50% !important;
+  transform: translateX(-50%) !important;
 }
 
 .portfolio-hero {
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
-  max-width: 980px;
+  margin-top: 1.2rem;
+  margin-bottom: 2.3rem;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 .project-kicker {
@@ -110,10 +122,11 @@ main {
 }
 
 .project-lede {
-  font-size: 1.2rem;
+  font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: 850px;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 .skill-row {
@@ -139,7 +152,7 @@ main {
 
 .two-col {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -153,13 +166,13 @@ main {
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
 
-@media (max-width: 768px) {
-  .article-container,
-  .universal-wrapper,
-  .page-body,
-  main {
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
+@media (max-width: 850px) {
+  .portfolio-page-wrap {
+    width: calc(100vw - 2rem) !important;
+  }
+
+  .two-col {
+    grid-template-columns: 1fr;
   }
 }
 </style>
