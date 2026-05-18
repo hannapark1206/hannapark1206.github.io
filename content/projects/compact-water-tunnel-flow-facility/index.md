@@ -26,36 +26,21 @@ I worked on a compact low-Reynolds-number water-tunnel facility by supporting ha
   <span class="skill-chip">Turbine arrays</span>
   <span class="skill-chip">Arduino C++</span>
   <span class="skill-chip">PWM control</span>
-  <span class="skill-chip">Electronics</span>
-  <span class="skill-chip">Power configuration</span>
   <span class="skill-chip">PIV</span>
   <span class="skill-chip">Dye visualization</span>
-  <span class="skill-chip">Kármán vortex streets</span>
 </div>
 
 </div>
 
 ## Project Snapshot
 
-<div class="project-detail-box">
+This project focused on improving a compact <strong>2 × 1 meter</strong> water-tunnel facility with a <strong>9 × 9 turbine array</strong>. The goal was to make a much smaller flow facility that could still support useful low-Reynolds-number experiments.
 
-<p>
-This project focused on building and improving a compact <strong>2 × 1 meter</strong> flow facility with a <strong>9 × 9 turbine array</strong>. The test section occupied about <strong>45%</strong> of the total facility area, which made the setup much smaller than a traditional pump-powered water tunnel with a similar test-section size.
-</p>
+I worked on the hardware and control side of the setup, including electronics, wiring, power configuration, and Arduino/PWM control for the turbine array. I also helped develop matrix-style control for individual turbines and line-based control on a <strong>3 × 3 array</strong>, with the structure intended to scale toward the full <strong>9 × 9 array</strong>.
 
-<p>
-Compared with traditional pump-powered facilities, the design achieved about a <strong>96% reduction in size</strong> and used less than <strong>6%</strong> of the overall footprint. I supported the hardware layout, electronics, wiring, power configuration, and turbine-array control needed to make the compact facility usable for flow testing.
-</p>
+For validation, I used <strong>Particle Image Velocimetry</strong> and dye injection with UV light to look at the flow behavior. These tests helped show velocity profiles, shear-layer behavior, and Kármán vortex street patterns at different Reynolds numbers, with roughly <strong>1–2% turbulence intensity</strong>.
 
-<p>
-For validation, I conducted <strong>Particle Image Velocimetry (PIV)</strong> to collect velocity-profile data and ran shear-layer dye-injection tests using UV light. These tests were used to observe Kármán vortex street patterns at different Reynolds numbers and showed roughly <strong>1–2% turbulence intensity</strong>.
-</p>
-
-<p>
-I also worked on the Arduino C++ control code for shear-layer testing by implementing matrix-style control for individual turbines and line-based control on a <strong>3 × 3 array</strong>, with the structure designed to scale toward the full <strong>9 × 9 array</strong>. Our work was presented at the <strong>2024 SoCal XVI Fluids Conference</strong>.
-</p>
-
-</div>
+For more details on the facility design, validation process, and results, the presentation below gives the fuller project walkthrough.
 
 <div class="report-box">
   <div>
@@ -123,28 +108,6 @@ I also worked on the Arduino C++ control code for shear-layer testing by impleme
   line-height: 1.2;
 }
 
-.project-detail-box {
-  border: 1px solid #e5e7eb;
-  background: #ffffff;
-  border-radius: 18px;
-  padding: 1.2rem 1.35rem;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-}
-
-.project-detail-box p {
-  margin-top: 0;
-  margin-bottom: 0.9rem;
-  font-size: 0.98rem;
-  line-height: 1.65;
-  color: #374151;
-}
-
-.project-detail-box p:last-child {
-  margin-bottom: 0;
-}
-
 .report-box {
   display: flex;
   align-items: center;
@@ -154,7 +117,7 @@ I also worked on the Arduino C++ control code for shear-layer testing by impleme
   background: #ffffff;
   border-radius: 18px;
   padding: 1rem 1.2rem;
-  margin-top: 0.4rem;
+  margin-top: 1.2rem;
   margin-bottom: 2rem;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
