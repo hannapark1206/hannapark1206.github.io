@@ -17,7 +17,7 @@ commentable: false
 <p class="project-kicker">Golwala Group · Cryogenic Detectors · Summer 2024</p>
 
 <p class="project-lede">
-I worked on cryogenic detector instrumentation for phonon-mediated kinetic inductance detectors, connecting detector geometry, phonon collection, CAD mounting, wire-bonded assembly, simulation, and Python-based resonator analysis.
+I worked on cryogenic detector instrumentation for phonon-mediated kinetic inductance detectors, connecting detector geometry, phonon collection, CAD mounting, wire-bonded assembly, simulation, and Python-based resonator analysis. My work included kinetic inductance detector geometry changes, quasiparticle phonon-guide concepts, CAD mount redesign, wire-bonded assembly preparation, and Python resonance fitting to support improved phonon collection and resonator characterization.
 </p>
 
 <div class="skill-row">
@@ -32,12 +32,6 @@ I worked on cryogenic detector instrumentation for phonon-mediated kinetic induc
   <span class="skill-chip">Resonator analysis</span>
 </div>
 
-</div>
-
-<div class="project-note">
-  <p>
-    My work included kinetic inductance detector geometry changes, quasiparticle phonon-guide concepts, CAD mount redesign, wire-bonded assembly preparation, and Python resonance fitting. The project combined hands-on detector hardware with simulation and analysis to support improved phonon collection and resonator characterization.
-  </p>
 </div>
 
 ## Report and Presentation
