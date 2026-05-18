@@ -7,6 +7,11 @@ share: false
 commentable: false
 ---
 
+<div class="top-stack">
+  <img src="11.png" alt="KID detector simulation and mount redesign">
+  <img src="13.png" alt="KID layout images">
+</div>
+
 <div class="portfolio-hero">
 
 <p class="project-kicker">Golwala Group · Cryogenic Detectors · Summer 2024</p>
@@ -16,58 +21,10 @@ I worked on cryogenic detector instrumentation for phonon-mediated kinetic induc
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip"> Cryogenic detectors</span>
-  <span class="skill-chip"> Kinetic Inductance Detectors</span>
-  <span class="skill-chip"> Phonon collection</span>
-  <span class="skill-chip"> CAD mount design</span>
-  <span class="skill-chip"> Wire bonding</span>
-  <span class="skill-chip"> Python fitting</span>
-</div>
-
-</div>
-
-## Project Snapshot
-
-This project focused on detector hardware and resonator analysis for phonon-mediated kinetic inductance detectors. My work connected device geometry, phonon-loss reduction, mechanical mounting, wire bonding, and Python-based resonance fitting.
-
-## My Role
-
-I worked on detector hardware modifications, CAD mount redesign, wire-bonded assembly preparation, and resonator-analysis tools.
-
-## What I Built and Integrated
-
-<div class="two-col">
-
-<div>
-
-### Detector hardware
-
-- Modified kinetic inductance detector geometry
-- Added quasiparticle phonon-guide concepts to improve phonon collection
-- Redesigned detector mounting hardware
-- Supported low-thermal-resistance and vibration-robust cryogenic operation
-
-</div>
-
-<div>
-
-### Simulation and analysis
-
-- Worked with superconducting resonator layouts and simulations
-- Compared simulated and theoretical resonant-frequency behavior
-- Built a Python resonance-fitting pipeline
-- Used regression and least-squares fitting for resonator analysis
-
-</div>
-
-</div>
-
-## Technical Stack
-
-<div class="skill-row">
+  <span class="skill-chip">Cryogenic detectors</span>
   <span class="skill-chip">Kinetic inductance detectors</span>
-  <span class="skill-chip">Cryogenic hardware</span>
-  <span class="skill-chip">CAD</span>
+  <span class="skill-chip">Phonon collection</span>
+  <span class="skill-chip">CAD mount design</span>
   <span class="skill-chip">Wire bonding</span>
   <span class="skill-chip">Sonnet/simulation</span>
   <span class="skill-chip">Python</span>
@@ -75,21 +32,37 @@ I worked on detector hardware modifications, CAD mount redesign, wire-bonded ass
   <span class="skill-chip">Resonator analysis</span>
 </div>
 
-## Media
-
-<div class="button-row">
-  <a class="doc-button" href="Fermilab%20Presentation%20Final%20Copy%20c%20c.pdf">View Fermilab presentation</a>
-  <a class="doc-button" href="Hanna_Park_SURF_Final_Report%20%281%29.pdf">View SURF report</a>
 </div>
 
-<div class="media-grid">
+## Project Work
+
+This project focused on detector hardware and resonator analysis for phonon-mediated kinetic inductance detectors. I worked on kinetic inductance detector geometry changes, quasiparticle phonon-guide concepts, CAD mount redesign, wire-bonded assembly preparation, and Python-based resonance fitting. The work connected device geometry, phonon-loss reduction, mechanical mounting, simulation, and resonator analysis.
+
+## Report and Presentation
+
+<div class="report-box">
+  <div>
+    <p class="report-label">Project materials</p>
+    <p class="report-title">Fermilab presentation and SURF final report</p>
+  </div>
+  <div class="report-buttons">
+    <a class="report-button" href="Fermilab%20Presentation%20Final%20Copy%20c%20c.pdf">Open presentation</a>
+    <a class="report-button" href="Hanna_Park_SURF_Final_Report%20%281%29.pdf">Open report</a>
+  </div>
+</div>
+
+## Additional Media
+
+<div class="bottom-stack">
   <img src="14.png" alt="Detector mount CAD and physical mount">
-  <img src="11.png" alt="KID detector simulation and mount redesign">
-  <img src="13.png" alt="KID layout images">
 </div>
 
 <style>
 .article-metadata,
+.article-tags,
+.page-tags,
+.tags,
+.taxonomy-terms,
 .toc-sidebar,
 .page-toc,
 .docs-toc,
@@ -98,9 +71,8 @@ I worked on detector hardware modifications, CAD mount redesign, wire-bonded ass
 }
 
 .portfolio-hero {
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
-  max-width: 980px;
+  margin-top: 2rem;
+  margin-bottom: 2.3rem;
 }
 
 .project-kicker {
@@ -113,10 +85,9 @@ I worked on detector hardware modifications, CAD mount redesign, wire-bonded ass
 }
 
 .project-lede {
-  font-size: 1.2rem;
+  font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: 850px;
 }
 
 .skill-row {
@@ -140,53 +111,92 @@ I worked on detector hardware modifications, CAD mount redesign, wire-bonded ass
   line-height: 1.2;
 }
 
-.two-col {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.4rem;
+.top-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.2rem;
 }
 
-.two-col > div {
-  border: 1px solid #e5e7eb;
+.top-stack img,
+.bottom-stack img {
+  width: 100%;
+  height: auto;
+  display: block;
   border-radius: 18px;
-  padding: 1.2rem 1.3rem;
+  border: 1px solid #e5e7eb;
   background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.bottom-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.report-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 1rem 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
 
-.button-row {
+.report-label {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #4f46e5;
+}
+
+.report-title {
+  margin: 0.2rem 0 0 0;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #111827;
+}
+
+.report-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
-  margin: 1rem 0 1.5rem;
+  gap: 0.6rem;
+  justify-content: flex-end;
 }
 
-.doc-button {
+.report-button {
   display: inline-flex;
   align-items: center;
-  border: 1px solid #dbe3ff;
-  background: #f5f7ff;
-  color: #27324a;
-  border-radius: 12px;
-  padding: 0.5rem 0.85rem;
-  font-size: 0.9rem;
-  font-weight: 700;
+  justify-content: center;
   text-decoration: none !important;
+  border-radius: 999px;
+  background: #4f46e5;
+  color: white !important;
+  padding: 0.62rem 1rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
-.media-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
+@media (max-width: 850px) {
+  .report-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.media-grid img {
-  width: 100%;
-  border-radius: 16px;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  .report-buttons {
+    justify-content: flex-start;
+  }
 }
 </style>
