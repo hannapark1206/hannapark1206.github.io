@@ -1,6 +1,6 @@
 ---
 title: "Firefighting Hardware Prototype"
-summary: "Rapid prototyping, mechanical assembly, hardware modification, and test-preparation support for a firefighting-related system."
+summary: "Rapid prototyping, mechanical assembly, hardware modification, and project support for a firefighting-related system."
 date: 2026-05-01
 toc: false
 share: false
@@ -9,28 +9,28 @@ commentable: false
 
 <div class="portfolio-hero">
 
-<p class="project-kicker">Gharib Group · Rapid Prototyping · 2026</p>
+<p class="project-kicker">Gharib Group · Project Support · Rapid Prototyping · 2026</p>
 
 <p class="project-lede">
-I support rapid prototyping and assembly work for a firefighting project. 
-  
+I support rapid prototyping, mechanical assembly, and hardware modification for a firefighting-related project.
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip"> Rapid prototyping</span>
-  <span class="skill-chip"> Mechanical assembly</span>
-  <span class="skill-chip"> Hardware modification</span>
+  <span class="skill-chip">Rapid prototyping</span>
+  <span class="skill-chip">Mechanical assembly</span>
+  <span class="skill-chip">Hardware modification</span>
+  <span class="skill-chip">Project support</span>
 </div>
 
 </div>
 
 ## Project Snapshot
 
-This project involves hands-on hardware support for a firefighting-related prototype. The work is centered on building, modifying, and preparing prototype hardware for testing.
+This project involves hands-on hardware support for a firefighting-related prototype. The work is centered on building, modifying, and supporting prototype hardware as the project develops.
 
 ## My Role
 
-I support the mechanical side of the project, including rapid prototyping, assembly, hardware modification, and test preparation.
+I support the mechanical side of the project, including rapid prototyping, assembly, hardware modification, fit checks, and general project support.
 
 ## What I Built and Integrated
 
@@ -49,12 +49,12 @@ I support the mechanical side of the project, including rapid prototyping, assem
 
 <div>
 
-### Testing support
+### Project support
 
-- Prepared hardware for testing and demonstration
-- Supported system-level fit and packaging checks
-- Helped adapt prototype parts based on field-use constraints
+- Supported project-level hardware needs
+- Helped adapt prototype parts based on packaging constraints
 - Worked through fast hardware iteration cycles
+- Supported mechanical fit and assembly updates
 
 </div>
 
@@ -68,7 +68,7 @@ I support the mechanical side of the project, including rapid prototyping, assem
   <span class="skill-chip">Assembly</span>
   <span class="skill-chip">Hardware integration</span>
   <span class="skill-chip">Field systems</span>
-  <span class="skill-chip">Test preparation</span>
+  <span class="skill-chip">Project support</span>
 </div>
 
 ## Media
@@ -80,6 +80,18 @@ I support the mechanical side of the project, including rapid prototyping, assem
 .docs-toc,
 #TableOfContents {
   display: none !important;
+}
+
+.article-container,
+.universal-wrapper,
+.page-body,
+main {
+  max-width: none !important;
+  width: auto !important;
+  margin-left: 1in !important;
+  margin-right: 1in !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .portfolio-hero {
@@ -139,5 +151,15 @@ I support the mechanical side of the project, including rapid prototyping, assem
   padding: 1.2rem 1.3rem;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+@media (max-width: 768px) {
+  .article-container,
+  .universal-wrapper,
+  .page-body,
+  main {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
 }
 </style>
