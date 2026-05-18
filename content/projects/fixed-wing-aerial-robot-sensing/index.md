@@ -7,6 +7,8 @@ share: false
 commentable: false
 ---
 
+<div class="portfolio-page-wrap">
+
 <div class="portfolio-hero">
 
 <p class="project-kicker">Gharib Group · Aerial Robotics · 2024–2025</p>
@@ -28,45 +30,21 @@ I worked on a fixed-wing aerial robot test platform by integrating flight-contro
 
 ## Media
 
-<div class="report-card">
+<div class="report-box">
   <div>
     <p class="report-label">Project report</p>
-    <h3>X2 Fixed-Wing Aerial Robot Report</h3>
-    <p>
-      A more detailed write-up of the fixed-wing UAV platform, sensing hardware, and flight-control integration work.
-    </p>
+    <p class="report-title">X2 Fixed-Wing Aerial Robot Report</p>
   </div>
   <a class="report-button" href="Hanna_Park_X2%20Report.pdf">Open report</a>
 </div>
 
-<div class="media-slider">
-  <div class="media-slide">
-    <img src="16.png" alt="Fixed-wing aerial robot test platform">
-    <p>Fixed-wing aerial robot test platform</p>
-  </div>
-
-  <div class="media-slide">
-    <img src="1.png" alt="Five-hole Pitot probe and pressure-sensor electronics">
-    <p>Five-hole Pitot probe and pressure-sensor electronics</p>
-  </div>
-
-  <div class="media-slide">
-    <img src="2.png" alt="Five-hole Pitot probe CAD">
-    <p>Five-hole Pitot probe CAD</p>
-  </div>
-
-  <div class="media-slide">
-    <img src="3.jpeg" alt="PlotJuggler pressure data">
-    <p>Pressure data visualization</p>
-  </div>
-
-  <div class="media-slide">
-    <img src="4.jpeg" alt="ROS and MAVLink telemetry visualization">
-    <p>ROS and MAVLink telemetry visualization</p>
-  </div>
+<div class="media-grid">
+  <img src="16.png" alt="Fixed-wing aerial robot test platform">
+  <img src="1.png" alt="Five-hole Pitot probe and pressure-sensor electronics">
+  <img src="2.png" alt="Five-hole Pitot probe CAD">
+  <img src="3.jpeg" alt="PlotJuggler pressure data">
+  <img src="4.jpeg" alt="ROS and MAVLink telemetry visualization">
 </div>
-
-<p class="scroll-note">Scroll sideways to view more images.</p>
 
 ## Project Snapshot
 
@@ -121,6 +99,8 @@ My contributions included hardware integration, communication setup, data retrie
   <span class="skill-chip">Wind-tunnel testing</span>
 </div>
 
+</div>
+
 <style>
 .article-metadata,
 .toc-sidebar,
@@ -130,23 +110,27 @@ My contributions included hardware integration, communication setup, data retrie
   display: none !important;
 }
 
-/* 1 inch page margins */
 .article-container,
-.universal-wrapper,
+.docs-article-container,
 .page-body,
-main {
+.prose,
+.max-w-prose,
+.universal-wrapper {
   max-width: none !important;
-  width: auto !important;
-  margin-left: 1in !important;
-  margin-right: 1in !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+}
+
+.portfolio-page-wrap {
+  width: calc(100vw - 2in) !important;
+  max-width: none !important;
+  margin-left: 50% !important;
+  transform: translateX(-50%) !important;
 }
 
 .portfolio-hero {
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-  max-width: 1050px;
+  margin-top: 1rem;
+  margin-bottom: 2.3rem;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 .project-kicker {
@@ -159,10 +143,11 @@ main {
 }
 
 .project-lede {
-  font-size: 1.2rem;
+  font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: 850px;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 .skill-row {
@@ -186,106 +171,72 @@ main {
   line-height: 1.2;
 }
 
-.report-card {
+.report-box {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 1.5rem;
-  border: 1px solid #dbe3ff;
-  background: linear-gradient(135deg, #f7f8ff 0%, #ffffff 70%);
-  border-radius: 22px;
-  padding: 1.4rem 1.5rem;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 1rem 1.2rem;
   margin-top: 1rem;
-  margin-bottom: 1.6rem;
-  box-shadow: 0 12px 32px rgba(0,0,0,0.06);
-}
-
-.report-card h3 {
-  margin: 0.1rem 0 0.45rem 0;
-  font-size: 1.25rem;
-  color: #111827;
-}
-
-.report-card p {
-  margin: 0;
-  color: #4b5563;
-  line-height: 1.55;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
 
 .report-label {
+  margin: 0;
   font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #4f46e5 !important;
-  margin-bottom: 0.25rem !important;
+  color: #4f46e5;
+}
+
+.report-title {
+  margin: 0.2rem 0 0 0;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #111827;
 }
 
 .report-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  white-space: nowrap;
   text-decoration: none !important;
+  border-radius: 999px;
   background: #4f46e5;
   color: white !important;
-  border-radius: 999px;
-  padding: 0.7rem 1.05rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  box-shadow: 0 8px 20px rgba(79,70,229,0.25);
-}
-
-.report-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 12px 24px rgba(79,70,229,0.3);
-}
-
-.media-slider {
-  display: flex;
-  gap: 1rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  padding: 0.3rem 0 1rem 0;
-  margin-bottom: 0.2rem;
-}
-
-.media-slide {
-  flex: 0 0 min(78vw, 760px);
-  scroll-snap-align: start;
-  border-radius: 24px;
-  overflow: hidden;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 14px 34px rgba(0,0,0,0.08);
-}
-
-.media-slide img {
-  width: 100%;
-  height: 430px;
-  object-fit: cover;
-  display: block;
-}
-
-.media-slide p {
-  margin: 0;
-  padding: 0.85rem 1rem;
-  font-size: 0.92rem;
-  font-weight: 650;
-  color: #374151;
-  background: #ffffff;
-}
-
-.scroll-note {
-  margin-top: 0;
-  margin-bottom: 2.2rem;
+  padding: 0.62rem 1rem;
   font-size: 0.88rem;
-  color: #6b7280;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2.2rem;
+}
+
+.media-grid img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
 
 .two-col {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -299,26 +250,23 @@ main {
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
 
-@media (max-width: 768px) {
-  .article-container,
-  .universal-wrapper,
-  .page-body,
-  main {
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
+@media (max-width: 850px) {
+  .portfolio-page-wrap {
+    width: calc(100vw - 2rem) !important;
   }
 
-  .report-card {
+  .two-col,
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .report-box {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .media-slide {
-    flex-basis: 88vw;
-  }
-
-  .media-slide img {
-    height: 280px;
+  .media-grid img {
+    max-height: none;
   }
 }
 </style>
