@@ -86,18 +86,15 @@ I support the mechanical side of the project, including rapid prototyping, assem
   display: none !important;
 }
 
-/* remove default narrow article limits */
 .article-container,
 .docs-article-container,
 .page-body,
 .prose,
 .max-w-prose,
-.universal-wrapper,
-.container {
+.universal-wrapper {
   max-width: none !important;
 }
 
-/* about 1 inch margin on each side */
 .portfolio-page-wrap {
   width: calc(100vw - 2in) !important;
   max-width: none !important;
@@ -106,7 +103,7 @@ I support the mechanical side of the project, including rapid prototyping, assem
 }
 
 .portfolio-hero {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   margin-bottom: 2.3rem;
   max-width: none !important;
   width: 100% !important;
