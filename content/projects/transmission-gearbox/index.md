@@ -7,6 +7,11 @@ share: false
 commentable: false
 ---
 
+<div class="top-stack">
+  <img src="10.png" alt="Physical gearbox test setup">
+  <img src="9.png" alt="Transmission gearbox CAD model">
+</div>
+
 <div class="portfolio-hero">
 
 <p class="project-kicker">Mechanical Design · Transmission · 2025</p>
@@ -16,49 +21,18 @@ I worked on a two-stage spur-gear transmission design by connecting MATLAB perfo
 </p>
 
 <div class="skill-row">
-  <span class="skill-chip"> CAD</span>
-  <span class="skill-chip"> MATLAB</span>
-  <span class="skill-chip"> Machining</span>
-  <span class="skill-chip"> PDR/CDR</span>
+  <span class="skill-chip">SolidWorks</span>
+  <span class="skill-chip">MATLAB</span>
+  <span class="skill-chip">Gear trains</span>
+  <span class="skill-chip">Machining</span>
+  <span class="skill-chip">PDR/CDR</span>
 </div>
 
 </div>
 
-## Project Snapshot
+## Project Work
 
-This project focused on designing and reviewing a compact two-stage transmission. The work combined analytical modeling, mechanical CAD, manufacturing planning, and design review documentation.
-
-## My Role
-
-I worked on performance modeling, gear-ratio selection, CAD design, shaft and bearing considerations, manufacturing planning, and PDR/CDR materials.
-
-## What I Built and Integrated
-
-<div class="two-col">
-
-<div>
-
-### Transmission design
-
-- Modeled gearbox performance in MATLAB
-- Compared gear-ratio options
-- Estimated speed, torque, and efficiency behavior
-- Designed gearbox housing, shafts, and component layout in SolidWorks
-
-</div>
-
-<div>
-
-### Manufacturing and review
-
-- Worked with keyed shafts, bearings, gears, and shaft supports
-- Considered machining and assembly constraints
-- Prepared PDR/CDR design review materials
-- Connected calculations, CAD, and fabrication planning
-
-</div>
-
-</div>
+This project focused on designing and reviewing a compact two-stage transmission. I worked on MATLAB performance modeling, gear-ratio selection, speed/torque/efficiency estimates, SolidWorks CAD, keyed shafts, bearings, gears, shaft supports, machining constraints, and PDR/CDR design review materials.
 
 ## Technical Stack
 
@@ -72,15 +46,12 @@ I worked on performance modeling, gear-ratio selection, CAD design, shaft and be
   <span class="skill-chip">Design reviews</span>
 </div>
 
-## Media
-
-<div class="media-grid">
-  <img src="10.png" alt="Physical gearbox test setup">
-  <img src="9.png" alt="Transmission gearbox CAD model">
-</div>
-
 <style>
 .article-metadata,
+.article-tags,
+.page-tags,
+.tags,
+.taxonomy-terms,
 .toc-sidebar,
 .page-toc,
 .docs-toc,
@@ -89,9 +60,8 @@ I worked on performance modeling, gear-ratio selection, CAD design, shaft and be
 }
 
 .portfolio-hero {
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
-  max-width: 980px;
+  margin-top: 2rem;
+  margin-bottom: 2.3rem;
 }
 
 .project-kicker {
@@ -104,10 +74,9 @@ I worked on performance modeling, gear-ratio selection, CAD design, shaft and be
 }
 
 .project-lede {
-  font-size: 1.2rem;
+  font-size: 1.18rem;
   line-height: 1.65;
   color: #374151;
-  max-width: 850px;
 }
 
 .skill-row {
@@ -131,33 +100,21 @@ I worked on performance modeling, gear-ratio selection, CAD design, shaft and be
   line-height: 1.2;
 }
 
-.two-col {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.4rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-.two-col > div {
-  border: 1px solid #e5e7eb;
-  border-radius: 18px;
-  padding: 1.2rem 1.3rem;
-  background: #ffffff;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-}
-
-.media-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+.top-stack {
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
   margin-top: 1rem;
+  margin-bottom: 2.2rem;
 }
 
-.media-grid img {
+.top-stack img {
   width: 100%;
-  border-radius: 16px;
+  height: auto;
+  display: block;
+  border-radius: 18px;
   border: 1px solid #e5e7eb;
+  background: #ffffff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
 }
 </style>
