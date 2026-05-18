@@ -15,7 +15,7 @@ sections:
 
         <a class="project-card" href="/projects/multi-modal-air-robot/">
           <div class="project-image">
-            <img src="/projects/multi-modal-air-robot/featured.jpg" alt="Multi-modal air-ground robot project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/multi-modal-air-robot/m4.jpg" alt="Multi-modal air-ground robot project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Senior Thesis · Robotics · Hardware</div>
@@ -48,7 +48,7 @@ sections:
 
         <a class="project-card" href="/projects/firefighting-hardware-prototype/">
           <div class="project-image">
-            <img src="/projects/firefighting-hardware-prototype/featured.jpg" alt="Firefighting hardware prototype image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            <img src="/projects/firefighting-hardware-prototype/firefighting.jpg" alt="Firefighting hardware prototype image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
           </div>
           <div class="project-body">
             <div class="project-tag">Rapid Prototyping · Assembly · Field Systems</div>
