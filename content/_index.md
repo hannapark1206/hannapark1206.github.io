@@ -25,9 +25,119 @@ sections:
       text: |
         <div class="home-wrap">
 
+        ## Projects
+
+        <div class="home-project-grid">
+
+          <a class="home-project-card" href="/projects/multi-modal-air-robot/">
+            <div class="home-project-image">
+              <img src="/projects/multi-modal-air-robot/featured.jpg" alt="Multi-modal air-ground robot project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            </div>
+            <div class="home-project-body">
+              <p class="home-kicker">Senior Thesis · Robotics</p>
+              <h3>Multi-Modal Air–Ground Robot Platform</h3>
+              <p>Aerial hardware integration, ESC/motor setup, thrust-biasing deflector design, CFD checks, and bench testing.</p>
+            </div>
+          </a>
+
+          <a class="home-project-card" href="/projects/fixed-wing-aerial-robot-sensing/">
+            <div class="home-project-image">
+              <img src="/projects/fixed-wing-aerial-robot-sensing/16.png" alt="Fixed-wing aerial robot sensing project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            </div>
+            <div class="home-project-body">
+              <p class="home-kicker">Aerial Robotics · Sensing</p>
+              <h3>Fixed-Wing Aerial Robot Sensing</h3>
+              <p>Flight-control integration, ROS/MAVLink workflows, five-hole Pitot probe hardware, and wind-tunnel calibration.</p>
+            </div>
+          </a>
+
+          <a class="home-project-card" href="/projects/compact-water-tunnel-flow-facility/">
+            <div class="home-project-image">
+              <img src="/projects/compact-water-tunnel-flow-facility/6.png" alt="Compact water tunnel project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            </div>
+            <div class="home-project-body">
+              <p class="home-kicker">Experimental Fluids · Hardware</p>
+              <h3>Compact Water-Tunnel Flow Facility</h3>
+              <p>Water-tunnel hardware, turbine-array control, electronics, Arduino/PWM control, and PIV/dye-flow validation.</p>
+            </div>
+          </a>
+
+          <a class="home-project-card" href="/projects/cryogenic-detector-instrumentation/">
+            <div class="home-project-image">
+              <img src="/projects/cryogenic-detector-instrumentation/14.png" alt="Cryogenic detector instrumentation project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            </div>
+            <div class="home-project-body">
+              <p class="home-kicker">Instrumentation · Python</p>
+              <h3>Cryogenic Detector Instrumentation</h3>
+              <p>KID detector modifications, phonon guides, CAD mounting, wire-bonded assembly, and Python resonance fitting.</p>
+            </div>
+          </a>
+
+          <a class="home-project-card" href="/projects/transmission-gearbox/">
+            <div class="home-project-image">
+              <img src="/projects/transmission-gearbox/10.png" alt="Transmission gearbox project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            </div>
+            <div class="home-project-body">
+              <p class="home-kicker">Mechanical Design · CAD</p>
+              <h3>ME14 Transmission Gearbox</h3>
+              <p>Transmission design with MATLAB modeling, SolidWorks CAD, keyed shafts, bearings, machining, and PDR/CDR reviews.</p>
+            </div>
+          </a>
+
+          <a class="home-project-card" href="/projects/vision-motion-control/">
+            <div class="home-project-image">
+              <img src="/projects/vision-motion-control/18.png" alt="Vision and motion control project image" onerror="this.parentElement.classList.add('placeholder'); this.remove();">
+            </div>
+            <div class="home-project-body">
+              <p class="home-kicker">Robotics · Vision</p>
+              <h3>Real-Time Vision and Motion Control</h3>
+              <p>Python/OpenCV target detection and HEBI pan–tilt actuation with smooth spline-based motion commands.</p>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="home-button-row">
+          <a class="home-button" href="/projects/">View all projects</a>
+        </div>
+
+        ## Experience
+
+        <div class="home-card-grid four">
+
+          <a class="home-card home-link-card" href="/experience/">
+            <p class="home-kicker">Summer 2026</p>
+            <h3>Falcon Propulsion Engineering Intern</h3>
+            <p>Incoming engineering intern on the Falcon Propulsion team at SpaceX.</p>
+          </a>
+
+          <a class="home-card home-link-card" href="/projects/">
+            <p class="home-kicker">2023–Present</p>
+            <h3>Undergraduate Researcher</h3>
+            <p>Long-term research work across aerial robotics, experimental hardware, sensing, and rapid prototyping at Caltech.</p>
+          </a>
+
+          <a class="home-card home-link-card" href="/projects/cryogenic-detector-instrumentation/">
+            <p class="home-kicker">Summer 2024</p>
+            <h3>SURF Research Fellow</h3>
+            <p>Cryogenic detector instrumentation, detector hardware, resonator analysis, and experimental hardware preparation.</p>
+          </a>
+
+          <a class="home-card home-link-card" href="/projects/packing-machine-product-design/">
+            <p class="home-kicker">2019–Present</p>
+            <h3>Product Design and Machine Management</h3>
+            <p>Machine assembly, product sizing, packaging design, documentation, and operations support.</p>
+          </a>
+
+        </div>
+
+        <div class="home-button-row">
+          <a class="home-button" href="/experience/">View experience</a>
+        </div>
+
         ## Awards
 
-        <div class="home-card-grid">
+        <div class="home-card-grid three">
 
           <div class="home-card">
             <p class="home-kicker">Caltech EAS · 2026</p>
@@ -48,29 +158,10 @@ sections:
           </div>
 
         </div>
-    
-        ## Featured Projects
-
-        <div class="home-card-grid two">
-
-          <a class="home-card home-link-card" href="/projects/multi-modal-air-robot/">
-            <p class="home-kicker">Senior Thesis · Robotics</p>
-            <h3>Multi-Modal Air–Ground Robot Platform</h3>
-            <p>Multi-modal robot prototyping, propulsion integration, deflector design, and bench testing.</p>
-          </a>
-
-          <a class="home-card home-link-card" href="/projects/fixed-wing-aerial-robot-sensing/">
-            <p class="home-kicker">Aerial Robotics · Sensing</p>
-            <h3>Flight-Ready Sensing for Fixed-Wing Aerial Robots</h3>
-            <p>Five-hole Pitot probe hardware, embedded sensing, ROS/MAVLink workflows, and wind-tunnel calibration.</p>
-          </a>
-
-        </div>
 
         </div>
 
         <style>
-        /* overall homepage hero spacing */
         .resume-biography,
         .homepage-hero {
           padding-top: 2rem !important;
@@ -88,7 +179,6 @@ sections:
           padding-bottom: 1.5rem !important;
         }
 
-        /* main profile section width */
         .resume-biography .container,
         .homepage-hero .container {
           max-width: 1160px !important;
@@ -96,7 +186,6 @@ sections:
           margin-right: auto !important;
         }
 
-        /* center the two columns vertically */
         .resume-biography .row,
         .homepage-hero .row {
           display: flex !important;
@@ -107,13 +196,11 @@ sections:
           padding-bottom: 0 !important;
         }
 
-        /* move the photo/profile side slightly down */
         .resume-biography .col-lg-4,
         .homepage-hero .col-lg-4 {
           transform: translateY(1.4rem) !important;
         }
 
-        /* keep right summary vertically centered */
         .resume-biography .col-lg-8,
         .homepage-hero .col-lg-8 {
           display: flex !important;
@@ -125,7 +212,6 @@ sections:
           padding-bottom: 0 !important;
         }
 
-        /* center summary text block within right side */
         .resume-biography .biography,
         .resume-biography .bio-text,
         .resume-biography .section-subheading,
@@ -139,7 +225,6 @@ sections:
           margin-right: auto !important;
         }
 
-        /* reduce weird side padding */
         .resume-biography .col-12,
         .resume-biography .col-lg-4,
         .resume-biography .col-lg-8,
@@ -150,7 +235,6 @@ sections:
           padding-right: 1.25rem !important;
         }
 
-        /* homepage sections below hero */
         .home-section,
         section.home-section {
           padding-top: 1.25rem !important;
@@ -160,22 +244,74 @@ sections:
         }
 
         .home-wrap {
-          width: min(1120px, calc(100vw - 4rem)) !important;
+          width: min(1220px, calc(100vw - 4rem)) !important;
           max-width: none !important;
           margin-left: 50% !important;
           transform: translateX(-50%) !important;
         }
 
-        .home-card-grid {
+        .home-project-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-          gap: 1.2rem;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 1.25rem;
           margin-top: 1.2rem;
-          margin-bottom: 2.6rem;
+          margin-bottom: 1.2rem;
         }
 
-        .home-card-grid.two {
-          grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        .home-project-card {
+          display: block;
+          overflow: hidden;
+          border: 1px solid #e5e7eb;
+          border-radius: 20px;
+          background: #ffffff;
+          box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+          text-decoration: none !important;
+          color: inherit;
+          transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .home-project-card:hover,
+        .home-link-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 14px 34px rgba(0,0,0,0.09);
+        }
+
+        .home-project-image {
+          width: 100%;
+          aspect-ratio: 16 / 9;
+          background: linear-gradient(135deg, #ede9fe, #fbcfe8);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .home-project-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .home-project-image.placeholder::after {
+          content: "";
+        }
+
+        .home-project-body {
+          padding: 1.15rem 1.25rem 1.3rem;
+        }
+
+        .home-card-grid {
+          display: grid;
+          gap: 1.2rem;
+          margin-top: 1.2rem;
+          margin-bottom: 1.2rem;
+        }
+
+        .home-card-grid.four {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+
+        .home-card-grid.three {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
         }
 
         .home-card {
@@ -186,22 +322,11 @@ sections:
           padding: 1.25rem 1.35rem;
         }
 
-        .home-card.wide {
-          max-width: 900px;
-          margin-top: 1.2rem;
-          margin-bottom: 2.6rem;
-        }
-
         .home-link-card {
           display: block;
           text-decoration: none !important;
           color: inherit;
           transition: transform 0.15s ease, box-shadow 0.15s ease;
-        }
-
-        .home-link-card:hover {
-          transform: translateY(-3px);
-          box-shadow: 0 14px 34px rgba(0,0,0,0.09);
         }
 
         .home-kicker {
@@ -213,22 +338,65 @@ sections:
           margin-bottom: 0.45rem;
         }
 
-        .home-card h3 {
+        .home-card h3,
+        .home-project-card h3 {
           margin-top: 0;
           margin-bottom: 0.55rem;
           line-height: 1.25;
           font-size: 1.15rem;
         }
 
-        .home-card p {
+        .home-card p,
+        .home-project-card p {
           color: #4b5563;
-          line-height: 1.6;
+          line-height: 1.55;
           margin-bottom: 0;
+          font-size: 0.94rem;
+        }
+
+        .home-button-row {
+          display: flex;
+          justify-content: flex-start;
+          margin-top: 0.8rem;
+          margin-bottom: 2.5rem;
+        }
+
+        .home-button {
+          display: inline-flex;
+          align-items: center;
+          border: 1px solid #dbe3ff;
+          background: #f5f7ff;
+          color: #27324a;
+          border-radius: 12px;
+          padding: 0.55rem 0.9rem;
+          font-size: 0.9rem;
+          font-weight: 700;
+          text-decoration: none !important;
         }
 
         .home-wrap h2 {
-          margin-top: 1.4rem !important;
+          margin-top: 1.6rem !important;
           margin-bottom: 0.8rem !important;
+        }
+
+        @media (max-width: 1100px) {
+          .home-project-grid,
+          .home-card-grid.four,
+          .home-card-grid.three {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        }
+
+        @media (max-width: 700px) {
+          .home-wrap {
+            width: min(100%, calc(100vw - 2rem)) !important;
+          }
+
+          .home-project-grid,
+          .home-card-grid.four,
+          .home-card-grid.three {
+            grid-template-columns: 1fr;
+          }
         }
 
         @media (max-width: 900px) {
@@ -248,10 +416,6 @@ sections:
             min-height: auto !important;
             align-items: center !important;
             text-align: center !important;
-          }
-
-          .home-wrap {
-            width: min(100%, calc(100vw - 2rem)) !important;
           }
         }
         </style>
