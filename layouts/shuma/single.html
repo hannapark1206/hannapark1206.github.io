@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}</title>
+
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="A little sky-blue page for Shuma.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --sky-1: #dff5ff;
+      --sky-2: #edfaff;
+      --sky-3: #d7efff;
+      --blue-soft: #a9dcf7;
+      --blue-mid: #79bfe9;
+      --blue-deep: #4d8eb6;
+      --pink-soft: #ffd9ea;
+      --pink-mid: #ffb9d5;
+      --white-glass: rgba(255, 255, 255, 0.70);
+      --white-border: rgba(255, 255, 255, 0.92);
+      --shadow: rgba(79, 145, 184, 0.18);
+      --text: #4f7f9c;
+      --text-light: #729bb4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+    }
+
+    body {
+      font-family: "Nunito", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 18% 16%, rgba(255,255,255,0.95) 0 7%, transparent 8%),
+        radial-gradient(circle at 84% 18%, rgba(255,255,255,0.70) 0 6%, transparent 7%),
+        linear-gradient(160deg, var(--sky-1) 0%, var(--sky-2) 43%, var(--sky-3) 100%);
+      overflow-x: hidden;
+    }
+
+    .shuma-page {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 56px 22px;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    /* soft glow behind the card */
+    .shuma-page::before {
+      content: "";
+      position: absolute;
+      width: min(720px, 90vw);
+      height: min(720px, 90vw);
+      border-radius: 50%;
+      background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 0.82) 0%,
+        rgba(255, 255, 255, 0.28) 42%,
+        transparent 70%
+      );
+      z-index: -1;
+    }
+
+    /* clouds */
+    .cloud {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.72);
+      border-radius: 999px;
+      filter: blur(0.2px);
+      box-shadow: 0 14px 35px rgba(132, 191, 223, 0.16);
+      animation: cloudFloat 9s ease-in-out infinite;
+    }
+
+    .cloud::before,
+    .cloud::after {
+      content: "";
+      position: absolute;
+      background: inherit;
+      border-radius: 50%;
+    }
+
+    .cloud-one {
+      top: 10%;
+      left: -28px;
+      width: 145px;
+      height: 44px;
+    }
+
+    .cloud-one::before {
+      width: 60px;
+      height: 60px;
+      left: 26px;
+      bottom: 13px;
+    }
+
+    .cloud-one::after {
+      width: 47px;
+      height: 47px;
+      right: 25px;
+      bottom: 16px;
+    }
+
+    .cloud-two {
+      right: -36px;
+      bottom: 17%;
+      width: 170px;
+      height: 49px;
+      animation-delay: -3s;
+    }
+
+    .cloud-two::before {
+      width: 67px;
+      height: 67px;
+      left: 34px;
+      bottom: 15px;
+    }
+
+    .cloud-two::after {
+      width: 51px;
+      height: 51px;
+      right: 31px;
+      bottom: 16px;
+    }
+
+    @keyframes cloudFloat {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-12px);
+      }
+    }
+
+    /* floating hearts */
+    .hearts {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .heart {
+      position: absolute;
+      bottom: -70px;
+      width: var(--size);
+      height: var(--size);
+      background: var(--heart-color);
+      transform: rotate(-45deg);
+      opacity: 0;
+      animation: rise var(--duration) linear infinite;
+      animation-delay: var(--delay);
+      filter: drop-shadow(0 4px 6px rgba(104, 176, 211, 0.12));
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      width: var(--size);
+      height: var(--size);
+      border-radius: 50%;
+      background: var(--heart-color);
+    }
+
+    .heart::before {
+      top: calc(var(--size) * -0.5);
+      left: 0;
+    }
+
+    .heart::after {
+      top: 0;
+      left: calc(var(--size) * 0.5);
+    }
+
+    @keyframes rise {
+      0% {
+        opacity: 0;
+        transform: translateY(0) rotate(-45deg) scale(0.8);
+      }
+      10% {
+        opacity: 0.75;
+      }
+      80% {
+        opacity: 0.58;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-115vh) rotate(-25deg) scale(1.15);
+      }
+    }
+
+    .card {
+      position: relative;
+      width: min(610px, 100%);
+      padding: 56px 44px 34px;
+      background: var(--white-glass);
+      border: 1.5px solid var(--white-border);
+      border-radius: 38px;
+      text-align: center;
+      box-shadow:
+        0 25px 70px var(--shadow),
+        inset 0 1px 0 rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(17px);
+      -webkit-backdrop-filter: blur(17px);
+    }
+
+    .card::before {
+      content: "♡";
+      position: absolute;
+      top: 17px;
+      left: 23px;
+      font-size: 25px;
+      color: var(--pink-mid);
+      transform: rotate(-13deg);
+    }
+
+    .card::after {
+      content: "♡";
+      position: absolute;
+      bottom: 19px;
+      right: 26px;
+      font-size: 24px;
+      color: var(--blue-mid);
+      transform: rotate(12deg);
+    }
+
+    .ribbon {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-bottom: 13px;
+      padding: 7px 19px;
+      color: var(--blue-deep);
+      background: rgba(219, 243, 255, 0.85);
+      border: 1px solid rgba(159, 213, 242, 0.48);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .ribbon-heart {
+      color: #f18bb3;
+      font-size: 14px;
+      letter-spacing: 0;
+    }
+
+    .title {
+      margin: 4px 0 0;
+      font-family: "Caveat", cursive;
+      font-weight: 700;
+      font-size: clamp(72px, 14vw, 100px);
+      line-height: 0.98;
+      color: #5798bf;
+      text-shadow: 0 3px 0 rgba(255, 255, 255, 0.64);
+    }
+
+    .title-heart {
+      color: #f2a0c1;
+      font-size: 0.72em;
+      vertical-align: 12%;
+    }
+
+    .subtitle {
+      margin: 9px auto 31px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-light);
+      letter-spacing: 0.03em;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 13px;
+      margin: 0 auto 29px;
+      color: #a0cfe8;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      height: 1px;
+      width: 66px;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(125, 191, 227, 0.62)
+      );
+    }
+
+    .divider::after {
+      transform: scaleX(-1);
+    }
+
+    .divider span {
+      color: #e9a0bf;
+      font-size: 18px;
+    }
+
+    .letter {
+      position: relative;
+      margin: 0 auto;
+      padding: 29px 29px 27px;
+      background: rgba(255, 255, 255, 0.64);
+      border: 1px dashed rgba(130, 193, 226, 0.62);
+      border-radius: 25px;
+      text-align: left;
+    }
+
+    .letter-label {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 5px 17px;
+      background: #fbfeff;
+      border: 1px solid rgba(167, 216, 241, 0.64);
+      border-radius: 999px;
+      color: #69a6ca;
+      font-family: "Caveat", cursive;
+      font-size: 23px;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .letter-content {
+      padding-top: 7px;
+      font-size: 16px;
+      line-height: 1.85;
+      color: #587e96;
+      text-align: center;
+    }
+
+    .letter-content p {
+      margin: 0 0 12px;
+    }
+
+    .letter-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    .charms {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 27px auto 3px;
+    }
+
+    .charm {
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #6994ae;
+      background: rgba(232, 247, 255, 0.78);
+      border: 1px solid rgba(170, 218, 242, 0.56);
+    }
+
+    .charm:nth-child(2) {
+      background: rgba(255, 233, 243, 0.72);
+      border-color: rgba(246, 185, 211, 0.56);
+      color: #c4809d;
+    }
+
+    .footer-note {
+      margin: 30px 0 0;
+      font-family: "Caveat", cursive;
+      font-size: 25px;
+      color: #83b1cc;
+    }
+
+    .sparkle {
+      position: absolute;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.9);
+      animation: sparkle 3.8s ease-in-out infinite;
+    }
+
+    .sparkle-one {
+      top: 91px;
+      right: 48px;
+    }
+
+    .sparkle-two {
+      left: 46px;
+      bottom: 120px;
+      animation-delay: -1.8s;
+    }
+
+    @keyframes sparkle {
+      0%,
+      100% {
+        transform: scale(0.82) rotate(0deg);
+        opacity: 0.46;
+      }
+      50% {
+        transform: scale(1.22) rotate(10deg);
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .shuma-page {
+        padding: 30px 15px;
+      }
+
+      .card {
+        padding: 45px 20px 26px;
+        border-radius: 29px;
+      }
+
+      .subtitle {
+        margin-bottom: 25px;
+      }
+
+      .letter {
+        padding: 27px 19px 22px;
+      }
+
+      .letter-content {
+        font-size: 15px;
+      }
+
+      .cloud-one {
+        top: 4%;
+        transform: scale(0.75);
+      }
+
+      .cloud-two {
+        bottom: 5%;
+        transform: scale(0.7);
+      }
+
+      .sparkle-one {
+        top: 78px;
+        right: 24px;
+      }
+
+      .sparkle-two {
+        left: 24px;
+        bottom: 93px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .heart,
+      .cloud,
+      .sparkle {
+        animation: none;
+      }
+
+      .heart {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="shuma-page">
+
+    <div class="cloud cloud-one" aria-hidden="true"></div>
+    <div class="cloud cloud-two" aria-hidden="true"></div>
+
+    <div class="hearts" aria-hidden="true">
+      <span class="heart" style="left: 5%; --size: 13px; --heart-color: #ffffff; --duration: 13s; --delay: -2s;"></span>
+      <span class="heart" style="left: 11%; --size: 19px; --heart-color: #ffd9ea; --duration: 17s; --delay: -8s;"></span>
+      <span class="heart" style="left: 18%; --size: 11px; --heart-color: #a9dcf7; --duration: 12s; --delay: -5s;"></span>
+      <span class="heart" style="left: 25%; --size: 17px; --heart-color: #ffffff; --duration: 18s; --delay: -11s;"></span>
+      <span class="heart" style="left: 33%; --size: 12px; --heart-color: #ffc6df; --duration: 14s; --delay: -1s;"></span>
+      <span class="heart" style="left: 40%; --size: 14px; --heart-color: #b6e2f8; --duration: 16s; --delay: -10s;"></span>
+      <span class="heart" style="left: 49%; --size: 9px; --heart-color: #ffffff; --duration: 12s; --delay: -7s;"></span>
+      <span class="heart" style="left: 57%; --size: 18px; --heart-color: #ffd9ea; --duration: 19s; --delay: -12s;"></span>
+      <span class="heart" style="left: 64%; --size: 11px; --heart-color: #ffffff; --duration: 14s; --delay: -4s;"></span>
+      <span class="heart" style="left: 71%; --size: 16px; --heart-color: #abdafa; --duration: 17s; --delay: -9s;"></span>
+      <span class="heart" style="left: 78%; --size: 12px; --heart-color: #ffd1e4; --duration: 13s; --delay: -6s;"></span>
+      <span class="heart" style="left: 86%; --size: 20px; --heart-color: #ffffff; --duration: 18s; --delay: -13s;"></span>
+      <span class="heart" style="left: 92%; --size: 13px; --heart-color: #b1ddf6; --duration: 15s; --delay: -3s;"></span>
+      <span class="heart" style="left: 97%; --size: 10px; --heart-color: #ffdaea; --duration: 12s; --delay: -9s;"></span>
+    </div>
+
+    <section class="card" aria-label="Shuma page">
+      <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+      <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+
+      <div class="ribbon">
+        <span class="ribbon-heart">♡</span>
+        secret sky page
+        <span class="ribbon-heart">♡</span>
+      </div>
+
+      <h1 class="title">
+        Shuma <span class="title-heart">♡</span>
+      </h1>
+
+      <p class="subtitle">
+        {{ with .Params.subtitle }}{{ . }}{{ else }}our little corner of the sky{{ end }}
+      </p>
+
+      <div class="divider" aria-hidden="true">
+        <span>♡</span>
+      </div>
+
+      <div class="letter">
+        <div class="letter-label">a little note ♡</div>
+
+        <div class="letter-content">
+          {{ .Content }}
+        </div>
+      </div>
+
+      <div class="charms" aria-hidden="true">
+        <span class="charm">☁ soft skies</span>
+        <span class="charm">♡ sweet things</span>
+        <span class="charm">✦ little moments</span>
+      </div>
+
+      <p class="footer-note">
+        {{ with .Params.tiny_note }}{{ . }}{{ else }}made with love ♡{{ end }}
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>
