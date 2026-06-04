@@ -536,7 +536,7 @@
           aria-controls="englishNote"
         >
           <span class="button-heart">♡</span>
-          <span id="buttonText">read more</span>
+          <span id="buttonText">あげて</span>
           <span class="button-heart">♡</span>
         </button>
 
@@ -560,7 +560,7 @@
         const isOpen = englishNote.classList.toggle("is-open");
 
         revealButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
-        buttonText.textContent = isOpen ? "close" : "read more";
+        buttonText.textContent = isOpen ? "とじて" : "あけて";
       });
     }
   </script>
