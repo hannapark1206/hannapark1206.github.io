@@ -1,5 +1,5 @@
-```html
 <!DOCTYPE html>
+
 <html lang="ko">
 <head>
   <meta charset="utf-8">
@@ -11,21 +11,21 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
     :root {
-      --sky-top: #dff5ff;
-      --sky-middle: #edfaff;
-      --sky-bottom: #d3ecfc;
+      --sky-top: #dcf4ff;
+      --sky-middle: #eefaff;
+      --sky-bottom: #d5edfd;
       --blue-main: #589ac3;
-      --blue-text: #547f99;
-      --blue-soft: #a8dafa;
+      --blue-text: #557f99;
+      --blue-light: #a9daf6;
       --pink: #f39cc0;
-      --pink-soft: #ffd5e7;
-      --glass: rgba(255, 255, 255, 0.74);
-      --glass-border: rgba(255, 255, 255, 0.94);
-      --shadow: rgba(78, 143, 184, 0.17);
+      --pink-light: #ffd7e8;
+      --white-glass: rgba(255, 255, 255, 0.76);
+      --white-border: rgba(255, 255, 255, 0.95);
+      --shadow: rgba(77, 142, 183, 0.17);
     }
 
     * {
@@ -39,12 +39,12 @@
     }
 
     body {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito", "Noto Sans JP", sans-serif;
       color: var(--blue-text);
       background:
-        radial-gradient(circle at 13% 15%, rgba(255,255,255,0.92) 0 7%, transparent 8%),
-        radial-gradient(circle at 87% 19%, rgba(255,255,255,0.78) 0 6%, transparent 7%),
-        linear-gradient(160deg, var(--sky-top) 0%, var(--sky-middle) 45%, var(--sky-bottom) 100%);
+        radial-gradient(circle at 12% 15%, rgba(255, 255, 255, 0.92) 0 7%, transparent 8%),
+        radial-gradient(circle at 88% 18%, rgba(255, 255, 255, 0.74) 0 6%, transparent 7%),
+        linear-gradient(160deg, var(--sky-top) 0%, var(--sky-middle) 44%, var(--sky-bottom) 100%);
       overflow-x: hidden;
     }
 
@@ -55,7 +55,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 38px 22px;
+      padding: 34px 20px;
       overflow: hidden;
       isolation: isolate;
     }
@@ -63,25 +63,25 @@
     .shuma-page::before {
       content: "";
       position: absolute;
-      width: min(760px, 94vw);
-      height: min(760px, 94vw);
+      width: min(760px, 95vw);
+      height: min(760px, 95vw);
       border-radius: 50%;
       background: radial-gradient(
         circle,
-        rgba(255, 255, 255, 0.7) 0%,
+        rgba(255, 255, 255, 0.74) 0%,
         rgba(255, 255, 255, 0.25) 45%,
-        transparent 72%
+        transparent 73%
       );
       z-index: -1;
     }
 
-    /* Clouds */
+    /* clouds */
     .cloud {
       position: absolute;
       background: rgba(255, 255, 255, 0.72);
       border-radius: 999px;
-      box-shadow: 0 14px 35px rgba(132, 191, 223, 0.16);
-      animation: cloudFloat 9s ease-in-out infinite;
+      box-shadow: 0 14px 35px rgba(132, 191, 223, 0.15);
+      animation: cloud-float 9s ease-in-out infinite;
     }
 
     .cloud::before,
@@ -93,8 +93,8 @@
     }
 
     .cloud-one {
-      top: 11%;
-      left: -34px;
+      top: 10%;
+      left: -35px;
       width: 150px;
       height: 44px;
     }
@@ -114,17 +114,17 @@
     }
 
     .cloud-two {
-      right: -40px;
-      bottom: 14%;
-      width: 178px;
-      height: 50px;
+      right: -42px;
+      bottom: 13%;
+      width: 180px;
+      height: 51px;
       animation-delay: -3s;
     }
 
     .cloud-two::before {
-      width: 69px;
-      height: 69px;
-      left: 37px;
+      width: 70px;
+      height: 70px;
+      left: 38px;
       bottom: 15px;
     }
 
@@ -135,17 +135,18 @@
       bottom: 17px;
     }
 
-    @keyframes cloudFloat {
+    @keyframes cloud-float {
       0%,
       100% {
         transform: translateY(0);
       }
+
       50% {
         transform: translateY(-12px);
       }
     }
 
-    /* Floating hearts */
+    /* floating hearts */
     .hearts {
       position: absolute;
       inset: 0;
@@ -156,15 +157,15 @@
 
     .heart {
       position: absolute;
-      bottom: -70px;
+      bottom: -60px;
       width: var(--size);
       height: var(--size);
       background: var(--heart-color);
       transform: rotate(-45deg);
       opacity: 0;
-      animation: rise var(--duration) linear infinite;
+      animation: heart-rise var(--duration) linear infinite;
       animation-delay: var(--delay);
-      filter: drop-shadow(0 4px 6px rgba(104, 176, 211, 0.12));
+      filter: drop-shadow(0 4px 6px rgba(103, 173, 211, 0.12));
     }
 
     .heart::before,
@@ -173,8 +174,8 @@
       position: absolute;
       width: var(--size);
       height: var(--size);
-      border-radius: 50%;
       background: var(--heart-color);
+      border-radius: 50%;
     }
 
     .heart::before {
@@ -187,35 +188,38 @@
       left: calc(var(--size) * 0.5);
     }
 
-    @keyframes rise {
+    @keyframes heart-rise {
       0% {
         opacity: 0;
         transform: translateY(0) rotate(-45deg) scale(0.8);
       }
+
       10% {
         opacity: 0.76;
       }
+
       80% {
         opacity: 0.56;
       }
+
       100% {
         opacity: 0;
         transform: translateY(-115vh) rotate(-25deg) scale(1.15);
       }
     }
 
-    /* Main card */
+    /* main card */
     .card {
       position: relative;
       width: min(610px, 100%);
-      padding: 54px 44px 42px;
-      background: var(--glass);
-      border: 1.5px solid var(--glass-border);
+      padding: 52px 43px 39px;
+      background: var(--white-glass);
+      border: 1.5px solid var(--white-border);
       border-radius: 38px;
       text-align: center;
       box-shadow:
         0 25px 70px var(--shadow),
-        inset 0 1px 0 rgba(255, 255, 255, 0.94);
+        inset 0 1px 0 rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(17px);
       -webkit-backdrop-filter: blur(17px);
     }
@@ -223,8 +227,8 @@
     .card::before {
       content: "♡";
       position: absolute;
-      top: 19px;
-      left: 26px;
+      top: 20px;
+      left: 27px;
       font-size: 27px;
       color: var(--pink);
       transform: rotate(-13deg);
@@ -233,21 +237,21 @@
     .card::after {
       content: "♡";
       position: absolute;
-      bottom: 20px;
-      right: 26px;
-      font-size: 25px;
+      bottom: 19px;
+      right: 27px;
+      font-size: 26px;
       color: #76bbe5;
       transform: rotate(12deg);
     }
 
     .title {
-      margin: 0 0 26px;
+      margin: 0;
       font-family: "Caveat", cursive;
       font-weight: 700;
       font-size: clamp(76px, 14vw, 104px);
       line-height: 0.98;
       color: var(--blue-main);
-      text-shadow: 0 3px 0 rgba(255, 255, 255, 0.64);
+      text-shadow: 0 3px 0 rgba(255, 255, 255, 0.62);
     }
 
     .title-heart {
@@ -256,12 +260,30 @@
       vertical-align: 12%;
     }
 
+    .subtitle {
+      margin: 15px auto 2px;
+      font-family: "Noto Sans JP", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: #78aac8;
+      letter-spacing: 0.04em;
+    }
+
+    .tiny-note {
+      margin: 3px auto 25px;
+      font-family: "Noto Sans JP", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--pink);
+      letter-spacing: 0.04em;
+    }
+
     .divider {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 13px;
-      margin: 0 auto 30px;
+      margin: 0 auto 29px;
       color: #a0cfe8;
     }
 
@@ -283,45 +305,48 @@
 
     .divider span {
       color: var(--pink);
-      font-size: 19px;
+      font-size: 20px;
     }
 
-    /* Visible note */
+    /* visible message box */
     .letter {
       margin: 0 auto;
-      padding: 31px 28px 28px;
+      padding: 31px 27px 28px;
       background: rgba(255, 255, 255, 0.58);
       border: 1px dashed rgba(130, 193, 226, 0.62);
       border-radius: 25px;
     }
 
     .letter-content {
-      font-size: 17px;
-      line-height: 2;
+      font-family: "Noto Sans JP", "Nunito", sans-serif;
+      font-size: 16px;
+      line-height: 2.15;
       color: #587e96;
       text-align: center;
+      word-break: keep-all;
     }
 
     .letter-content p {
       margin: 0;
     }
 
-    /* Reveal button */
+    /* open/close button */
     .reveal-button {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
-      margin-top: 27px;
-      padding: 11px 25px;
-      font-family: "Nunito", sans-serif;
-      font-size: 15px;
-      font-weight: 700;
-      color: #69a6ca;
-      background: rgba(229, 246, 255, 0.87);
-      border: 1px solid rgba(154, 210, 240, 0.75);
+      gap: 11px;
+      margin-top: 28px;
+      padding: 13px 34px;
+      font-family: "Noto Sans JP", "Nunito", sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      color: #d081a3;
+      background: rgba(255, 225, 239, 0.78);
+      border: 1px solid rgba(244, 178, 207, 0.75);
       border-radius: 999px;
       cursor: pointer;
+      box-shadow: 0 9px 22px rgba(118, 180, 215, 0.12);
       transition:
         transform 0.2s ease,
         background 0.2s ease,
@@ -330,8 +355,8 @@
 
     .reveal-button:hover {
       transform: translateY(-2px);
-      background: rgba(255, 231, 242, 0.88);
-      box-shadow: 0 8px 20px rgba(98, 161, 199, 0.13);
+      background: rgba(255, 216, 233, 0.9);
+      box-shadow: 0 12px 25px rgba(118, 180, 215, 0.18);
     }
 
     .reveal-button:active {
@@ -340,44 +365,49 @@
 
     .button-heart {
       color: var(--pink);
-      font-size: 18px;
+      font-size: 20px;
     }
 
-    /* Hidden English message */
+    /* hidden English note */
     .hidden-note {
-      max-height: 0;
+      display: grid;
+      grid-template-rows: 0fr;
       margin-top: 0;
-      padding: 0 25px;
-      overflow: hidden;
       opacity: 0;
-      background: rgba(255, 239, 247, 0.45);
-      border: 1px solid transparent;
-      border-radius: 22px;
       transition:
-        max-height 0.65s ease,
+        grid-template-rows 0.6s ease,
         margin-top 0.45s ease,
-        padding 0.45s ease,
-        opacity 0.45s ease,
-        border-color 0.45s ease;
+        opacity 0.45s ease;
+    }
+
+    .hidden-note-inner {
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .hidden-note-box {
+      padding: 25px 27px;
+      background: rgba(255, 238, 247, 0.5);
+      border: 1px solid rgba(245, 188, 213, 0.65);
+      border-radius: 23px;
     }
 
     .hidden-note.is-open {
-      max-height: 650px;
-      margin-top: 22px;
-      padding: 23px 25px;
+      grid-template-rows: 1fr;
+      margin-top: 23px;
       opacity: 1;
-      border-color: rgba(245, 188, 213, 0.58);
     }
 
-    .hidden-note p {
+    .hidden-note-box p {
       margin: 0;
       font-size: 16px;
-      line-height: 1.85;
+      line-height: 1.92;
       color: #63869c;
+      text-align: center;
     }
 
     .footer-heart {
-      margin: 31px 0 0;
+      margin: 29px 0 0;
       font-size: 32px;
       color: #82bddf;
     }
@@ -385,18 +415,18 @@
     .sparkle {
       position: absolute;
       font-size: 18px;
-      color: rgba(255, 255, 255, 0.93);
+      color: rgba(255, 255, 255, 0.94);
       animation: sparkle 3.8s ease-in-out infinite;
     }
 
     .sparkle-one {
-      top: 87px;
-      right: 47px;
+      top: 89px;
+      right: 48px;
     }
 
     .sparkle-two {
       left: 45px;
-      bottom: 109px;
+      bottom: 108px;
       animation-delay: -1.8s;
     }
 
@@ -404,8 +434,9 @@
       0%,
       100% {
         transform: scale(0.82) rotate(0deg);
-        opacity: 0.46;
+        opacity: 0.45;
       }
+
       50% {
         transform: scale(1.22) rotate(10deg);
         opacity: 1;
@@ -414,16 +445,29 @@
 
     @media (max-width: 600px) {
       .shuma-page {
-        padding: 27px 15px;
+        padding: 22px 13px;
+        align-items: flex-start;
       }
 
       .card {
-        padding: 47px 19px 30px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 45px 18px 29px;
         border-radius: 29px;
       }
 
       .title {
-        margin-bottom: 22px;
+        font-size: clamp(76px, 25vw, 97px);
+      }
+
+      .subtitle {
+        margin-top: 13px;
+        font-size: 16px;
+      }
+
+      .tiny-note {
+        margin-bottom: 23px;
+        font-size: 16px;
       }
 
       .divider {
@@ -431,39 +475,51 @@
       }
 
       .letter {
-        padding: 26px 18px 24px;
+        padding: 25px 17px 23px;
       }
 
       .letter-content {
         font-size: 15px;
+        line-height: 2.2;
       }
 
-      .hidden-note.is-open {
-        padding: 19px 17px;
+      .reveal-button {
+        margin-top: 25px;
+        padding: 12px 31px;
+        font-size: 16px;
       }
 
-      .hidden-note p {
+      .hidden-note-box {
+        padding: 21px 16px;
+      }
+
+      .hidden-note-box p {
         font-size: 15px;
+        line-height: 1.9;
+      }
+
+      .footer-heart {
+        margin-top: 26px;
       }
 
       .cloud-one {
         top: 4%;
-        transform: scale(0.75);
+        transform: scale(0.74);
       }
 
       .cloud-two {
-        bottom: 5%;
-        transform: scale(0.7);
+        bottom: 4%;
+        transform: scale(0.69);
       }
 
       .sparkle-one {
-        top: 73px;
+        top: 72px;
         right: 23px;
       }
 
       .sparkle-two {
-        left: 22px;
-        bottom: 88px;
+        left: 21px;
+        bottom: 87px;
       }
     }
 
@@ -484,69 +540,83 @@
       }
     }
   </style>
+
 </head>
 
 <body>
   <main class="shuma-page">
-
     <div class="cloud cloud-one" aria-hidden="true"></div>
     <div class="cloud cloud-two" aria-hidden="true"></div>
 
-    <div class="hearts" aria-hidden="true">
-      <span class="heart" style="left: 5%; --size: 13px; --heart-color: #ffffff; --duration: 13s; --delay: -2s;"></span>
-      <span class="heart" style="left: 11%; --size: 19px; --heart-color: #ffd9ea; --duration: 17s; --delay: -8s;"></span>
-      <span class="heart" style="left: 18%; --size: 11px; --heart-color: #a9dcf7; --duration: 12s; --delay: -5s;"></span>
-      <span class="heart" style="left: 25%; --size: 17px; --heart-color: #ffffff; --duration: 18s; --delay: -11s;"></span>
-      <span class="heart" style="left: 33%; --size: 12px; --heart-color: #ffc6df; --duration: 14s; --delay: -1s;"></span>
-      <span class="heart" style="left: 40%; --size: 14px; --heart-color: #b6e2f8; --duration: 16s; --delay: -10s;"></span>
-      <span class="heart" style="left: 49%; --size: 9px; --heart-color: #ffffff; --duration: 12s; --delay: -7s;"></span>
-      <span class="heart" style="left: 57%; --size: 18px; --heart-color: #ffd9ea; --duration: 19s; --delay: -12s;"></span>
-      <span class="heart" style="left: 64%; --size: 11px; --heart-color: #ffffff; --duration: 14s; --delay: -4s;"></span>
-      <span class="heart" style="left: 71%; --size: 16px; --heart-color: #abdafa; --duration: 17s; --delay: -9s;"></span>
-      <span class="heart" style="left: 78%; --size: 12px; --heart-color: #ffd1e4; --duration: 13s; --delay: -6s;"></span>
-      <span class="heart" style="left: 86%; --size: 20px; --heart-color: #ffffff; --duration: 18s; --delay: -13s;"></span>
-      <span class="heart" style="left: 92%; --size: 13px; --heart-color: #b1ddf6; --duration: 15s; --delay: -3s;"></span>
-      <span class="heart" style="left: 97%; --size: 10px; --heart-color: #ffdaea; --duration: 12s; --delay: -9s;"></span>
+```
+<div class="hearts" aria-hidden="true">
+  <span class="heart" style="left: 5%; --size: 13px; --heart-color: #ffffff; --duration: 13s; --delay: -2s;"></span>
+  <span class="heart" style="left: 11%; --size: 19px; --heart-color: #ffd9ea; --duration: 17s; --delay: -8s;"></span>
+  <span class="heart" style="left: 18%; --size: 11px; --heart-color: #a9dcf7; --duration: 12s; --delay: -5s;"></span>
+  <span class="heart" style="left: 25%; --size: 17px; --heart-color: #ffffff; --duration: 18s; --delay: -11s;"></span>
+  <span class="heart" style="left: 33%; --size: 12px; --heart-color: #ffc6df; --duration: 14s; --delay: -1s;"></span>
+  <span class="heart" style="left: 40%; --size: 14px; --heart-color: #b6e2f8; --duration: 16s; --delay: -10s;"></span>
+  <span class="heart" style="left: 49%; --size: 9px; --heart-color: #ffffff; --duration: 12s; --delay: -7s;"></span>
+  <span class="heart" style="left: 57%; --size: 18px; --heart-color: #ffd9ea; --duration: 19s; --delay: -12s;"></span>
+  <span class="heart" style="left: 64%; --size: 11px; --heart-color: #ffffff; --duration: 14s; --delay: -4s;"></span>
+  <span class="heart" style="left: 71%; --size: 16px; --heart-color: #abdafa; --duration: 17s; --delay: -9s;"></span>
+  <span class="heart" style="left: 78%; --size: 12px; --heart-color: #ffd1e4; --duration: 13s; --delay: -6s;"></span>
+  <span class="heart" style="left: 86%; --size: 20px; --heart-color: #ffffff; --duration: 18s; --delay: -13s;"></span>
+  <span class="heart" style="left: 92%; --size: 13px; --heart-color: #b1ddf6; --duration: 15s; --delay: -3s;"></span>
+  <span class="heart" style="left: 97%; --size: 10px; --heart-color: #ffdaea; --duration: 12s; --delay: -9s;"></span>
+</div>
+
+<section class="card" aria-label="Shuma page">
+  <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+  <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+
+  <h1 class="title">
+    Shuma <span class="title-heart">♡</span>
+  </h1>
+
+  {{ with .Params.subtitle }}
+    <p class="subtitle">{{ . }}</p>
+  {{ end }}
+
+  {{ with .Params.tiny_note }}
+    <p class="tiny-note">{{ . }}</p>
+  {{ end }}
+
+  <div class="divider" aria-hidden="true">
+    <span>♡</span>
+  </div>
+
+  <div class="letter">
+    <div class="letter-content">
+      {{ .Content }}
     </div>
+  </div>
 
-    <section class="card" aria-label="Shuma page">
-      <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
-      <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+  {{ with .Params.english_note }}
+    <button
+      class="reveal-button"
+      id="revealButton"
+      type="button"
+      aria-expanded="false"
+      aria-controls="englishNote"
+    >
+      <span class="button-heart">♡</span>
+      <span id="buttonText">あけて</span>
+      <span class="button-heart">♡</span>
+    </button>
 
-      <h1 class="title">
-        Shuma <span class="title-heart">♡</span>
-      </h1>
-
-      <div class="divider" aria-hidden="true">
-        <span>♡</span>
-      </div>
-
-      <div class="letter">
-        <div class="letter-content">
-          {{ .Content }}
-        </div>
-      </div>
-
-      {{ with .Params.english_note }}
-        <button
-          class="reveal-button"
-          id="revealButton"
-          type="button"
-          aria-expanded="false"
-          aria-controls="englishNote"
-        >
-          <span class="button-heart">♡</span>
-          <span id="buttonText">あげて</span>
-          <span class="button-heart">♡</span>
-        </button>
-
-        <div class="hidden-note" id="englishNote">
+    <div class="hidden-note" id="englishNote">
+      <div class="hidden-note-inner">
+        <div class="hidden-note-box">
           <p>{{ . }}</p>
         </div>
-      {{ end }}
+      </div>
+    </div>
+  {{ end }}
 
-      <p class="footer-heart" aria-hidden="true">♡</p>
-    </section>
+  <p class="footer-heart" aria-hidden="true">♡</p>
+</section>
+```
 
   </main>
 
@@ -564,6 +634,6 @@
       });
     }
   </script>
+
 </body>
 </html>
-```
