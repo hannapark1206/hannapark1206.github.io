@@ -1,14 +1,14 @@
 ---
-title: "Shuma ♡"
+title: "♡秀真♡"
 type: "shuma"
 layout: "single"
-subtitle: "<3"
-tiny_note: "♡"
+subtitle: "<ハンナお姉ちゃんが＞"
+tiny_note: "♡大好きな秀ちゃん"
 sitemap:
   disable: true
 ---
 
-秀ちゃん　ガンバてね
-大好きだよ
+秀ちゃんガンバてね お疲れでした<３　大好きだよ
+
 私わるい彼女だけとつきやてくれてありがとう
-I made you feel unappreciated and worried that I'd be dissappointed about how you perform on an exam. I would never be disappointed 
+I made you feel unappreciated and worried that I'd be dissappointed about how you perform on an exam. I'm so grateful that you chose me you are my boyfriend you decide to spend time with me you tell me you love me. I'm always afraid you'll leave me because I'm not always the most understanding and kind girlfriend, and I have so much ego and such a hard time saying thank you that I make you feel underappreciated. I'm sorry. I'll do better so don't leave me I love you so much 大好きだよ thank you so much for everything you do for me
