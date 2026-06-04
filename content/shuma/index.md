@@ -3,7 +3,7 @@ title: ”♡秀真♡"
 type: "shuma"
 layout: "single"
 subtitle: "ハンナお姉ちゃんが"
-tiny_note: "だいすきだもん"
+note_label: "だいすきだもん ♡"
 sitemap:
   disable: true
 english_note: |-
