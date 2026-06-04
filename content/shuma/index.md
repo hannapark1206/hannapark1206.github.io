@@ -1,5 +1,5 @@
 ---
-title: ”♡秀真♡"
+title: "♡秀真♡"
 type: "shuma"
 layout: "single"
 subtitle: "ハンナお姉ちゃんが"
