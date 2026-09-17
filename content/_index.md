@@ -10,7 +10,7 @@ sections:
       username: me
       text: |
         Mechanical engineer interested in the mechanics and mathematical modeling of complex fluids, interfacial flows, and soft matter, with
-a background in aerodynamics, flight control, and robotic systems.
+        a background in aerodynamics, flight control, and robotic systems.
 
         My work includes flight-control integration, embedded sensing, robot prototyping, aerodynamic testing, and experimental validation.
       button:
